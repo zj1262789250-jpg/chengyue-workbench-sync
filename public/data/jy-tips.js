@@ -8,6 +8,79 @@ window.WB_JY_TIPS = {
   source: '剪映官方 / 今日头条数码区',
   items: [
     {
+      source: 'auto',
+      id: 'jy-auto-20260805-1',
+      title: '2026 最新版 AI 剪映从 0 到 1 完整攻略（AI 一键成片 / 图文成片 / 数字人）',
+      platform: 'toutiao',
+      author: '今日头条科技号',
+      duration: '图文约 20 分钟',
+      views: '12 万+',
+      date: '2026-07',
+      tags: ['剪映', 'AI成片', '图文成片', '数字人'],
+      summary: '阶段A 零基础5分钟出片：AI一键成片（15种风格模板）、图文成片（输入文案自动匹配画面+配音+字幕）；阶段B 进阶：Seedance 2.0 视频生成、Seedream 5.0 图生图、AI数字人、AI配音3.0、智能剪辑全家桶。',
+      takeaway: '诚悦"口播号"可用"图文成片"先把脚本变视频，再人工精修——一条 2 分钟视频从 2 小时压到 30 分钟。',
+      url: 'https://www.toutiao.com/article/7623674658415444514/',
+      badge: '新推送'
+    },
+    {
+      source: 'auto',
+      id: 'jy-auto-20260805-2',
+      title: '零成本用 AI 做短视频：10 分钟一条，不露脸不拍素材（三套模板）',
+      platform: 'toutiao',
+      author: '今日头条自媒体',
+      duration: '图文约 12 分钟',
+      views: '8 万+',
+      date: '2026-07',
+      tags: ['剪映', '不露脸', '数字人', '批量'],
+      summary: '三套万能成片模板：最简不露脸口播（AI写文案→剪映AI配音→图文成片）、数字人出镜、创意动画。强调优先用剪映官方素材规避侵权，时长控制在 15–45 秒黄金区间。',
+      takeaway: '诚悦可批量做"项目亮点卡点"——一个模板换文案和素材，一天出 5 条不同项目的短视频。',
+      url: 'https://www.toutiao.com/article/7644849055620678179'
+    },
+    {
+      source: 'auto',
+      id: 'jy-auto-20260805-3',
+      title: 'AI 视频剪辑零基础课程大纲：剪映一键成片 / 智能字幕 / 抠像 保姆级',
+      platform: 'qcloud',
+      author: '滇小管学堂',
+      duration: '图文课程大纲',
+      views: '零基础向',
+      date: '2026',
+      tags: ['剪映', 'AI一键成片', '智能字幕', '智能抠像'],
+      summary: '保姆级实操：AI一键成片（3分钟出片）、AI智能剪辑（口播删废话生成3版）、AI自动字幕（99%准确率+批量改错别字）、AI智能抠像、文字成片（无素材也能做）。附 3 步 15 分钟出片流程与避坑。',
+      takeaway: '"AI自动字幕 99% 准确率 + 批量改错别字"是诚悦口播号省时大头，每条省 40 分钟。',
+      url: 'https://m.sohu.com/coo/zmtq/1027584661_492375'
+    },
+    {
+      source: 'auto',
+      id: 'jy-auto-20260805-4',
+      title: 'AI 短视频批量制作：普通人从 0 到月入 3 万的完整玩法（3 种模式 + 流程）',
+      platform: 'qcloud',
+      author: '抖创汇',
+      duration: '图文约 15 分钟',
+      views: '副业向',
+      date: '2026',
+      tags: ['剪映', '批量', '数字人', '起号'],
+      summary: '3 种主流玩法（AI数字人 / AI图文视频 / AI混剪）+ 从0到月入3万流程：选赛道→备素材→批量制作（剪映图文成片每小时5-10条）→多平台分发→变现。强调批量思维与数据优化。',
+      takeaway: '品牌部虽不以变现为目标，但"批量 + 数据优化"思路可直接用——同一脚本多版本 A/B，看哪类钩子引流好。',
+      url: 'https://www.douchuanghui.com/thread-10719-1-1.html'
+    },
+    {
+      source: 'auto',
+      id: 'jy-auto-20260805-5',
+      title: '剪映 AI 数字人保姆级教程：不用露脸也能做口播视频（六步实操）',
+      platform: 'toutiao',
+      author: '今日头条自媒体',
+      duration: '图文约 10 分钟',
+      views: '6 万+',
+      date: '2026-07',
+      tags: ['剪映', 'AI数字人', '口播', '不露脸'],
+      summary: '六步实操：导入背景→找AI数字人入口→选形象→调位置大小→输入文案生成配音（自动对口型）→预览导出。避坑：文案 30 秒-1 分钟、数字人不超过画面1/3、导出后清草稿箱。',
+      takeaway: '诚悦可做"数字人员工"播报栏目（如每周服务贴士），不用真人出镜也能日更，适合企业号人设。',
+      url: 'https://www.toutiao.com/article/7649638797382091310',
+      badge: '热门'
+    },
+    {
+      source: 'seed',
       id: 'jy-20260805-01',
       title: '剪映 2026 新手教程：基础剪辑、AI 生成和实用技巧一次看懂',
       platform: 'toutiao',
@@ -23,6 +96,7 @@ window.WB_JY_TIPS = {
       badge: '新推送'
     },
     {
+      source: 'seed',
       id: 'jy-20260805-02',
       title: '剪映从零到出片：一份能跟做的全流程实操手册',
       platform: 'toutiao',
@@ -37,6 +111,7 @@ window.WB_JY_TIPS = {
       level: '入门'
     },
     {
+      source: 'seed',
       id: 'jy-20260805-03',
       title: '剪映从入门到精通：字幕、特效、运镜、导出全流程',
       platform: 'toutiao',
@@ -52,6 +127,7 @@ window.WB_JY_TIPS = {
       badge: '热门'
     },
     {
+      source: 'seed',
       id: 'jy-20260805-04',
       title: '剪映 25 个隐藏神技！从新手到大神，90% 的人只用了它 10% 的功能',
       platform: 'toutiao',
@@ -67,6 +143,7 @@ window.WB_JY_TIPS = {
       badge: '推荐'
     },
     {
+      source: 'seed',
       id: 'jy-20260805-05',
       title: '剪映官方功能地图：关键帧 / 多机位 / 调色 / 智能抠像 / AI 补帧 全解读',
       platform: 'wechat',
@@ -81,6 +158,7 @@ window.WB_JY_TIPS = {
       level: '高阶'
     },
     {
+      source: 'seed',
       id: 'jy-20260805-06',
       title: '剪映 5 个最容易让品牌号掉档的导出坑（4K / 帧率 / 码率 / 水印 / 封面）',
       platform: 'toutiao',

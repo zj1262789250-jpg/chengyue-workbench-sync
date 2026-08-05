@@ -7,8 +7,83 @@
 window.WB_AI_TIPS = {
   updated: '2026-08-05',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
+  meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
     {
+      source: 'auto',
+      id: 'ai-auto-20260805-1',
+      title: 'Codex APP 保姆级全攻略（12 个功能模块，当手册反复翻）',
+      platform: 'bilibili',
+      author: '技术爬爬虾',
+      duration: '约 40 分钟',
+      views: 'B站 AI 编程播放 Top1',
+      date: '2026-07',
+      tags: ['Codex', '保姆级', 'MCP', '电脑自动化'],
+      summary: '覆盖 12 个功能模块：从安装到 MCP 到电脑自动化，按使用频率排列，建议当手册反复翻。作者强调把"禁止批量删除文件/目录"等安全规则写进 AGENTS.md。',
+      takeaway: '品牌部可把诚悦的"素材安全红线"写进 AGENTS.md / CLAUDE.md，让 WorkBuddy、Codex 默认遵守，避免误删视频源文件。',
+      url: 'https://www.bilibili.com/video/BV1Kk9kBAEJv/',
+      badge: '新推送'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260805-2',
+      title: '20 分钟入门 Codex：用校庆活动串起整套办公自动化',
+      platform: 'bilibili',
+      author: 'PAPAYA 电脑教室',
+      duration: '约 20 分钟',
+      views: 'B站标杆入门课',
+      date: '2026-07',
+      tags: ['Codex', '零基础', '办公自动化', '实战'],
+      summary: '用"校庆活动"做统一案例，串联表格批量处理、邀请函生成、自动群发邮件，完整覆盖 Codex 基础指令、文件读写、批量任务逻辑，适合所有人作为入门第一课。',
+      takeaway: '"一个真实任务从头走到尾"的教法最适合品牌部——把"周更视频号"当成一个自动化项目，让 AI 接管重复动作。',
+      url: 'https://www.bilibili.com/video/BV1V5Lm6AEBL/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260805-3',
+      title: '全网最全！40 分钟全面掌握 Codex（10 个实战场景）',
+      platform: 'bilibili',
+      author: '秋芝 2046',
+      duration: '约 40 分钟',
+      views: 'B站 Codex 播放 Top2',
+      date: '2026-06',
+      tags: ['Codex', '实战场景', '10 个场景'],
+      summary: '覆盖 10 个实战场景，每个场景都等操作跑完再往下讲，适合跟着同步操作。评论区有热心网友总结的 5 条使用心得，信息密度很高。',
+      takeaway: '"边看边操作"比收藏强十倍——诚悦新人学 AI 工具，第一遍就跟着做完一个小项目，而不是看完就关。',
+      url: 'https://www.bilibili.com/video/BV1Nd596vEyU/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260805-4',
+      title: '小白都能学的 AI 编程实战（Cursor / Codex / Claude Code / TRAE 全家桶）',
+      platform: 'bilibili',
+      author: '鱼皮（酷壳）',
+      duration: '系列课 · B站 IT 榜 No.1',
+      views: '连续多天霸榜 B站 IT 互联网榜',
+      date: '2026-07',
+      tags: ['Vibe Coding', 'Cursor', 'Codex', 'Claude Code', 'TRAE'],
+      summary: '免费开源的 AI 编程实战课，覆盖 Cursor、Codex、Claude Code、CodeBuddy、TRAE 等主流工具，带做网站、浏览器插件、桌面 APP、小程序，完全零基础可跟。',
+      takeaway: '品牌部做小工具（选题看板、素材库、数据周报）不用等开发——用 Vibe Coding 自己搓，10 分钟出第一个能跑的版本。',
+      url: 'https://www.bilibili.com/cheese/play/ss475098271',
+      badge: '热门'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260805-5',
+      title: 'B站官方「Codex 跟练」专题导航：安装 / 入门 / 进阶 / 场景 四象限',
+      platform: 'qcloud',
+      author: 'B站官方专题 / 搜狐科技',
+      duration: '图文导航',
+      views: '官方聚合专题',
+      date: '2026-07',
+      tags: ['Codex', '专题', '跟练', '学习路径'],
+      summary: 'B站官方把 Codex 教程梳理成「Codex 跟练」专题：快速安装、基础入门、进阶技巧、场景应用四个标签区。本文附带林粒粒呀、枫枫知道、Xuan_酱等 UP 主清单与排坑要点。',
+      takeaway: '团队学习 AI 工具别零散搜——直接按"安装→入门→进阶→场景"四阶段建学习清单，新人按图索骥不踩坑。',
+      url: 'https://www.sohu.com/a/1044963465_122189055',
+      badge: '推荐'
+    },
+    {
+      source: 'seed',
       id: 'ai-20260805-01',
       title: 'Claude Code 入门教程：手把手带你走进 Vibe Coding（10 集系统课）',
       platform: 'bilibili',
@@ -23,6 +98,7 @@ window.WB_AI_TIPS = {
       badge: '新推送'
     },
     {
+      source: 'seed',
       id: 'ai-20260805-02',
       title: '翻遍整个B站：Claude Code 入门到精通（MCP / SubAgent / Agent Skill / Hooks）',
       platform: 'bilibili',
@@ -37,6 +113,7 @@ window.WB_AI_TIPS = {
       badge: '热门'
     },
     {
+      source: 'seed',
       id: 'ai-20260805-03',
       title: 'Claude Code 四小时教程：零基础 AI 编程实战（中英附文稿）',
       platform: 'bilibili',
@@ -50,6 +127,7 @@ window.WB_AI_TIPS = {
       url: 'https://app.bibigpt.co/content/24a9e556-50ea-4bd0-a6a2-4074e6830898'
     },
     {
+      source: 'seed',
       id: 'ai-20260805-04',
       title: 'WorkBuddy 提示词技巧：3 个模板让 AI 帮你事半功倍（任务型/分析型/迭代型）',
       platform: 'toutiao',
@@ -63,6 +141,7 @@ window.WB_AI_TIPS = {
       url: 'https://www.toutiao.com/article/7618417467240628778/'
     },
     {
+      source: 'seed',
       id: 'ai-20260805-05',
       title: 'WorkBuddy 保姆级教程：5 个核心功能，10 分钟上手（计划/仅问答/默认 三模式）',
       platform: 'toutiao',
@@ -77,6 +156,7 @@ window.WB_AI_TIPS = {
       badge: '推荐'
     },
     {
+      source: 'seed',
       id: 'ai-20260805-06',
       title: '用 WorkBuddy 给三个闺女做抖音脚本：红头文件风 Skill 实战全记录（附完整提示词）',
       platform: 'qcloud',

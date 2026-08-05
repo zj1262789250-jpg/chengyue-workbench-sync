@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>阿娇的工作台</title>
+<link rel="icon" type="image/png" sizes="32x32" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" media="(device-width: 375px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="阿娇的工作台">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
 <script>/* 对标账号·自动抓取(内联,2026-08-04 by 大头) */
 window.WB_BENCHMARKS = [
   {
@@ -295,8 +303,230 @@ window.WB_HOTSPOTS = {
 };
 </script>
 <script src="data/topics-seed.js"></script>
-<script src="data/reading-lib.js"></script>
-<script src="data/reading-today.js"></script>
+<script src="data/reading-weread.js"></script>
+<!-- 阅读计划数据：WB_READING_LIB 为精选种子（内联），WB_READING_WEREAD 为微信读书自动抓取池（外部文件，便于每周追加） -->
+<script>
+window.WB_READING_LIB = (function(){
+  const weRead = t => 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent(t);
+  const books = [
+    /* ===== 逻辑思维 ===== */
+    {
+      source: 'seed',
+      id:'eff7',
+      title:'高效能人士的七个习惯',
+      author:'史蒂芬·柯维',
+      goal:'logic',
+      weread: weRead('高效能人士的七个习惯'),
+      why:'商办物业是长期服务行业，要把"个人产能"升级到"组织产能"。七个习惯里"以终为始、要事第一"这两条，最适合品牌部把"线索"当主目标去排周计划。',
+      tip:'先读第 1、2、3 章（共创愿景+要事第一），够你把月度 KPI 拆得明明白白。'
+    },
+    {
+      source: 'seed',
+      id:'mng',
+      title:'卓有成效的管理者',
+      author:'彼得·德鲁克',
+      goal:'logic',
+      weread: weRead('卓有成效的管理者'),
+      why:'德鲁克讲的核心是"管理自己时间"。3 人团队最容易掉进"全员救火"，这书能帮你把无效会议、临时需求砍掉 30%。',
+      tip:'每章 5–8 页，挑自己最痛的那条抄下来贴工位。'
+    },
+    {
+      source: 'seed',
+      id:'ue',
+      title:'用户体验要素',
+      author:'Jesse James Garrett',
+      goal:'logic',
+      weread: weRead('用户体验要素'),
+      why:'把"用户体验"从玄学变成五层结构（战略→范围→结构→框架→表现）。做物业服务设计、做内容视觉锤，都可以用这套"自底向上"的拆法。',
+      tip:'先看战略层和范围层，剩下三层可以快速翻过。'
+    },
+    {
+      source: 'seed',
+      id:'sys',
+      title:'系统之美',
+      author:'德内拉·梅多斯',
+      goal:'logic',
+      weread: weRead('系统之美'),
+      why:'商办物业是典型复杂系统——前台一句"投诉"背后是 5 个环路。看完你能在选题会上讲清楚"为什么客户说服务差，其实是某个补给环节延迟 2 小时"。',
+      tip:'重点看第 5、6 章（系统杠杆点），立刻能用。'
+    },
+    {
+      source: 'seed',
+      id:'str',
+      title:'好战略，坏战略',
+      author:'理查德·鲁梅尔特',
+      goal:'logic',
+      weread: weRead('好战略坏战略'),
+      why:'品牌部最容易踩的坑就是把"输出"当"战略"。这书教你怎么用"诊断+指导方针+连贯行动"三段式，把口号变成真策略。',
+      tip:'第 3 章「坏战略的种种」反着读一遍，就是检查清单。'
+    },
+    {
+      source: 'seed',
+      id:'toyota',
+      title:'丰田模式',
+      author:'Jeffrey Liker',
+      goal:'logic',
+      weread: weRead('丰田模式'),
+      why:'诚悦本身就有"6T 管理"，丰田模式正是这套的源头。把 14 条原则对照诚悦实际业务，能看出哪些原则我们做到了、哪些只是嘴上说。',
+      tip:'第 4 章「解决问题》讲 5 Why 复盘法，可以直接复用进视频复盘流程。'
+    },
+    {
+      source: 'seed',
+      id:'lean',
+      title:'精益思想',
+      author:'James Womack / Daniel Jones',
+      goal:'logic',
+      weread: weRead('精益思想'),
+      why:'5 个核心原则（价值/价值流/流动/拉动/尽善尽美）正好是商办物业 SOP 的骨架。对照现有的 31 项标准化流程，能直接挑出 3 项重做。',
+      tip:'挑 2 小时挑一章做读书会，比一个人啃效率高 3 倍。'
+    },
+
+    /* ===== 表达能力 ===== */
+    {
+      source: 'seed',
+      id:'inf',
+      title:'影响力',
+      author:'罗伯特·西奥迪尼',
+      goal:'express',
+      weread: weRead('影响力'),
+      why:'6 大说服原理（互惠/承诺/社会认同/喜好/权威/稀缺），几乎每条视频脚本都能套。客户说"再看看"——背后到底是哪个原理在起作用？',
+      tip:'翻完一遍后，每次写视频脚本对照表打勾，3 周后你会重读一遍。'
+    },
+    {
+      source: 'seed',
+      id:'tipping',
+      title:'引爆点',
+      author:'Malcolm Gladwell',
+      goal:'express',
+      weread: weRead('引爆点'),
+      why:'一个视频爆款的"个别人法则 / 附着力 / 威力"三要素，是品牌部从"工单做完"跨到"做出爆款"的底层思维。',
+      tip:'经典但偏概念，搭配公司对标账号一起看效果好。'
+    },
+    {
+      source: 'seed',
+      id:'pos',
+      title:'定位',
+      author:'Al Ries / Jack Trout',
+      goal:'express',
+      weread: weRead('定位'),
+      why:'诚悦的定位是"中国卓越机构定制化服务商"——本身就是个强定位案例。这书帮你理解为什么"做物业中最好的餐饮"和"做餐饮中最好的物业"能同时成立。',
+      tip:'营销 4P 那一章最适合非市场背景的人入门。'
+    },
+    {
+      source: 'seed',
+      id:'brand',
+      title:'品牌的起源',
+      author:'Al Ries',
+      goal:'express',
+      weread: weRead('品牌的起源'),
+      why:'讲"品类＝品牌"的根本逻辑，能反推诚悦是不是该独立切出"高端商办 IFM"这个品类——内部讨论品牌的入门书。',
+      tip:'第 6–9 章案例最密集，专门针对品类战略。'
+    },
+    {
+      source: 'seed',
+      id:'visual',
+      title:'视觉锤',
+      author:'Laura Ries',
+      goal:'express',
+      weread: weRead('视觉锤'),
+      why:'我们已有"深蓝制服 + 折扇 / 白色厨师服 + 围裙 / 商务便装"三套视觉锤，这书能帮你搞清楚为什么这三套对路、再补出一套。',
+      tip:'配合团队"看一遍诚悦所有出镜画面"复习更有效。'
+    },
+    {
+      source: 'seed',
+      id:'story',
+      title:'故事经济学',
+      author:'罗伯特·麦基',
+      goal:'express',
+      weread: weRead('故事经济学'),
+      why:'罗伯特·麦基把电影编剧那套搬进商业叙事。学完这套"价值观+角色+冲突+解决"，每条品牌视频就都有了稳定的剧本骨架。',
+      tip:'前 4 章反复读，反复读。'
+    },
+    {
+      source: 'seed',
+      id:'copy',
+      title:'文案训练手册',
+      author:'Joseph Sugarman',
+      goal:'express',
+      weread: weRead('文案训练手册'),
+      why:'讲"滑梯理论"——文案第一句话就要把读者推下滑道，再也爬不出来。写视频前 3 秒脚本前必看。',
+      tip:'短篇，每章只讲一个点。'
+    },
+
+    /* ===== 两者兼顾 ===== */
+    {
+      source: 'seed',
+      id:'gh',
+      title:'增长黑客',
+      author:'Sean Ellis',
+      goal:'both',
+      weread: weRead('增长黑客'),
+      why:'AARRR 海盗指标和病毒循环，跟品牌部"获取线索→加企微→转化商机"完美对得上。这书能帮我们把"内容→线索"做成可计算的循环。',
+      tip:'把工作台现有的"月度线索数"按 AARRR 拆一遍，立刻有方向。'
+    },
+    {
+      source: 'seed',
+      id:'brainwash',
+      title:'品牌洗脑',
+      author:'Martin Lindstrom',
+      goal:'both',
+      weread: weRead('品牌洗脑'),
+      why:'讲消费者在 5 秒内做决定的潜意识机制（视觉/气味/声音/触摸等 9 大"小数据"）。商办物业里电梯厅/卫生间气味这种细节，就是品牌的真正战场。',
+      tip:'挑 2 个诚悦项目对照里面的"9 大感官植入"做一遍体检。'
+    },
+    {
+      source: 'seed',
+      id:'le',
+      title:'精益创业',
+      author:'埃里克·莱斯',
+      goal:'both',
+      weread: weRead('精益创业'),
+      why:'MVP（最小可行产品）+ Build-Measure-Learn 三步循环，能让"内容试错"从"拍完看数据"升级到"先想好要测什么再拍"。',
+      tip:'本书重点是第 9–11 章（"测试 / 转型 / 增长引擎"），其他章快速翻。'
+    },
+    {
+      source: 'seed',
+      id:'bo',
+      title:'蓝海战略',
+      author:'W. Chan Kim / Renee Mauborgne',
+      goal:'both',
+      weread: weRead('蓝海战略'),
+      why:'诚悦的"高原营地综合后勤服务"本身就是蓝海——同行没人做过的事。这书能帮你提炼"四步动作"框架，把这种"非共识业务"讲给老板听。',
+      tip:'专门找一章"非市场性"那一节读，是从战略到落地的关键。'
+    },
+    {
+      source: 'seed',
+      id:'zero',
+      title:'从零到一',
+      author:'彼得·蒂尔',
+      goal:'both',
+      weread: weRead('从零到一'),
+      why:'讲"垂直进步 vs 水平进步"。商办物业行业 95% 都是水平进步（拼规模/拼价格），诚悦想做的"高端定制 IFM"是垂直进步——品牌部话术必须建立在这个区分上。',
+      tip:'第 11–13 章最精华，能直接喂到对外讲话稿里。'
+    },
+    {
+      source: 'seed',
+      id:'conflict',
+      title:'冲突',
+      author:'Al Ries',
+      goal:'both',
+      weread: weRead('冲突'),
+      why:'营销的本质不是"解决问题"，是"制造冲突"。我们天天写"放心、安心"这种零冲突文案，这书能逼你写出"会被人截图发群"的钩子。',
+      tip:'第 5 章那个"30 种冲突类型"清单，做选题时直接打印贴墙上。'
+    }
+  ];
+  return books;
+})();
+(function(){
+  const lib = window.WB_READING_LIB;
+  const def = (lib||[]).find(b => b.id === 'le') || (lib||[])[0];
+  window.WB_READING_TODAY = {
+    date: '2026-08-05',
+    fetchedBy: 'daily-auto',
+    book: def
+  };
+})();
+</script>
 <script src="data/ai-tips.js"></script>
 <script src="data/jy-tips.js"></script>
 <style>
@@ -333,8 +563,9 @@ input,select,textarea{font-family:inherit;font-size:14px;color:var(--text)}
 .logo-mark{
   width:32px;height:32px;border-radius:8px;background:var(--accent);
   color:#fff;display:flex;align-items:center;justify-content:center;
-  font-weight:700;font-size:15px;letter-spacing:-.5px;
+  font-weight:700;font-size:15px;letter-spacing:-.5px;overflow:hidden;
 }
+.logo-mark img{width:100%;height:100%;object-fit:cover;display:block}
 .logo h1{font-size:16px;font-weight:650;letter-spacing:-.2px}
 .logo p{font-size:12px;color:var(--text-3);margin-top:-2px}
 .topbar-right{margin-left:auto;display:flex;align-items:center;gap:8px}
@@ -575,6 +806,7 @@ input.search{width:210px}
 .ai-hero-stat-sub{font-size:10px;color:var(--text-3);font-weight:500;margin-top:2px}
 
 .tips-feed{display:flex;flex-direction:column;gap:14px}
+.tip-card-wrap{position:relative}
 .tip-card{
   display:flex;gap:14px;
   background:var(--panel);border:1px solid var(--border);border-radius:12px;
@@ -583,6 +815,26 @@ input.search{width:210px}
   box-shadow:var(--shadow);
 }
 .tip-card:hover{border-color:var(--accent);box-shadow:var(--shadow-lg);transform:translateY(-1px)}
+.tip-card-wrap:hover .tip-del{opacity:1;visibility:visible}
+.tip-del{
+  position:absolute;top:8px;right:8px;z-index:3;
+  width:26px;height:26px;border-radius:50%;border:1px solid var(--border);
+  background:var(--panel);color:#98a2b3;font-size:13px;line-height:1;cursor:pointer;
+  opacity:0;visibility:hidden;transition:all .15s ease;
+  display:flex;align-items:center;justify-content:center;
+}
+.tip-del:hover{background:#fef3f2;color:#d92d20;border-color:#fda29b}
+.tip-src{
+  position:absolute;bottom:6px;right:6px;
+  font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;letter-spacing:.2px;
+}
+.src-auto{background:rgba(16,185,129,.15);color:#067647;backdrop-filter:blur(2px)}
+.src-manual{background:rgba(124,58,237,.15);color:#7a5af8;backdrop-filter:blur(2px)}
+.src-seed{background:rgba(31,95,208,.12);color:#1f5fd0;backdrop-filter:blur(2px)}
+.src-weread{background:rgba(250,173,20,.16);color:#b54708;backdrop-filter:blur(2px)}
+.tile-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.tile-head .tip-src{margin-top:2px;flex-shrink:0}
+.rec-note{font-size:12px;color:var(--text-3);background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:8px 12px;margin:0 0 12px}
 .tip-thumb{
   position:relative;flex-shrink:0;width:140px;height:90px;
   background:linear-gradient(135deg,#1f2937,#374151);border-radius:8px;
@@ -640,6 +892,13 @@ input.search{width:210px}
     padding:12px 6px;overflow-y:auto;overflow-x:hidden;
   }
   .m-sidebar::-webkit-scrollbar{display:none}
+  .m-side-avatar{
+    width:40px;height:40px;border-radius:50%;overflow:hidden;
+    margin:0 auto 8px;flex-shrink:0;
+    border:1.5px solid var(--border);
+    box-shadow:0 1px 4px rgba(0,0,0,.06);
+  }
+  .m-side-avatar img{width:100%;height:100%;object-fit:cover;display:block}
   .m-side-item{
     display:flex;flex-direction:column;align-items:center;gap:3px;
     padding:8px 2px;border-radius:8px;cursor:pointer;
@@ -703,6 +962,7 @@ input.search{width:210px}
 }
 @media (max-width:480px){
   .m-sidebar{width:54px;padding:10px 4px}
+  .m-side-avatar{width:36px;height:36px;margin-bottom:6px}
   .m-side-item .lbl{font-size:9.5px}
   .wrap{padding:10px 12px 80px 68px}
   .tip-thumb{width:96px;height:66px}
@@ -725,7 +985,7 @@ input.search{width:210px}
 
 <header class="topbar">
   <div class="logo">
-    <div class="logo-mark">阿</div>
+    <div class="logo-mark"><img src="avatar-cat.jpg" alt="cat avatar"></div>
     <div>
       <h1>阿娇的工作台</h1>
       <p>商办物业 · 品牌宣传部</p>
@@ -831,6 +1091,7 @@ input.search{width:210px}
   <!-- ========== 阅读计划 ========== -->
   <section class="view" id="view-reading">
     <div class="today-rec" id="todayRec"></div>
+    <div class="rec-note">📚 推荐来源：微信读书热门书单 + 品牌部精选，每本都可直接跳微信读书阅读。</div>
     <div class="toolbar">
       <select class="filter" id="filterReadGoal" onchange="renderReading()">
         <option value="">全部目标</option>
@@ -867,7 +1128,7 @@ input.search{width:210px}
     <div class="ai-hero">
       <div class="ai-hero-text">
         <div class="ai-hero-title">好指令 = 背景 + 角色 + 任务 + 要求</div>
-        <div class="ai-hero-sub">把重复劳动交出去，把判断留给自己。</div>
+        <div class="ai-hero-sub" id="aiUpdatedTip">每周一自动抓取 5 条实用火爆教程，可自己增删。</div>
       </div>
       <div class="ai-hero-stat"><span id="aiTotalCount">0</span><span class="ai-hero-stat-sub">技巧条数</span></div>
     </div>
@@ -890,7 +1151,7 @@ input.search{width:210px}
     <div class="ai-hero">
       <div class="ai-hero-text">
         <div class="ai-hero-title">剪得好 ≠ 特效多，节奏 + 字幕 + 调色 = 完播</div>
-        <div class="ai-hero-sub">从粗剪到导出，把诚悦素材剪出"看得下去"的样子。</div>
+        <div class="ai-hero-sub" id="jyUpdatedTip">每周一自动抓取 5 条实用火爆教程，可自己增删。</div>
       </div>
       <div class="ai-hero-stat"><span id="jyTotalCount">0</span><span class="ai-hero-stat-sub">教程条数</span></div>
     </div>
@@ -976,6 +1237,12 @@ function load(){
       s.bench = (Array.isArray(s.bench)&&s.bench.length) ? s.bench : JSON.parse(JSON.stringify(SRC_BENCH)); // 空库自动从 SRC_BENCH 重新填充
       s.reading = s.reading||[];
       s.seen = s.seen||[];
+      s.aiTips = s.aiTips||{ userAdded:[], userRemoved:[] };
+      s.aiTips.userAdded = s.aiTips.userAdded||[];
+      s.aiTips.userRemoved = s.aiTips.userRemoved||[];
+      s.jyTips = s.jyTips||{ userAdded:[], userRemoved:[] };
+      s.jyTips.userAdded = s.jyTips.userAdded||[];
+      s.jyTips.userRemoved = s.jyTips.userRemoved||[];
       return s;
     }
   }catch(e){ console.warn('读取本地数据失败', e); }
@@ -999,7 +1266,9 @@ function seedState(){
     hotLocal:[], hotHidden:[],
     bench: JSON.parse(JSON.stringify(SRC_BENCH)),
     reading: [],
-    seen:[]
+    seen:[],
+    aiTips: { userAdded:[], userRemoved:[] },
+    jyTips: { userAdded:[], userRemoved:[] }
   };
 }
 let storageWarned = false;
@@ -1683,7 +1952,9 @@ function openBenchForm(id){
    ========================================================== */
 const READING_GOAL = { logic:'逻辑思维', express:'表达能力', both:'两者兼顾' };
 const READING_STATUS = { want:'想读', reading:'在读', done:'已读' };
-const READING_LIB = (typeof window.WB_READING_LIB !== 'undefined') ? window.WB_READING_LIB : [];
+const READING_LIB_SEED = (typeof window.WB_READING_LIB !== 'undefined') ? window.WB_READING_LIB : [];
+const READING_WEREAD  = (typeof window.WB_READING_WEREAD !== 'undefined' && window.WB_READING_WEREAD.items) ? window.WB_READING_WEREAD.items : [];
+const READING_LIB = READING_LIB_SEED.concat(READING_WEREAD.map(b=>(Object.assign({source:'weread'}, b))));
 const READING_TODAY = (typeof window.WB_READING_TODAY !== 'undefined') ? window.WB_READING_TODAY : null;
 let _todayAvoid = [];
 
@@ -1692,6 +1963,15 @@ function wereadLink(obj){
   if(obj && obj.weread) return obj.weread;
   const kw = (obj && obj.title) ? obj.title : '';
   return 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent(kw);
+}
+
+/* 来源标签：精选 / 微信读书 / 手动添加 */
+function srcPill(src){
+  if(src==='weread') return ' <span class="tip-src src-weread">📚 微信读书</span>';
+  if(src==='manual') return ' <span class="tip-src src-manual">✋ 手动</span>';
+  if(src==='seed')   return ' <span class="tip-src src-seed">📌 精选</span>';
+  if(src==='auto')   return ' <span class="tip-src src-auto">🤖 自动抓</span>';
+  return '';
 }
 
 function filteredReading(){
@@ -1714,7 +1994,7 @@ function renderReading(){
   }
   box.innerHTML=list.map(r=>
     '<div class="tile">'+
-      '<div class="tile-head"><div class="tile-title">'+esc(r.title)+'</div></div>'+
+      '<div class="tile-head"><div class="tile-title">'+esc(r.title)+'</div>'+(r.source?srcPill(r.source):'')+'</div>'+
       '<div class="tile-sub">'+
         '<span class="pill pill-owner">'+esc(r.author||'佚名')+'</span> '+
         '<span class="pill pill-type">'+(READING_GOAL[r.goal]||'未分类')+'</span> '+
@@ -1777,7 +2057,7 @@ function renderTodayRec(){
     '<div class="rec-head"><span class="rec-flag">今日推荐</span><span class="rec-date">'+(isAuto?('更新于 '+t.date):('示例 · '+t.date))+'</span></div>'+
     '<div class="rec-body">'+
       '<div class="rec-title">《'+esc(b.title)+'》</div>'+
-      '<div class="rec-author">'+esc(b.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span></div>'+
+      '<div class="rec-author">'+esc(b.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span>'+srcPill(b.source||'seed')+'</div>'+
       '<div class="rec-why"><b>为什么推荐</b>：'+esc(b.why||'')+'</div>'+
       (b.tip?'<div class="rec-tip"><b>阅读建议</b>：'+esc(b.tip||'')+'</div>':'')+
     '</div>'+
@@ -1808,7 +2088,7 @@ function changeTodayBook(){
     '<div class="rec-head"><span class="rec-flag">为你推荐</span><span class="rec-date">手动挑选</span></div>'+
     '<div class="rec-body">'+
       '<div class="rec-title">《'+esc(picked.title)+'》</div>'+
-      '<div class="rec-author">'+esc(picked.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span></div>'+
+      '<div class="rec-author">'+esc(picked.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span>'+srcPill(picked.source||'seed')+'</div>'+
       '<div class="rec-why"><b>为什么推荐</b>：'+esc(picked.why||'')+'</div>'+
       (picked.tip?'<div class="rec-tip"><b>阅读建议</b>：'+esc(picked.tip||'')+'</div>':'')+
     '</div>'+
@@ -1869,13 +2149,14 @@ const M_DESCS = {
 };
 function renderMobileSidebar(){
   const sb = document.getElementById('mSidebar'); if(!sb) return;
-  sb.innerHTML = TABS.map(t=>{
+  const items = TABS.map(t=>{
     const icon = t.icon || M_ICONS[t.k] || '·';
     return '<div class="m-side-item'+(currentTab===t.k?' on':'')+'" onclick="switchTab(\''+t.k+'\')" title="'+esc(t.name)+'">'+
       '<span class="ico">'+icon+'</span>'+
       '<span class="lbl">'+esc(t.name)+'</span>'+
     '</div>';
   }).join('');
+  sb.innerHTML = '<div class="m-side-avatar" title="阿娇的猫"><img src="avatar-cat.jpg" alt="cat"></div>' + items;
 }
 function renderMobilePageHeader(){
   const ph = document.getElementById('mPageHeader'); if(!ph) return;
@@ -1907,39 +2188,63 @@ function platformIcon(p){
 }
 function renderTipsCard(item, kind){
   // kind: 'ai' | 'jy'
+  const src = item.source==='auto' ? '<span class="tip-src src-auto">🤖 自动抓</span>'
+            : item.source==='manual' ? '<span class="tip-src src-manual">✋ 手动</span>'
+            : '<span class="tip-src src-seed">📌 精选</span>';
   const tags = (item.tags||[]).slice(0,3).map(t=>'<span class="tag">'+esc(t)+'</span>').join('');
   const badge = item.badge ? '<span class="tip-badge">'+esc(item.badge)+'</span>' : '';
   const level = item.level ? '<span class="tag tag-level">'+esc(item.level)+'</span>' : '';
   const takeaway = item.takeaway ? '<div class="tip-takeaway">💡 '+esc(item.takeaway)+'</div>' : '';
-  return '<a class="tip-card" href="'+esc(item.url||'#')+'" target="_blank" rel="noopener">'+
-    '<div class="tip-thumb">'+
-      '<div class="tip-thumb-fallback">'+platformIcon(item.platform)+' '+platformLabel(item.platform)+'</div>'+
-      badge+
-    '</div>'+
-    '<div class="tip-body">'+
-      '<div class="tip-title">'+esc(item.title)+'</div>'+
-      '<div class="tip-meta">'+
-        '<span>'+esc(item.author||'')+'</span>'+
-        '<span class="dot">·</span>'+
-        '<span>'+esc(item.duration||'')+'</span>'+
-        '<span class="dot">·</span>'+
-        '<span>'+esc(item.views||'')+' '+(item.views?'播放':'')+'</span>'+
+  const delBtn = '<button class="tip-del" title="删除这条" onclick="event.preventDefault();event.stopPropagation();delTip(\''+kind+'\',\''+esc(item.id)+'\')">✕</button>';
+  return '<div class="tip-card-wrap">'+
+    '<a class="tip-card" href="'+esc(item.url||'#')+'" target="_blank" rel="noopener">'+
+      '<div class="tip-thumb">'+
+        '<div class="tip-thumb-fallback">'+platformIcon(item.platform)+' '+platformLabel(item.platform)+'</div>'+
+        badge+src+
       '</div>'+
-      '<div class="tip-summary">'+esc(item.summary||'')+'</div>'+
-      '<div class="tip-tags">'+tags+level+'</div>'+
-      takeaway+
-    '</div>'+
-  '</a>';
+      '<div class="tip-body">'+
+        '<div class="tip-title">'+esc(item.title)+'</div>'+
+        '<div class="tip-meta">'+
+          '<span>'+esc(item.author||'')+'</span>'+
+          '<span class="dot">·</span>'+
+          '<span>'+esc(item.duration||'')+'</span>'+
+          '<span class="dot">·</span>'+
+          '<span>'+esc(item.views||'')+' '+(item.views?'播放':'')+'</span>'+
+        '</div>'+
+        '<div class="tip-summary">'+esc(item.summary||'')+'</div>'+
+        '<div class="tip-tags">'+tags+level+'</div>'+
+        takeaway+
+      '</div>'+
+    '</a>'+delBtn+
+  '</div>';
+}
+function aiMerged(){
+  const removed = state.aiTips.userRemoved||[];
+  const seed = (SRC_AI.items||[]).filter(x=>!removed.includes(x.id));
+  const added = (state.aiTips.userAdded||[]).filter(x=>!removed.includes(x.id) && !seed.some(s=>s.url===x.url && s.title===x.title));
+  return added.concat(seed);
+}
+function jyMerged(){
+  const removed = state.jyTips.userRemoved||[];
+  const seed = (SRC_JY.items||[]).filter(x=>!removed.includes(x.id));
+  const added = (state.jyTips.userAdded||[]).filter(x=>!removed.includes(x.id) && !seed.some(s=>s.url===x.url && s.title===x.title));
+  return added.concat(seed);
 }
 function renderAITips(){
   const plat = (document.getElementById('filterAIPlatform')||{}).value || '';
   const q = ((document.getElementById('searchAI')||{}).value || '').toLowerCase();
-  const items = (SRC_AI.items||[]).filter(it=>{
+  const items = aiMerged().filter(it=>{
     if(plat && it.platform!==plat) return false;
     if(q && !((it.title+' '+(it.summary||'')+' '+(it.tags||[]).join(' ')).toLowerCase().includes(q))) return false;
     return true;
   });
   document.getElementById('aiTotalCount').textContent = items.length;
+  const ut = document.getElementById('aiUpdatedTip');
+  if(ut){
+    const added = (state.aiTips.userAdded||[]).length;
+    const autoInfo = (SRC_AI.updated||'');
+    ut.textContent = '每周一自动抓 5 条·已抓取更新于 '+autoInfo+'·手动添加 '+added+' 条（可增删）';
+  }
   const feed = document.getElementById('aiTipsFeed');
   if(!items.length){
     feed.innerHTML = '<div class="empty"><div class="empty-icon">✨</div><p>没有匹配的教程。换个关键词或点右上角「+ 添加视频」补一条。</p></div>';
@@ -1950,18 +2255,40 @@ function renderAITips(){
 function renderJYTips(){
   const lv = (document.getElementById('filterJYLevel')||{}).value || '';
   const q = ((document.getElementById('searchJY')||{}).value || '').toLowerCase();
-  const items = (SRC_JY.items||[]).filter(it=>{
+  const items = jyMerged().filter(it=>{
     if(lv && it.level!==lv) return false;
     if(q && !((it.title+' '+(it.summary||'')+' '+(it.tags||[]).join(' ')).toLowerCase().includes(q))) return false;
     return true;
   });
   document.getElementById('jyTotalCount').textContent = items.length;
+  const ut = document.getElementById('jyUpdatedTip');
+  if(ut){
+    const added = (state.jyTips.userAdded||[]).length;
+    const autoInfo = (SRC_JY.updated||'');
+    ut.textContent = '每周一自动抓 5 条·已抓取更新于 '+autoInfo+'·手动添加 '+added+' 条（可增删）';
+  }
   const feed = document.getElementById('jyTipsFeed');
   if(!items.length){
     feed.innerHTML = '<div class="empty"><div class="empty-icon">✂️</div><p>没有匹配的教程。换个阶段或点右上角「+ 添加教程」补一条。</p></div>';
     return;
   }
   feed.innerHTML = items.map(it=>renderTipsCard(it,'jy')).join('');
+}
+function delTip(kind, id){
+  const key = kind==='ai' ? 'aiTips' : 'jyTips';
+  if(!id) return;
+  if(!window.askConfirm){
+    state[key].userRemoved.push(id); save();
+    if(kind==='ai') renderAITips(); else renderJYTips();
+    renderTabs(); toast('已删除'); return;
+  }
+  askConfirm('确定删除这条？删除后无法恢复。',{danger:true}).then(ok=>{
+    if(!ok) return;
+    if(!state[key].userRemoved.includes(id)) state[key].userRemoved.push(id);
+    save();
+    if(kind==='ai') renderAITips(); else renderJYTips();
+    renderTabs(); toast('已删除');
+  });
 }
 function openAITipForm(){
   const html = '<div class="field"><label>教程标题</label><input id="f_ai_title" placeholder="例如：Claude Code 入门教程"></div>'+
@@ -1978,6 +2305,7 @@ function openAITipForm(){
       if(!title){ toast('请填写标题'); return false; }
       const item = {
         id:'ai-user-'+Date.now(),
+        source:'manual',
         title,
         author: document.getElementById('f_ai_author').value.trim(),
         platform: document.getElementById('f_ai_platform').value,
@@ -1987,9 +2315,9 @@ function openAITipForm(){
         tags:['我的收藏'],
         date: fmt(new Date())
       };
-      SRC_AI.items = SRC_AI.items || [];
-      SRC_AI.items.unshift(item);
-      try{ localStorage.setItem('wb_ai_user_added', JSON.stringify(SRC_AI.items)); }catch(e){}
+      state.aiTips.userAdded = state.aiTips.userAdded||[];
+      state.aiTips.userAdded.unshift(item);
+      save();
       renderAITips(); renderTabs();
       toast('已加入「AI 技巧库」');
       return true;
@@ -2010,6 +2338,7 @@ function openJYTipForm(){
       if(!title){ toast('请填写标题'); return false; }
       const item = {
         id:'jy-user-'+Date.now(),
+        source:'manual',
         title,
         level: document.getElementById('f_jy_level').value,
         url: document.getElementById('f_jy_url').value.trim() || '#',
@@ -2018,9 +2347,9 @@ function openJYTipForm(){
         tags:['我的收藏'],
         date: fmt(new Date())
       };
-      SRC_JY.items = SRC_JY.items || [];
-      SRC_JY.items.unshift(item);
-      try{ localStorage.setItem('wb_jy_user_added', JSON.stringify(SRC_JY.items)); }catch(e){}
+      state.jyTips.userAdded = state.jyTips.userAdded||[];
+      state.jyTips.userAdded.unshift(item);
+      save();
       renderJYTips(); renderTabs();
       toast('已加入「剪映教程」');
       return true;
