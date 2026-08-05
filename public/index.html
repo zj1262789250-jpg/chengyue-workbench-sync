@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>阿娇的工作台</title>
+<script>/* 对标账号·自动抓取(内联,2026-08-04 by 大头) */
+window.WB_BENCHMARKS = [
+  {
+    "id": "bm-colp",
+    "name": "中海物业",
+    "platform": "公众号 / 视频号 / 官网",
+    "tag": "央企物业 · 社区温度 · AI",
+    "org": "中海物业管理有限公司（中国海外发展 02669.HK 旗下）",
+    "freq": "周更+",
+    "positioning": "企业使命\"我们经营幸福\"，愿景\"成为卓越的国际化资产运营服务商\"；从社区物业向城市基础运营、城乡互融拓展。",
+    "format": "品牌活动纪实（\"童梦同想\"研学营）、安全生产月专题、AI 助手落地、社区生活服务、城市服务/政企中标案例。",
+    "recent": "2026-07 \"童梦同想\"暑期研学营（福州/武汉/襄阳）连续 16 届，社区青少年沉浸式研学，强化\"好时节·好物业·好社区\"。2026-06 全国安全生产月：164 城 2300+ 项目，应急演练 918 场覆盖 4.3 万人、防汛演练 623 场。2026-03 接入 DeepSeek 推出\"海宝 AI 助手\"，配套\"AI 赋能计划\"内训。2026-08 中标雄安新区群众工作中心物业服务（政企/城市服务）。",
+    "learn": "① 把社区活动做成连续 IP（童梦同想 16 届）而非一次性——可借鉴：把诚悦\"同行计划\"做成年度 IP 化内容。② 安全生产月\"演练数据量化\"（918 场/4.3 万人）极适合做成短视频/数据海报——诚悦有工程/餐饮工作室，可对标\"硬数据+一线\"叙事。③ AI 助手\"先内训再对外讲\"的节奏，呼应诚悦\"全员重度用 AI\"。",
+    "risk": "中海偏住宅社区叙事；诚悦主打商办 IFM，重心不同，勿直接套用社区话术。其\"退盘/增收不增利\"是行业共性，对外内容少提规模焦虑。",
+    "url": "https://www.copm.com.cn/"
+  },
+  {
+    "id": "bm-gemdale",
+    "name": "金地智慧服务",
+    "platform": "公众号 / 视频号 / 抖音",
+    "tag": "管家 IP · 城市服务 · 存量焕新",
+    "org": "金地智慧服务集团（金地集团关联）",
+    "freq": "周更",
+    "positioning": "战略\"品牌成就价值，管理创造效益\"；\"26°暖心服务\"；定位从\"围墙内\"迈向\"城市天际线\"。",
+    "format": "\"管家说\"演讲大赛（VCR 纪实+直播）、存量社区焕新案例、城市服务/机场运维、行业榜单发布。",
+    "recent": "2026 北京区域\"管家说\"：62 篇征文→19 篇→9 名管家决赛，VCR 纪实三城拍摄，抖音/视频号全平台推送，线上\"最佳人气奖\"评选破圈。2026-06 签约广州白云国际机场（138.96 万㎡ 供配电/空调/弱电运维），从社区走向航空枢纽。2026 获评\"首都物业竞争力领先企业\"；\"金喜服务\"体系（欢乐泡泡趴、邻里西瓜节、想邻文化节、便民服务日）。桃源居等存量社区\"带资 1500 万进场、不提费\"焕新，业主从质疑变认可。",
+    "learn": "① \"管家说\"=把一线员工变成出镜 IP，VCR 纪实+演讲+直播三件套——诚悦有\"同行计划/三大工作室\"，可直接复刻\"诚悦工匠说\"栏目。② 存量社区\"公开承诺+限期整改+设备房开放日\"透明化打法，可转化为\"资产运营/改造\"选题。③ 城市服务破圈（机场/芯片车间）对应诚悦\"智创产业园/高原营地\"，可讲\"从楼宇到产业空间\"。",
+    "risk": "金地\"不提费带资进场\"是存量竞争策略，与诚悦高端商办定位不同；避免直接比价，借鉴其\"人物 IP+透明化\"方法即可。",
+    "url": "https://www.gemdale.com/"
+  },
+  {
+    "id": "bm-onewo",
+    "name": "万物梁行",
+    "platform": "公众号 / 视频号 / 官网",
+    "tag": "商写 IFM · 绿色低碳 · 灵石 AI",
+    "org": "万物梁行（戴德梁行 × 万科物业合资）",
+    "freq": "周更",
+    "positioning": "品牌理念\"智慧驱动，低碳共生\"；商企空间（办公楼/产业园）IFM 专家；自研\"灵石\"AI 智能中枢。",
+    "format": "垂直马拉松（低碳赛事 IP）、零废弃日/地球一小时、绿色低碳白皮书、超高层低碳运营案例、AIoT 运维。",
+    "recent": "2026 垂直马拉松全国 24 站，首携咕咚 APP 数字化破圈，完赛得\"碳行者\"电子证书；杭州站（2026-06）良渚文化+宇树机器人。2026-03 连续 6 年地球一小时、连续 5 年零废弃日，\"绿色低碳周\"。2026 上海气候周：苏州现代传媒广场/深圳南山云科技大厦/碳 12 坊入选\"气候灯塔优秀案例\"（AIoT 巡检 2h→15s，效率×500）。2026-05 进驻武汉长城汇（华中首个 LEED 铂金超甲），\"DayOne 暖心首秀\"早咖啡/午提琴/夜伴手礼三段式服务，AI 视频 31 算法。",
+    "learn": "① 垂直马拉松=把\"低碳/健康\"做成可参与的城市级 IP，强破圈——诚悦可结合\"高原营地/园区\"做\"健康向上\"类活动视频。② \"灵石\"AIoT+量化节能数据（节电 60 万度/减碳 1500 吨/巡检×500）是极好的\"硬科技+ESG\"叙事模板，对应诚悦科技赋能（SAP/联锁云/机器人）。③ \"DayOne 暖心首秀\"三段式触点设计——直接可抄到诚悦新项目进驻/客户答谢。",
+    "risk": "万物梁行偏外资合资+超高层地标，调性\"国际/科技\"；诚悦讲\"定制化+同行\"更温情，避免硬凹科技感。",
+    "url": "https://vs-cushwake.com/"
+  },
+  {
+    "id": "bm-excellence",
+    "name": "卓越商企服务",
+    "platform": "公众号 / 视频号",
+    "tag": "商办 IFM · 增值服务 · AI 数字人",
+    "org": "卓越商企服务集团（06989.HK）",
+    "freq": "周更",
+    "positioning": "愿景\"领先的商务不动产服务运营商\"；\"1+1+X\"；2026 主题\"智敬服务，质赢未来\"。",
+    "format": "年度员工大会（数字人对话）、行业论坛方法论分享、战略客户案例、AI 落地案例、\"商企吉尼斯\"人物评选。",
+    "recent": "2026-05 年度员工大会\"智敬服务 质赢未来\"：数字人\"卓小越\"人机对话；AI 数字人\"郝伴\"7×24 对客；26 万客户企微画像；16.6 万通诉求自动派单；《客户声音周报》投诉 100% 回访。2026-06 中物智库论坛分享\"场景触点深耕\"方法论（爱人餐饮积分商城、唯品会总部礼宾）。连续 19 年物业百强、2026 中国 IFM 服务优秀企业；非关联方收入占比 92.4%，战略客户保有率近 100%。2026-02 签约松下电气中国总部（苏州，WELL+LEED 双铂金），\"健康可持续运营专家\"三位一体定制体系。",
+    "learn": "① \"场景触点深耕\"方法论（1 个中心/2 个转变/3 个原则）对应诚悦\"三化一体·定制化\"——可直接做\"诚悦的客户触点地图\"内容。② 数字人+《客户声音周报》把\"客户反馈\"做成可传播资产——诚悦可对标做\"客户说/租户之声\"栏目。③ 增值服务讲\"场景解决方案而非卖单品\"——对应诚悦团餐/资产运营，做\"从食堂到幸福职场\"叙事。④ \"商企吉尼斯\"人物评选=一线标杆 IP 化，诚悦\"同行计划/三大工作室\"可复刻。",
+    "risk": "卓越上市商办标杆，对外披露极完整；诚悦可借鉴框架但数据要用自己真实案例，勿照搬话术。",
+    "url": "http://www.excepm.com/"
+  },
+  {
+    "id": "bm-mixc",
+    "name": "华润万象生活",
+    "platform": "公众号 / 视频号 / 一点万象 APP / 官网",
+    "tag": "商业运营 · 内容造节 · 跨界联动",
+    "org": "华润万象生活（01209.HK，华润置地旗下）",
+    "freq": "周更+",
+    "positioning": "商管\"万象城/万象天地/万象汇\"+物管\"万象服务\"；\"最具影响力的城市空间运营服务商\"。",
+    "format": "商业启幕事件（城市有机更新/轻资产）、\"欢喜得好\"主张、电影+消费跨界、艺术 IP 首展、可持续发展报告。",
+    "recent": "2026-07 莆田万象汇启幕（福建首座轻资产万象汇，三信集团合作，出租率 100%/开业率 100%，184 品牌近 60% 首进）。2026-06 沈阳兴华汇/无锡万象城西区/上海云璟万象天地（\"上场，见天地\"足球场发布会）启幕。2026-02 央视新闻×华润\"2026 光影万象\"电影+消费，全国 60+ 城 135 个万象商业、一点万象 App 领券，贯穿全年。连续发布可持续发展报告/社区繁荣报告。",
+    "learn": "① \"轻资产输出+城市有机更新\"打法对应诚悦\"资产经营管理\"（时代广场/东门市井）——可做\"老地标盘活\"选题。② 跨界造节（电影票根经济/艺术 IP 首展）把商业内容变成社会话题——诚悦可结合\"园区/社群\"做轻量活动视频。③ \"欢喜得好\"情感主张+出租率 100% 硬数据双线叙事——诚悦对外可\"温度+数据\"并重。",
+    "risk": "华润强在商业零售，诚悦强在商办/团餐/产业；直接抄\"消费节\"不匹配，借鉴其\"内容造节+数据背书\"方法即可。",
+    "url": "https://www.crmixclifestyle.com.cn/"
+  },
+  {
+    "id": "bm-longfor",
+    "name": "龙湖智创生活",
+    "platform": "公众号 / 视频号 / 微博",
+    "tag": "善待文化 · 应急守护 · 智慧安防",
+    "org": "龙湖智创生活（09650.HK，龙湖集团旗下）",
+    "freq": "周更+",
+    "positioning": "\"善待你一生\"；\"服务不设限 善待看得见\"；从社区到城市空间智慧运营。",
+    "format": "一线服务故事（锦旗/感谢信人物）、极端天气应急（暴雨守夜人/防汛）、安全专项检查、公益活动、AI 慧眼安防。",
+    "recent": "2026-07 成都暴雨\"守夜人\"：依 SOP 启动防汛，项目负责人到岗、抢险连夜、空置房一对一询问、桶装水送上户，灾后快速复原。2026-05 山东 100+ 项目用电安全及防汛专项检查（拉网式、四项关键动作）。2026 一线故事\"服务不设限 善待看得见\"（帮业主盯装修/钥匙锁屋内送大衣/锦旗）。2026-04 多元公益：自然课堂/读书/垃圾分类，双周小课堂。自 2014\"智慧引擎\"，AI 慧眼+设施设备远程管理。",
+    "learn": "① \"暴雨守夜人\"=把应急做成有温度的叙事（前置排查→雨中抢险→灾后复原三段），极适合诚悦\"服务创造价值\"——可直接做\"风雨里的诚悦人\"。② \"善待\"人物故事模板（真实锦旗/感谢信）对应诚悦\"同行计划/人物志\"——低成本高共鸣。③ 安全专项\"拉网式+量化动作\"对标诚悦工程工作室，可做\"看不见的守护\"系列。",
+    "risk": "龙湖强住宅社区叙事，诚悦商办为主；应急/人物故事可跨业态复用，但案例要换成商办/园区场景。",
+    "url": "https://www.longfor.com/"
+  },
+  {
+    "id": "bm-cmpo",
+    "name": "招商积余",
+    "platform": "公众号 / 视频号",
+    "tag": "标准化 · 数智化 · 白皮书",
+    "org": "招商积余（001914.SZ，招商局/招商蛇口旗下）",
+    "freq": "周更+",
+    "positioning": "\"服务为魂、科技为基、专业为核\"；\"构筑中国现代物业服务新范式\"；住宅+非住宅双业态。",
+    "format": "物博会展馆（标准+数智双轨）、行业白皮书（银行/医院）、\"一企一策\"定制、绿萝行动（低碳社群）、人物志/便民日。",
+    "recent": "2026-07 中国物博会（上海）：\"标准筑基·数智领航\"主题馆；室外巡逻机器人/机器狗/人形迎宾；AI 工单助手录单效率+90%；主导参编 40+ 项标准；发布《银行服务白皮书》《医院服务白皮书》。2026 \"绿萝行动\"（4-6 月）：空瓶换绿植/闲置市集/低碳骑行/以书换蔬，全国多城。2026 云南\"三好筑家 五心守护\"焕新：焕新进度专栏/人物志/面对面答疑/五心守护便民日（免费理发磨刀义诊）。\"一企一策、一项目一方案\"定制；招商 π 平台服务超 10 万客户，年均闭环诉求 25 万条。",
+    "learn": "① \"白皮书+标准\"打法=把专业能力变成行业话语权——诚悦有\"六大优势体系/三大工作室\"，可做《商办 IFM 服务白皮书》对外内容。② \"一企一策\"定制叙事对应诚悦\"定制化\"核心——直接对标。③ \"绿萝行动\"低碳社群+便民日（免费理发磨刀）是轻量可拍活动模板，诚悦园区/食堂可做\"诚悦邻里日\"。④ 物博会机器人/AI 展示对应诚悦科技赋能（机器人+SAP），可做\"科技诚悦\"系列。⑤ 人物志+进度专栏\"透明化\"对应诚悦资产运营项目披露。",
+    "risk": "招商积余央企背景、标准话语权强；诚悦是市场化独立第三方，强调\"独立第三方+定制化\"差异化即可，勿硬拼标准数量。",
+    "url": "https://www.cmpo.com.cn/"
+  }
+];
+</script>
+<script>/* 热点雷达·自动抓取(内联,2026-08-04 by 大头) */
+window.WB_HOTSPOTS = {
+  "updated": "2026-08-04",
+  "fetchedBy": "daily-auto",
+  "items": [
+    {
+      "id": "h20260804-01",
+      "title": "新兴行业成办公租赁核心动力：广州甲级办公楼净吸纳量同比增超300%",
+      "source": "第一财经 / 仲量联行",
+      "date": "2026-07-01",
+      "tags": [
+        "行业观察",
+        "商办租赁",
+        "市场数据"
+      ],
+      "heat": 4,
+      "summary": "2026上半年广州甲级办公楼租赁型净吸纳量同比增超300%；游戏、美妆、跨境电商在扩张型及升级型成交中占比65%。企业选址更看重24小时配套、加时空调与综合运营保障。",
+      "angle": "可做成选题「新兴行业爱租什么样的楼」——顺势引出诚悦为科创/出海企业提供的24小时配套、IFM行政托管与综合运营能力。",
+      "url": "https://www.toutiao.com/article/7657503389248389684/"
+    },
+    {
+      "id": "h20260804-02",
+      "title": "办公竞争进入「经营能力」阶段：企业从比租金转向比体验与服务",
+      "source": "中国日报 / CBRE / JLL",
+      "date": "2026-07",
+      "tags": [
+        "行业观察",
+        "市场数据",
+        "服务创新"
+      ],
+      "heat": 4,
+      "summary": "CBRE预计十城办公楼租金再降约8%，企业租赁策略转向「以稳为先」。空间体验成留住人的新通货：灵活工位、高品质咖啡、加时服务成为竞争力新标准。",
+      "angle": "紧扣诚悦「做物业中最好的餐饮，做餐饮中最好的物业」——用餐饮与服务的体验差异讲价值，可做「好物业如何帮租户留人」。",
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories//WS6a608055a310d709c2fbf195.html"
+    },
+    {
+      "id": "h20260804-03",
+      "title": "2026上半年物业行业总结：监管全面收紧，高端IFM一体化需求爆发",
+      "source": "克而瑞物管 / 搜狐",
+      "date": "2026-07",
+      "tags": [
+        "政策解读",
+        "行业观察",
+        "服务创新"
+      ],
+      "heat": 5,
+      "summary": "「十五五」首纳物业管理；公共收益监管、维修资金数字化、信用分级全面落地。商办&产业园高端IFM一体化需求爆发，头部物企接连签下B站、小鹏、中芯国际总部。",
+      "angle": "直接对标诚悦六大产品体系（高端商办IFM、产业园一站式）——可做「头部都在抢的IFM到底是什么」科普获客。",
+      "url": "https://www.sohu.com/a/1053497004_122014422"
+    },
+    {
+      "id": "h20260804-04",
+      "title": "物业存量项目汰换率提高，2026上半年招标约19.7万条同比增9.47%",
+      "source": "中指研究院 / 腾讯新闻",
+      "date": "2026-07-09",
+      "tags": [
+        "市场数据",
+        "行业观察",
+        "拓客机会"
+      ],
+      "heat": 4,
+      "summary": "2026上半年物业行业招标信息约19.70万条，同比增长9.47%；办公与公众物业需求旺盛。科技从单点试点转向场景落地，AI客服、巡检、能源管理规模化覆盖。",
+      "angle": "这是诚悦招商拓客的窗口——可做「招投标变多，甲方在找什么样的服务商」，软性植入获客。",
+      "url": "https://new.qq.com/rain/a/20260709A095NN00?refer=cp_1009"
+    },
+    {
+      "id": "h20260804-05",
+      "title": "国务院《城市更新「十五五」规划》：到2030年改造老旧小区约11.5万个",
+      "source": "第一财经 / 国务院",
+      "date": "2026-05-29",
+      "tags": [
+        "政策解读",
+        "城市更新",
+        "民生服务"
+      ],
+      "heat": 4,
+      "summary": "规划提出到2030年累计新开工改造老旧小区约11.5万个、城中村4000个，鼓励引入物业服务；REITs、专项债拓宽城市更新融资渠道。",
+      "angle": "关联诚悦「物业+养老/助餐/社区增值」——可做「城市更新里，物业的新角色」。",
+      "url": "https://finance.sina.com.cn/roll/2026-05-29/doc-inhzpnfu8029777.shtml"
+    },
+    {
+      "id": "h20260804-06",
+      "title": "商业不动产公募REITs试点提速：华安锦江、华住安住等多单申报",
+      "source": "第一财经 / 仲量联行",
+      "date": "2026-07-01",
+      "tags": [
+        "城市更新",
+        "资本市场",
+        "行业观察"
+      ],
+      "heat": 3,
+      "summary": "商业不动产公募REITs试点落地，华安锦江、华住安住、复星旅文、中金开元旅业四单项目相继申报，酒店与办公资产打通公开资本市场路径。",
+      "angle": "偏资产经营视角，适配诚悦「商办类资产经营管理服务」栏目，可轻量科普资产盘活。",
+      "url": "https://new.qq.com/rain/a/20260525A02VYA00?refer=cp_1009"
+    },
+    {
+      "id": "h20260804-07",
+      "title": "上海智慧食堂政策：到2028年团餐智能化渗透率要达70%",
+      "source": "行业观察 / 搜狗",
+      "date": "2026-08-03",
+      "tags": [
+        "团餐",
+        "政策解读",
+        "智慧服务"
+      ],
+      "heat": 5,
+      "summary": "上海《促进餐饮业智能化布局行动计划(2026-2028)》提出2028年团餐智能化渗透率70%；食安全链条追溯、适老化营养被重点提及，京深杭蓉预计一年内跟进。",
+      "angle": "强关联诚悦团餐（璞业供应链、6T管理、悦宴）——可做「智慧食堂政策来了，甲方食堂怎么改」，软植入诚悦智慧团餐能力。",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2666a70644723552"
+    },
+    {
+      "id": "h20260804-08",
+      "title": "团餐行业转向「吃好」：员工对营养均衡关注度首超价格",
+      "source": "中研普华 / 团餐观察",
+      "date": "2026-06-25",
+      "tags": [
+        "团餐",
+        "行业观察",
+        "服务创新"
+      ],
+      "heat": 4,
+      "summary": "企业员工对「营养均衡」关注首超「价格便宜」；低油盐、控糖、特殊康复餐快速普及；预制菜渗透率2026预计40%-45%，供应链数字化覆盖率50%-60%。",
+      "angle": "呼应诚悦「八大权威认证、6T管理」——可做「一份好员工餐的标准」，突出营养、安全与供应链。",
+      "url": "https://m.chinairn.com/hyzx/20260625/095511231.shtml"
+    },
+    {
+      "id": "h20260804-09",
+      "title": "碧桂园服务发布PARA范式：人×智能体×机器人×AIoT",
+      "source": "物业K线 / 今日头条",
+      "date": "2026-07-31",
+      "tags": [
+        "AI科技",
+        "服务创新",
+        "标杆案例"
+      ],
+      "heat": 4,
+      "summary": "碧服商企亮相企业行政峰会，发布PARA协生范式；自研清洁机器人部署超1000台，1机+1人日均作业面积从1200㎡提升至2400㎡，效率翻倍。",
+      "angle": "对标诚悦「科技赋能（SAP、联锁云、机器人）+专家支撑」——可做「物业机器人能替代什么」，讲诚悦的人机协同。",
+      "url": "https://www.toutiao.com/article/7668686793054634538"
+    },
+    {
+      "id": "h20260804-10",
+      "title": "2026物博会：超七成展商为科技公司，物业AI进入深水区",
+      "source": "腾讯新闻",
+      "date": "2026-07-04",
+      "tags": [
+        "AI科技",
+        "行业观察",
+        "智慧服务"
+      ],
+      "heat": 3,
+      "summary": "物博会70%+展商为科技公司；巡逻机器狗、AI数字人、智能屏集中亮相；某照明节能方案节能率可达66.67%，回收期仅6-7个月。",
+      "angle": "用「物业黑科技展」角度引出诚悦科技赋能体系，可做探展/盘点类短视频。",
+      "url": "https://new.qq.com/rain/a/20260704A0A05F00?refer=cp_1009"
+    },
+    {
+      "id": "h20260804-11",
+      "title": "上海写字楼需求修复：上半年大宗交易金额逆势增47%",
+      "source": "戴德梁行 / 腾讯新闻",
+      "date": "2026-07-12",
+      "tags": [
+        "商办租赁",
+        "市场数据",
+        "行业观察"
+      ],
+      "heat": 3,
+      "summary": "2026上半年上海甲级写字楼空置率环比回落至22.5%，金融业为吸纳主力；自用买家成交同比+34%，被视为商办周期底部企稳信号。",
+      "angle": "可做「上海商办回暖，对成都意味着什么」区域对比选题，软性展示诚悦全国30城布局。",
+      "url": "https://new.qq.com/rain/a/20260712A04WWY00?refer=cp_1009"
+    },
+    {
+      "id": "h20260804-12",
+      "title": "招商积余物博会：「一企一策」定制化+机器人矩阵",
+      "source": "今日头条",
+      "date": "2026-07",
+      "tags": [
+        "标杆案例",
+        "服务创新",
+        "智慧服务"
+      ],
+      "heat": 3,
+      "summary": "招商积余推行「一企一策、一项目一方案」定制化，覆盖IFM、金融、高校、城市服务；室外巡逻机器狗、AI客服录单效率提升90%。",
+      "angle": "对比诚悦「三化一体：专业化·定制化·集成化」——可做「头部怎么玩定制」，凸显诚悦定制能力。",
+      "url": "https://www.toutiao.com/article/7659255859231162923"
+    }
+  ]
+};
+</script>
+<script src="data/topics-seed.js"></script>
+<script src="data/reading-lib.js"></script>
+<script src="data/reading-today.js"></script>
+<script src="data/ai-tips.js"></script>
+<script src="data/jy-tips.js"></script>
+<style>
+:root{
+  --bg:#f4f6f9; --panel:#ffffff; --panel-2:#fafbfc;
+  --border:#e3e7ed; --border-2:#eef1f5;
+  --text:#171b22; --text-2:#5a6474; --text-3:#9aa4b2;
+  --accent:#1f5fd0; --accent-soft:#ecf2fe; --accent-dark:#164aa8;
+  --p0:#d92d20; --p0-bg:#fef3f2;
+  --p1:#dc6803; --p1-bg:#fffaeb;
+  --p2:#1f5fd0; --p2-bg:#eff4ff;
+  --p3:#667085; --p3-bg:#f4f5f7;
+  --ok:#079455; --ok-bg:#ecfdf3;
+  --shadow:0 1px 2px rgba(16,24,40,.05);
+  --shadow-lg:0 8px 24px rgba(16,24,40,.10);
+  --r:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--bg); color:var(--text); font-size:14px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;font-size:inherit}
+input,select,textarea{font-family:inherit;font-size:14px;color:var(--text)}
+
+/* ---------- 顶栏 ---------- */
+.topbar{
+  background:var(--panel); border-bottom:1px solid var(--border);
+  padding:14px 28px; display:flex; align-items:center; gap:16px;
+  position:sticky; top:0; z-index:50;
+}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-mark{
+  width:32px;height:32px;border-radius:8px;background:var(--accent);
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:15px;letter-spacing:-.5px;
+}
+.logo h1{font-size:16px;font-weight:650;letter-spacing:-.2px}
+.logo p{font-size:12px;color:var(--text-3);margin-top:-2px}
+.topbar-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.date-chip{font-size:12.5px;color:var(--text-2);background:var(--panel-2);border:1px solid var(--border);padding:6px 12px;border-radius:20px}
+.date-chip.ok{color:#0a7d3c;background:#eaf7ef;border-color:#bfe6cd}
+.date-chip.warn{color:#9a6b00;background:#fff7e6;border-color:#f3e0b0}
+.btn{
+  padding:7px 14px;border-radius:8px;font-size:13px;font-weight:500;
+  border:1px solid var(--border); background:var(--panel); color:var(--text-2);
+  transition:all .15s;
+}
+.btn:hover{background:var(--panel-2);border-color:#d0d7e2;color:var(--text)}
+.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-primary:hover{background:var(--accent-dark);color:#fff;border-color:var(--accent-dark)}
+.btn-sm{padding:5px 10px;font-size:12.5px;border-radius:7px}
+.btn-danger:hover{color:var(--p0);border-color:#f7c9c5;background:var(--p0-bg)}
+
+/* ---------- 概览 ---------- */
+.wrap{max-width:1560px;margin:0 auto;padding:22px 28px 60px}
+.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:20px}
+.stat{
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--r);
+  padding:14px 16px;box-shadow:var(--shadow);
+}
+.stat-label{font-size:12px;color:var(--text-3);display:flex;align-items:center;gap:5px}
+.stat-num{font-size:26px;font-weight:680;letter-spacing:-1px;line-height:1.25;margin-top:3px}
+.stat-sub{font-size:11.5px;color:var(--text-3)}
+.stat.alert .stat-num{color:var(--p0)}
+.stat.warn .stat-num{color:var(--p1)}
+.stat.good .stat-num{color:var(--ok)}
+
+/* ---------- Tab ---------- */
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:20px;overflow-x:auto}
+.tab{
+  padding:10px 16px;font-size:14px;color:var(--text-2);font-weight:500;
+  border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;transition:all .15s;
+}
+.tab:hover{color:var(--text)}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.tab .badge{
+  display:inline-block;background:var(--p0);color:#fff;font-size:10.5px;font-weight:600;
+  padding:0 6px;border-radius:9px;margin-left:5px;vertical-align:1px;
+}
+.view{display:none}
+.view.on{display:block}
+
+/* ---------- 工具条 ---------- */
+.toolbar{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.toolbar .spacer{margin-left:auto}
+.seg{display:flex;background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:2px}
+.seg button{padding:5px 12px;font-size:13px;border-radius:6px;color:var(--text-2)}
+.seg button.on{background:var(--panel);color:var(--text);font-weight:600;box-shadow:var(--shadow)}
+select.filter,input.search{
+  padding:7px 11px;border:1px solid var(--border);border-radius:8px;background:var(--panel);
+  color:var(--text-2);font-size:13px;outline:none;
+}
+select.filter:focus,input.search:focus{border-color:var(--accent)}
+input.search{width:210px}
+
+/* ---------- 看板 ---------- */
+.kanban{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:start}
+.col{background:var(--panel-2);border:1px solid var(--border);border-radius:var(--r);padding:12px;min-height:200px}
+.col.drag-over{background:var(--accent-soft);border-color:var(--accent);border-style:dashed}
+.col-head{display:flex;align-items:center;gap:7px;margin-bottom:11px;padding:0 2px}
+.col-dot{width:7px;height:7px;border-radius:50%}
+.col-title{font-size:13px;font-weight:650;color:var(--text)}
+.col-count{font-size:12px;color:var(--text-3);background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:0 7px}
+.col-add{margin-left:auto;color:var(--text-3);font-size:17px;line-height:1;padding:2px 5px;border-radius:5px}
+.col-add:hover{background:var(--panel);color:var(--accent)}
+
+.card{
+  background:var(--panel);border:1px solid var(--border);border-radius:9px;
+  padding:11px 12px;margin-bottom:9px;box-shadow:var(--shadow);cursor:grab;transition:all .15s;
+}
+.card:hover{box-shadow:var(--shadow-lg);transform:translateY(-1px);border-color:#d3dae4}
+.card.dragging{opacity:.4}
+.card-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:7px}
+.card-title{font-size:13.5px;font-weight:560;line-height:1.45;flex:1;word-break:break-word}
+.card-meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.pill{font-size:11px;font-weight:550;padding:2px 7px;border-radius:5px;white-space:nowrap}
+.pill-p0{background:var(--p0-bg);color:var(--p0)}
+.pill-p1{background:var(--p1-bg);color:var(--p1)}
+.pill-p2{background:var(--p2-bg);color:var(--p2)}
+.pill-p3{background:var(--p3-bg);color:var(--p3)}
+.pill-type{background:var(--panel-2);color:var(--text-2);border:1px solid var(--border-2)}
+.pill-due{background:var(--panel-2);color:var(--text-2);border:1px solid var(--border-2)}
+.pill-due.overdue{background:var(--p0-bg);color:var(--p0);border-color:#fbd5d1;font-weight:600}
+.pill-due.today{background:var(--p1-bg);color:var(--p1);border-color:#fde68a;font-weight:600}
+.pill-owner{background:var(--accent-soft);color:var(--accent)}
+.card-note{font-size:12px;color:var(--text-3);margin-top:6px;line-height:1.5;border-top:1px dashed var(--border-2);padding-top:6px}
+.card-acts{display:flex;gap:4px;opacity:0;transition:opacity .15s}
+.card:hover .card-acts{opacity:1}
+.icon-btn{width:22px;height:22px;border-radius:5px;color:var(--text-3);font-size:13px;display:flex;align-items:center;justify-content:center;line-height:1}
+.icon-btn:hover{background:var(--panel-2);color:var(--accent)}
+.icon-btn.del:hover{background:var(--p0-bg);color:var(--p0)}
+
+/* ---------- 四象限 ---------- */
+.matrix{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.quad{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:14px;min-height:190px}
+.quad.drag-over{border-color:var(--accent);border-style:dashed;background:var(--accent-soft)}
+.quad-head{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border-2)}
+.quad-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:5px}
+.quad-name{font-size:13.5px;font-weight:650}
+.quad-tip{font-size:11.5px;color:var(--text-3);margin-left:auto}
+
+/* ---------- 流水线 ---------- */
+.pipeline{display:grid;grid-template-columns:repeat(6,1fr);gap:11px;align-items:start}
+.pipeline .col{padding:10px}
+.pipeline .card-title{font-size:13px}
+
+/* ---------- 卡片网格 ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.tile{
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--r);
+  padding:16px;box-shadow:var(--shadow);transition:all .15s;position:relative;
+}
+.tile:hover{box-shadow:var(--shadow-lg);border-color:#d3dae4}
+.tile-head{display:flex;align-items:flex-start;gap:9px;margin-bottom:9px}
+.tile-title{font-size:14.5px;font-weight:620;line-height:1.45;flex:1}
+.tile-sub{font-size:12px;color:var(--text-3);margin-bottom:10px}
+.tile-body{font-size:12.8px;color:var(--text-2);line-height:1.62}
+.tile-angle{
+  background:var(--accent-soft);border-left:3px solid var(--accent);
+  padding:9px 11px;border-radius:0 7px 7px 0;font-size:12.5px;color:var(--accent-dark);
+  margin-top:10px;line-height:1.6;
+}
+.tile-learn{
+  background:var(--ok-bg);border-left:3px solid var(--ok);
+  padding:9px 11px;border-radius:0 7px 7px 0;font-size:12.5px;color:#05603a;
+  margin-top:10px;line-height:1.6;
+}
+.tile-recent{
+  background:var(--p1-bg);border-left:3px solid var(--p1);
+  padding:9px 11px;border-radius:0 7px 7px 0;font-size:12.5px;color:#8a4b06;
+  margin-top:10px;line-height:1.6;
+}
+.tile-foot{display:flex;align-items:center;gap:6px;margin-top:12px;padding-top:11px;border-top:1px solid var(--border-2);flex-wrap:wrap}
+.tile-acts{margin-left:auto;display:flex;gap:5px}
+.heat{color:var(--p1);font-size:12px;letter-spacing:1px}
+
+/* ---------- 今日推荐 ---------- */
+.today-rec{background:linear-gradient(135deg,#eaf1ff,#f6f9ff);border:1px solid #d6e2fb;border-radius:var(--r);padding:16px 18px;margin-bottom:16px;box-shadow:var(--shadow)}
+.rec-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.rec-flag{background:var(--accent);color:#fff;font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px}
+.rec-date{font-size:12px;color:var(--text-3)}
+.rec-title{font-size:17px;font-weight:650;line-height:1.4;margin-bottom:4px}
+.rec-author{font-size:13px;color:var(--text-2);margin-bottom:10px}
+.rec-why{font-size:13px;color:var(--text-1);line-height:1.65;background:rgba(255,255,255,.62);padding:10px 12px;border-radius:8px;margin-bottom:8px}
+.rec-tip{font-size:13px;color:#164aa8;line-height:1.65;background:rgba(255,255,255,.62);padding:10px 12px;border-radius:8px}
+.rec-acts{display:flex;gap:8px;margin-top:12px}
+.rec-empty{font-size:13px;color:var(--text-3);padding:14px}
+
+/* ---------- 空态 ---------- */
+.empty{
+  text-align:center;padding:52px 20px;color:var(--text-3);
+  background:var(--panel);border:1px dashed var(--border);border-radius:var(--r);
+}
+.empty-icon{font-size:30px;opacity:.35;margin-bottom:8px}
+.empty p{font-size:13px}
+.col .empty{padding:22px 10px;background:transparent;border:none;font-size:12px}
+
+/* ---------- 弹窗 ---------- */
+.mask{
+  position:fixed;inset:0;background:rgba(16,24,40,.42);z-index:100;
+  display:none;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(2px);
+}
+.mask.on{display:flex}
+.modal{
+  background:var(--panel);border-radius:14px;width:100%;max-width:540px;
+  max-height:88vh;overflow-y:auto;box-shadow:0 24px 64px rgba(16,24,40,.24);
+}
+.modal-head{padding:18px 22px 14px;border-bottom:1px solid var(--border-2);display:flex;align-items:center}
+.modal-head h3{font-size:16px;font-weight:650}
+.modal-close{margin-left:auto;color:var(--text-3);font-size:20px;line-height:1;padding:2px 6px;border-radius:6px}
+.modal-close:hover{background:var(--panel-2);color:var(--text)}
+.modal-body{padding:18px 22px}
+.modal-foot{padding:14px 22px 18px;display:flex;gap:9px;justify-content:flex-end}
+.confirm-card{
+  background:var(--panel);border-radius:14px;width:100%;max-width:380px;
+  padding:22px 22px 18px;box-shadow:0 24px 64px rgba(16,24,40,.24);
+  animation:pop .14s ease-out;
+}
+@keyframes pop{from{transform:scale(.96);opacity:.6}to{transform:scale(1);opacity:1}}
+.confirm-msg{font-size:14.5px;line-height:1.6;color:var(--text);padding:2px 2px 18px;white-space:pre-line}
+.confirm-foot{padding:2px 0 0;display:flex;gap:9px;justify-content:flex-end}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:12.5px;font-weight:600;color:var(--text-2);margin-bottom:6px}
+.field input,.field select,.field textarea{
+  width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;
+  background:var(--panel);outline:none;transition:border-color .15s;
+}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.field textarea{resize:vertical;min-height:72px;line-height:1.6}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hint{font-size:11.5px;color:var(--text-3);margin-top:5px}
+
+.section-title{font-size:14px;font-weight:650;margin:22px 0 12px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'';width:3px;height:14px;background:var(--accent);border-radius:2px}
+
+.toast{
+  position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(80px);
+  background:#171b22;color:#fff;padding:11px 20px;border-radius:9px;font-size:13.5px;
+  z-index:200;opacity:0;transition:all .25s;box-shadow:var(--shadow-lg);
+}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media(max-width:1280px){
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .kanban{grid-template-columns:repeat(2,1fr)}
+  .pipeline{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:760px){
+  .wrap{padding:16px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .kanban,.pipeline,.matrix{grid-template-columns:1fr}
+  .topbar{padding:12px 16px;flex-wrap:wrap}
+}
+
+/* ==========================================================
+   AI 技巧库 / 剪映教程 通用样式
+   ========================================================== */
+.ai-hero{
+  display:flex; align-items:center; justify-content:space-between;
+  background:linear-gradient(135deg, #f5f3ff 0%, #fff 60%);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:18px 22px;
+  margin-bottom:18px;
+  box-shadow:var(--shadow);
+}
+.ai-hero-title{font-size:16px;font-weight:700;color:var(--text);letter-spacing:.2px;margin-bottom:4px}
+.ai-hero-sub{font-size:13px;color:var(--text-2)}
+.ai-hero-stat{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  background:#fff;border:1px solid var(--border);border-radius:50%;
+  width:64px;height:64px;font-weight:700;font-size:20px;color:#7a5af8;flex-shrink:0;
+}
+.ai-hero-stat-sub{font-size:10px;color:var(--text-3);font-weight:500;margin-top:2px}
+
+.tips-feed{display:flex;flex-direction:column;gap:14px}
+.tip-card{
+  display:flex;gap:14px;
+  background:var(--panel);border:1px solid var(--border);border-radius:12px;
+  padding:14px;text-decoration:none;color:inherit;
+  transition:all .2s ease;
+  box-shadow:var(--shadow);
+}
+.tip-card:hover{border-color:var(--accent);box-shadow:var(--shadow-lg);transform:translateY(-1px)}
+.tip-thumb{
+  position:relative;flex-shrink:0;width:140px;height:90px;
+  background:linear-gradient(135deg,#1f2937,#374151);border-radius:8px;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:600;
+  overflow:hidden;
+}
+.tip-thumb-fallback{text-align:center;line-height:1.3;padding:6px}
+.tip-badge{
+  position:absolute;top:6px;left:6px;
+  background:#d92d20;color:#fff;font-size:10px;font-weight:600;
+  padding:2px 8px;border-radius:10px;letter-spacing:.3px;
+}
+.tip-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.tip-title{font-size:15px;font-weight:650;color:var(--text);line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tip-meta{font-size:12px;color:var(--text-3);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tip-meta .dot{color:var(--text-3);opacity:.6}
+.tip-summary{font-size:13px;color:var(--text-2);line-height:1.6;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tip-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
+.tip-tags .tag{
+  font-size:11px;padding:2px 8px;border-radius:10px;
+  background:#f4f5f7;color:#5a6474;letter-spacing:.2px;
+}
+.tip-tags .tag-level{background:#ecf2fe;color:#1f5fd0}
+.tip-takeaway{
+  margin-top:4px;font-size:12.5px;color:#2c5c44;line-height:1.5;
+  background:var(--ok-bg);border-left:3px solid var(--ok);
+  padding:6px 10px;border-radius:0 6px 6px 0;
+}
+
+/* ==========================================================
+   移动端布局（≤768px）— 参考图：左竖栏 + 顶页头 + 卡片流
+   ========================================================== */
+.m-sidebar,.m-page-header{display:none}
+@media (max-width:768px){
+  /* 桌面顶栏简化 */
+  .topbar{padding:8px 12px;gap:8px;flex-wrap:nowrap}
+  .logo h1{font-size:15px}
+  .logo p{display:none}
+  .logo-mark{width:28px;height:28px;font-size:13px}
+  .topbar .btn{display:none}
+  .date-chip{display:none}
+  .topbar-actions{display:flex;gap:4px}
+  .topbar-actions .btn{display:inline-flex;padding:5px 9px;font-size:12px}
+
+  /* 隐藏桌面 stats + 顶部 tabs */
+  .stats,.tabs{display:none}
+
+  /* 左侧竖栏 */
+  .m-sidebar{
+    display:flex;flex-direction:column;align-items:stretch;gap:2px;
+    position:fixed;top:0;left:0;bottom:0;width:60px;z-index:50;
+    background:var(--panel);border-right:1px solid var(--border);
+    padding:12px 6px;overflow-y:auto;overflow-x:hidden;
+  }
+  .m-sidebar::-webkit-scrollbar{display:none}
+  .m-side-item{
+    display:flex;flex-direction:column;align-items:center;gap:3px;
+    padding:8px 2px;border-radius:8px;cursor:pointer;
+    color:var(--text-3);font-size:10px;line-height:1.2;text-align:center;
+    transition:all .15s;
+    border:1px solid transparent;
+  }
+  .m-side-item:hover{background:var(--panel-2);color:var(--text-2)}
+  .m-side-item.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+  .m-side-item .ico{font-size:18px;line-height:1}
+  .m-side-item .lbl{
+    font-size:10px;letter-spacing:0;word-break:keep-all;
+    max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  }
+
+  /* 主内容左移 60px */
+  .wrap{padding:12px 14px 80px 74px;max-width:none}
+
+  /* 顶页头（参考图风格） */
+  .m-page-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:6px 2px 14px;
+  }
+  .m-page-title{font-size:20px;font-weight:700;color:var(--text);letter-spacing:.3px}
+  .m-page-sub{font-size:12px;color:var(--text-2);margin-top:2px}
+  .m-page-add{
+    display:inline-flex;align-items:center;gap:4px;
+    background:var(--panel);border:1px solid var(--border);
+    color:var(--text-2);font-size:12.5px;padding:6px 12px;
+    border-radius:18px;cursor:pointer;
+  }
+  .m-page-add:hover{border-color:var(--accent);color:var(--accent)}
+
+  /* 移动端：每个 view 顶部塞一个 page header（用 first-child 技巧避免重复） */
+  .view{display:none}
+  .view.on{display:block}
+
+  /* AI 技巧/剪映视图在移动端：hero 紧凑 + 卡片纵向 */
+  .ai-hero{padding:14px 16px;border-radius:12px;margin-bottom:14px}
+  .ai-hero-title{font-size:14px}
+  .ai-hero-sub{font-size:12px}
+  .ai-hero-stat{width:52px;height:52px;font-size:16px}
+
+  .tip-card{padding:12px;gap:12px;border-radius:10px}
+  .tip-thumb{width:108px;height:74px;border-radius:6px}
+  .tip-thumb-fallback{font-size:11px}
+  .tip-title{font-size:14px}
+  .tip-meta{font-size:11px}
+  .tip-summary{font-size:12px;-webkit-line-clamp:2}
+  .tip-takeaway{font-size:11.5px}
+
+  /* 工具栏：搜索/筛选压紧 */
+  .toolbar{gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .toolbar .search{min-width:140px;flex:1;font-size:13px}
+  .toolbar .filter{font-size:12px;padding:5px 8px}
+  .toolbar .btn{padding:5px 10px;font-size:12px}
+
+  /* 模态弹窗缩放 */
+  .modal{max-width:92vw;width:92vw;border-radius:14px}
+  .modal-body{padding:14px}
+}
+@media (max-width:480px){
+  .m-sidebar{width:54px;padding:10px 4px}
+  .m-side-item .lbl{font-size:9.5px}
+  .wrap{padding:10px 12px 80px 68px}
+  .tip-thumb{width:96px;height:66px}
+  .tip-title{font-size:13.5px}
+}
+
+
+
+/* ===== 实时同步状态指示（by 大头） ===== */
+.sync-dot{width:9px;height:9px;border-radius:50%;background:#c9c4ba;flex:none;align-self:center;margin:0 6px 0 16px;box-shadow:0 0 0 3px rgba(30,28,25,.04);transition:background .3s}
+.sync-dot.on{background:#3C7B5B}
+.sync-dot.off{background:#B4453B}
+.sync-dot.wait{background:#B5812B;animation:pulse 1.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+</style>
+</head>
+<body>
+<aside class="m-sidebar" id="mSidebar"></aside>
+
+<header class="topbar">
+  <div class="logo">
+    <div class="logo-mark">阿</div>
+    <div>
+      <h1>阿娇的工作台</h1>
+      <p>商办物业 · 品牌宣传部</p>
+    </div>
+  </div>
+  <span id="syncDot" class="sync-dot wait" title="实时同步：连接中…"></span>
+  <div class="topbar-right">
+    <span class="date-chip" id="dateChip"></span>
+    <a class="btn btn-sm btn-primary" href="https://docs.qq.com/sheet/DTEhPekpsRE5qTXJa" target="_blank" rel="noopener" title="设计需求工单（腾讯文档，新窗口打开）">设计需求工单</a>
+    <button class="btn btn-sm" onclick="exportData()">导出备份</button>
+    <button class="btn btn-sm" onclick="document.getElementById('importFile').click()">导入</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats" id="stats"></div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="m-page-header" id="mPageHeader"></div>
+
+  <!-- ========== 任务看板 ========== -->
+  <section class="view on" id="view-board">
+    <div class="toolbar">
+      <div class="seg">
+        <button class="on" data-boardview="kanban" onclick="switchBoardView('kanban')">流程看板</button>
+        <button data-boardview="matrix" onclick="switchBoardView('matrix')">优先级四象限</button>
+      </div>
+      <select class="filter" id="filterType" onchange="renderBoard()">
+        <option value="">全部类型</option>
+      </select>
+      <select class="filter" id="filterPrio" onchange="renderBoard()">
+        <option value="">全部优先级</option>
+      </select>
+      <input class="search" id="searchTask" placeholder="搜索任务…" oninput="renderBoard()">
+      <div class="spacer"></div>
+      <button class="btn btn-primary" onclick="openTaskForm()">+ 新建任务</button>
+    </div>
+    <div class="kanban" id="kanban"></div>
+    <div class="matrix" id="matrix" style="display:none"></div>
+  </section>
+
+  <!-- ========== 视频流水线 ========== -->
+  <section class="view" id="view-video">
+    <div class="toolbar">
+      <select class="filter" id="filterPlatform" onchange="renderVideos()">
+        <option value="">全部平台</option>
+      </select>
+      <input class="search" id="searchVideo" placeholder="搜索视频…" oninput="renderVideos()">
+      <div class="spacer"></div>
+      <button class="btn btn-primary" onclick="openVideoForm()">+ 新建视频</button>
+    </div>
+    <div class="pipeline" id="pipeline"></div>
+  </section>
+
+  <!-- ========== 选题库 ========== -->
+  <section class="view" id="view-topics">
+    <div class="toolbar">
+      <select class="filter" id="filterCol" onchange="renderTopics()">
+        <option value="">全部栏目</option>
+      </select>
+      <select class="filter" id="filterTopicStatus" onchange="renderTopics()">
+        <option value="">全部状态</option>
+        <option value="pending">待评估</option>
+        <option value="adopted">已采用</option>
+        <option value="dropped">已搁置</option>
+      </select>
+      <input class="search" id="searchTopic" placeholder="搜索选题…" oninput="renderTopics()">
+      <div class="spacer"></div>
+      <button class="btn" onclick="drawInspiration()">灵感抽签</button>
+      <button class="btn btn-primary" onclick="openTopicForm()">+ 新建选题</button>
+    </div>
+    <div class="grid" id="topicGrid"></div>
+  </section>
+
+  <!-- ========== 热点雷达 ========== -->
+  <section class="view" id="view-hotspots">
+    <div class="toolbar">
+      <select class="filter" id="filterHotTag" onchange="renderHotspots()">
+        <option value="">全部标签</option>
+      </select>
+      <input class="search" id="searchHot" placeholder="搜索热点…" oninput="renderHotspots()">
+      <span class="date-chip" id="hotUpdated"></span>
+      <div class="spacer"></div>
+      <button class="btn" onclick="openHotspotForm()">+ 手动补充</button>
+    </div>
+    <div class="grid" id="hotGrid"></div>
+  </section>
+
+  <!-- ========== 对标账号 ========== -->
+  <section class="view" id="view-bench">
+    <div class="toolbar">
+      <input class="search" id="searchBench" placeholder="搜索账号…" oninput="renderBench()">
+      <div class="spacer"></div>
+      <button class="btn btn-sm btn-danger" onclick="resetBench()">重置对标库</button>
+      <button class="btn btn-primary" onclick="openBenchForm()">+ 新增账号</button>
+    </div>
+    <div class="grid" id="benchGrid"></div>
+  </section>
+
+  <!-- ========== 阅读计划 ========== -->
+  <section class="view" id="view-reading">
+    <div class="today-rec" id="todayRec"></div>
+    <div class="toolbar">
+      <select class="filter" id="filterReadGoal" onchange="renderReading()">
+        <option value="">全部目标</option>
+        <option value="logic">逻辑思维</option>
+        <option value="express">表达能力</option>
+        <option value="both">两者兼顾</option>
+      </select>
+      <select class="filter" id="filterReadStatus" onchange="renderReading()">
+        <option value="">全部状态</option>
+        <option value="want">想读</option>
+        <option value="reading">在读</option>
+        <option value="done">已读</option>
+      </select>
+      <input class="search" id="searchRead" placeholder="搜索书名/作者…" oninput="renderReading()">
+      <div class="spacer"></div>
+      <button class="btn btn-primary" onclick="openReadingForm()">+ 加入书单</button>
+    </div>
+    <div class="grid" id="readingGrid"></div>
+  </section>
+
+  <!-- ========== AI 技巧库（WorkBuddy / Code / xAI） ========== -->
+  <section class="view" id="view-aitips">
+    <div class="toolbar">
+      <select class="filter" id="filterAIPlatform" onchange="renderAITips()">
+        <option value="">全部平台</option>
+        <option value="bilibili">B 站</option>
+        <option value="toutiao">今日头条</option>
+        <option value="qcloud">腾讯云</option>
+      </select>
+      <input class="search" id="searchAI" placeholder="搜索教程…" oninput="renderAITips()">
+      <div class="spacer"></div>
+      <button class="btn" onclick="openAITipForm()">+ 添加视频</button>
+    </div>
+    <div class="ai-hero">
+      <div class="ai-hero-text">
+        <div class="ai-hero-title">好指令 = 背景 + 角色 + 任务 + 要求</div>
+        <div class="ai-hero-sub">把重复劳动交出去，把判断留给自己。</div>
+      </div>
+      <div class="ai-hero-stat"><span id="aiTotalCount">0</span><span class="ai-hero-stat-sub">技巧条数</span></div>
+    </div>
+    <div class="tips-feed" id="aiTipsFeed"></div>
+  </section>
+
+  <!-- ========== 剪映教程 / 技巧 ========== -->
+  <section class="view" id="view-jytips">
+    <div class="toolbar">
+      <select class="filter" id="filterJYLevel" onchange="renderJYTips()">
+        <option value="">全部阶段</option>
+        <option value="入门">入门</option>
+        <option value="进阶">进阶</option>
+        <option value="高阶">高阶</option>
+      </select>
+      <input class="search" id="searchJY" placeholder="搜索教程…" oninput="renderJYTips()">
+      <div class="spacer"></div>
+      <button class="btn" onclick="openJYTipForm()">+ 添加教程</button>
+    </div>
+    <div class="ai-hero">
+      <div class="ai-hero-text">
+        <div class="ai-hero-title">剪得好 ≠ 特效多，节奏 + 字幕 + 调色 = 完播</div>
+        <div class="ai-hero-sub">从粗剪到导出，把诚悦素材剪出"看得下去"的样子。</div>
+      </div>
+      <div class="ai-hero-stat"><span id="jyTotalCount">0</span><span class="ai-hero-stat-sub">教程条数</span></div>
+    </div>
+    <div class="tips-feed" id="jyTipsFeed"></div>
+  </section>
+
+
+</div>
+
+<div class="mask" id="mask" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-head"><h3 id="modalTitle"></h3><button class="modal-close" onclick="closeModal()">×</button></div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-foot" id="modalFoot"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="mask confirm-mask" id="confirmBox" onclick="if(event.target===this)closeConfirm(false)">
+  <div class="confirm-card">
+    <div class="confirm-msg" id="confirmMsg"></div>
+    <div class="confirm-foot">
+      <button class="btn" data-cancel>取消</button>
+      <button class="btn btn-danger" data-ok>删除</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ==========================================================
+   常量定义
+   ========================================================== */
+const TASK_TYPES = ['项目设计支持','PPT 排版','临时需求','视频拍摄','视频剪辑','活动物料','其他'];
+const PRIOS = [
+  {k:'P0', name:'紧急且重要', tip:'马上做', cls:'pill-p0'},
+  {k:'P1', name:'重要不紧急', tip:'排期做', cls:'pill-p1'},
+  {k:'P2', name:'紧急不重要', tip:'快速处理/转交', cls:'pill-p2'},
+  {k:'P3', name:'不紧急不重要', tip:'有空再说', cls:'pill-p3'}
+];
+const TASK_COLS = [
+  {k:'todo',  name:'待办',   color:'#98a2b3'},
+  {k:'doing', name:'进行中', color:'#1f5fd0'},
+  {k:'review',name:'待确认', color:'#dc6803'},
+  {k:'done',  name:'已完成', color:'#079455'}
+];
+const VIDEO_STAGES = [
+  {k:'idea',     name:'选题确认', color:'#98a2b3'},
+  {k:'script',   name:'脚本撰写', color:'#7a5af8'},
+  {k:'shoot',    name:'拍摄',     color:'#1f5fd0'},
+  {k:'edit',     name:'剪辑',     color:'#0ba5ec'},
+  {k:'review',   name:'审核',     color:'#dc6803'},
+  {k:'published',name:'已发布',   color:'#079455'}
+];
+const PLATFORMS = ['视频号','抖音','小红书','公众号','视频号+抖音'];
+const TOPIC_STATUS = {pending:'待评估', adopted:'已采用', dropped:'已搁置'};
+
+const SEED_TOPIC_COLS = ['楼宇探访','选址干货','政策解读','客户故事','服务日常','园区生活','节点营销','团队 IP','行业观察'];
+
+/* 数据源降级兜底 */
+const SRC_BENCH  = (typeof window.WB_BENCHMARKS  !== 'undefined') ? window.WB_BENCHMARKS : [];
+const SRC_HOT    = (typeof window.WB_HOTSPOTS    !== 'undefined') ? window.WB_HOTSPOTS : {updated:'—', items:[]};
+const SRC_SEEDS  = (typeof window.WB_TOPIC_SEEDS !== 'undefined') ? window.WB_TOPIC_SEEDS : [];
+const SRC_AI     = (typeof window.WB_AI_TIPS     !== 'undefined') ? window.WB_AI_TIPS : {updated:'—', items:[]};
+const SRC_JY     = (typeof window.WB_JY_TIPS     !== 'undefined') ? window.WB_JY_TIPS : {updated:'—', items:[]};
+
+const KEY = 'wb_brand_workbench_v1';
+
+/* ==========================================================
+   状态
+   ========================================================== */
+let state = load();
+let boardView = 'kanban';
+let currentTab = 'board';
+
+function load(){
+  try{
+    const raw = localStorage.getItem(KEY);
+    if(raw){
+      const s = JSON.parse(raw);
+      s.tasks = s.tasks||[]; s.videos = s.videos||[]; s.topics = s.topics||[];
+      s.hotLocal = s.hotLocal||[]; s.hotHidden = s.hotHidden||[];
+      s.bench = (Array.isArray(s.bench)&&s.bench.length) ? s.bench : JSON.parse(JSON.stringify(SRC_BENCH)); // 空库自动从 SRC_BENCH 重新填充
+      s.reading = s.reading||[];
+      s.seen = s.seen||[];
+      return s;
+    }
+  }catch(e){ console.warn('读取本地数据失败', e); }
+  return seedState();
+}
+
+function seedState(){
+  const t = today();
+  return {
+    tasks:[
+      {id:uid(), title:'Q3 招商推介会 PPT 排版', type:'PPT 排版', prio:'P0', owner:'我', due:t, note:'甲方要求今天下班前出初稿，40 页', status:'doing', created:t},
+      {id:uid(), title:'楼宇导视系统改造 · 效果图支持', type:'项目设计支持', prio:'P1', owner:'我', due:addDays(t,5), note:'配合工程部，需要 3 版方案', status:'todo', created:t},
+      {id:uid(), title:'领导临时要的租户答谢会海报', type:'临时需求', prio:'P2', owner:'同事', due:addDays(t,1), note:'', status:'todo', created:t},
+      {id:uid(), title:'8 月视频号内容排期表', type:'其他', prio:'P1', owner:'我', due:addDays(t,2), note:'定 4 条选题 + 拍摄档期', status:'todo', created:t}
+    ],
+    videos:[
+      {id:uid(), title:'3 分钟看完整栋楼：从大堂到工位', stage:'script', platform:'视频号', owner:'我', pubDate:addDays(t,7), ref:'红姐去哪儿', note:'一镜到底，需要协调物业开顶层', created:t},
+      {id:uid(), title:'租写字楼必问的 8 个问题', stage:'idea', platform:'视频号+抖音', owner:'同事', pubDate:addDays(t,12), ref:'商办老毕', note:'清单体，口播为主', created:t}
+    ],
+    topics:[],
+    hotLocal:[], hotHidden:[],
+    bench: JSON.parse(JSON.stringify(SRC_BENCH)),
+    reading: [],
+    seen:[]
+  };
+}
+let storageWarned = false;
+function save(){
+  try{
+    localStorage.setItem(KEY, JSON.stringify(state));
+  }catch(e){
+    // 极少数情况：浏览器禁用了本地存储 / 隐私模式 / 存储已满。
+    // 这里必须吞掉异常，否则会中断后面的界面刷新。
+    console.warn('本地存储写入失败：', e);
+    if(!storageWarned){
+      storageWarned = true;
+      setTimeout(()=>{
+        alert('提示：当前浏览器无法保存数据到本地（可能是隐私模式或存储被禁用）。\n\n你仍然可以正常使用，但关闭页面后改动会丢失。\n建议用右上角「导出备份」把数据存成文件。');
+      }, 300);
+    }
+  }
+}
+
+/* ==========================================================
+   工具
+   ========================================================== */
+function uid(){ return 'x'+Math.random().toString(36).slice(2,9); }
+function today(){ const d=new Date(); return fmt(d); }
+function fmt(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+function addDays(s,n){ const d=new Date(s); d.setDate(d.getDate()+n); return fmt(d); }
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function toast(msg){
+  const el=document.getElementById('toast'); el.textContent=msg; el.classList.add('on');
+  clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('on'),2000);
+}
+function prioOf(k){ return PRIOS.find(p=>p.k===k)||PRIOS[3]; }
+function dueClass(due,status){
+  if(!due||status==='done'||status==='published') return '';
+  if(due<today()) return 'overdue';
+  if(due===today()) return 'today';
+  return '';
+}
+function dueText(due,status){
+  if(!due) return '';
+  const c=dueClass(due,status);
+  if(c==='overdue'){
+    const diff=Math.round((new Date(today())-new Date(due))/86400000);
+    return '逾期 '+diff+' 天';
+  }
+  if(c==='today') return '今天到期';
+  return due.slice(5);
+}
+function weekStart(){
+  const d=new Date(); const day=(d.getDay()+6)%7; d.setDate(d.getDate()-day); return fmt(d);
+}
+function monthStart(){ const d=new Date(); return fmt(new Date(d.getFullYear(),d.getMonth(),1)); }
+
+/* ==========================================================
+   Tab
+   ========================================================== */
+const TABS = [
+  {k:'board',   name:'任务看板'},
+  {k:'video',   name:'视频流水线'},
+  {k:'topics',  name:'选题库'},
+  {k:'hotspots',name:'热点雷达'},
+  {k:'bench',   name:'对标账号'},
+  {k:'reading', name:'阅读计划'},
+  {k:'aitips',  name:'AI 技巧库', icon:'✨'},
+  {k:'jytips',  name:'剪映教程', icon:'✂️'},
+];
+function renderTabs(){
+  const newHot = allHotspots().filter(h=>!state.seen.includes(h.id)).length;
+  document.getElementById('tabs').innerHTML = TABS.map(t=>{
+    const b = (t.k==='hotspots' && newHot>0) ? '<span class="badge">'+newHot+'</span>' : '';
+    return '<button class="tab'+(currentTab===t.k?' on':'')+'" onclick="switchTab(\''+t.k+'\')">'+t.name+b+'</button>';
+  }).join('');
+}
+function switchTab(k){
+  currentTab=k;
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('on'));
+  document.getElementById('view-'+k).classList.add('on');
+  if(k==='hotspots'){
+    allHotspots().forEach(h=>{ if(!state.seen.includes(h.id)) state.seen.push(h.id); });
+    save();
+  }
+  renderTabs();
+  renderMobileSidebar(); renderMobilePageHeader();
+}
+
+/* ==========================================================
+   概览
+   ========================================================== */
+function renderStats(){
+  const t=today();
+  const open = state.tasks.filter(x=>x.status!=='done');
+  const todayCnt = open.filter(x=>x.due===t).length;
+  const overdue  = open.filter(x=>x.due&&x.due<t).length;
+  const doing    = state.tasks.filter(x=>x.status==='doing').length;
+  const p0       = open.filter(x=>x.prio==='P0').length;
+  const inProd   = state.videos.filter(v=>v.stage!=='published').length;
+  const pubMonth = state.videos.filter(v=>v.stage==='published' && (v.pubDate||'') >= monthStart()).length;
+
+  const cards=[
+    {label:'今日到期', num:todayCnt, sub:'条任务', cls:todayCnt>0?'warn':''},
+    {label:'已逾期',   num:overdue,  sub:'需要立刻处理', cls:overdue>0?'alert':''},
+    {label:'P0 待处理',num:p0,       sub:'紧急且重要', cls:p0>0?'alert':''},
+    {label:'进行中',   num:doing,    sub:'条任务', cls:''},
+    {label:'视频在制作',num:inProd,  sub:'条未发布', cls:''},
+    {label:'本月已发布',num:pubMonth,sub:'条视频', cls:pubMonth>0?'good':''}
+  ];
+  document.getElementById('stats').innerHTML = cards.map(c=>
+    '<div class="stat '+c.cls+'"><div class="stat-label">'+c.label+'</div>'+
+    '<div class="stat-num">'+c.num+'</div><div class="stat-sub">'+c.sub+'</div></div>'
+  ).join('');
+}
+
+/* ==========================================================
+   任务看板
+   ========================================================== */
+function initFilters(){
+  const ft=document.getElementById('filterType');
+  TASK_TYPES.forEach(t=>ft.insertAdjacentHTML('beforeend','<option value="'+t+'">'+t+'</option>'));
+  const fp=document.getElementById('filterPrio');
+  PRIOS.forEach(p=>fp.insertAdjacentHTML('beforeend','<option value="'+p.k+'">'+p.k+' · '+p.name+'</option>'));
+  const fpl=document.getElementById('filterPlatform');
+  PLATFORMS.forEach(p=>fpl.insertAdjacentHTML('beforeend','<option value="'+p+'">'+p+'</option>'));
+  refreshTopicColFilter();
+  refreshHotTagFilter();
+}
+function refreshTopicColFilter(){
+  const sel=document.getElementById('filterCol'); const cur=sel.value;
+  const cols=[...new Set([...SEED_TOPIC_COLS, ...state.topics.map(t=>t.col)])].filter(Boolean);
+  sel.innerHTML='<option value="">全部栏目</option>'+cols.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+  sel.value=cur;
+}
+function refreshHotTagFilter(){
+  const sel=document.getElementById('filterHotTag'); const cur=sel.value;
+  const tags=[...new Set(allHotspots().flatMap(h=>h.tags||[]))];
+  sel.innerHTML='<option value="">全部标签</option>'+tags.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+  sel.value=cur;
+}
+
+function filteredTasks(){
+  const ty=document.getElementById('filterType').value;
+  const pr=document.getElementById('filterPrio').value;
+  const q=document.getElementById('searchTask').value.trim().toLowerCase();
+  return state.tasks.filter(t=>{
+    if(ty&&t.type!==ty) return false;
+    if(pr&&t.prio!==pr) return false;
+    if(q&&!((t.title+' '+(t.note||'')+' '+(t.owner||'')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+function sortTasks(arr){
+  const order={P0:0,P1:1,P2:2,P3:3};
+  return arr.slice().sort((a,b)=>{
+    const oa=order[a.prio]??3, ob=order[b.prio]??3;
+    if(oa!==ob) return oa-ob;
+    return (a.due||'9999').localeCompare(b.due||'9999');
+  });
+}
+function taskCard(t){
+  const p=prioOf(t.prio);
+  const dc=dueClass(t.due,t.status);
+  return '<div class="card" draggable="true" data-id="'+t.id+'" data-kind="task">'+
+    '<div class="card-top"><div class="card-title">'+esc(t.title)+'</div>'+
+    '<div class="card-acts">'+
+      '<button class="icon-btn" title="编辑" onclick="event.stopPropagation();openTaskForm(\''+t.id+'\')">✎</button>'+
+      '<button class="icon-btn del" title="删除" onclick="event.stopPropagation();delTask(\''+t.id+'\')">×</button>'+
+    '</div></div>'+
+    '<div class="card-meta">'+
+      '<span class="pill '+p.cls+'">'+t.prio+'</span>'+
+      '<span class="pill pill-type">'+esc(t.type)+'</span>'+
+      (t.owner?'<span class="pill pill-owner">'+esc(t.owner)+'</span>':'')+
+      (t.due?'<span class="pill pill-due '+dc+'">'+dueText(t.due,t.status)+'</span>':'')+
+    '</div>'+
+    (t.note?'<div class="card-note">'+esc(t.note)+'</div>':'')+
+  '</div>';
+}
+function renderBoard(){
+  const list=sortTasks(filteredTasks());
+  if(boardView==='kanban'){
+    document.getElementById('kanban').style.display='';
+    document.getElementById('matrix').style.display='none';
+    document.getElementById('kanban').innerHTML = TASK_COLS.map(c=>{
+      const items=list.filter(t=>t.status===c.k);
+      return '<div class="col" data-drop="status" data-val="'+c.k+'">'+
+        '<div class="col-head"><span class="col-dot" style="background:'+c.color+'"></span>'+
+        '<span class="col-title">'+c.name+'</span><span class="col-count">'+items.length+'</span>'+
+        '<button class="col-add" title="在此列新建" onclick="openTaskForm(null,\''+c.k+'\')">+</button></div>'+
+        (items.length?items.map(taskCard).join(''):'<div class="empty">拖动卡片到这里</div>')+
+      '</div>';
+    }).join('');
+  }else{
+    document.getElementById('kanban').style.display='none';
+    document.getElementById('matrix').style.display='';
+    document.getElementById('matrix').innerHTML = PRIOS.map(p=>{
+      const items=list.filter(t=>t.prio===p.k && t.status!=='done');
+      return '<div class="quad" data-drop="prio" data-val="'+p.k+'">'+
+        '<div class="quad-head"><span class="quad-tag '+p.cls+'">'+p.k+'</span>'+
+        '<span class="quad-name">'+p.name+'</span>'+
+        '<span class="quad-tip">'+p.tip+' · '+items.length+' 条</span></div>'+
+        (items.length?items.map(taskCard).join(''):'<div class="empty">拖任务进来改优先级</div>')+
+      '</div>';
+    }).join('');
+  }
+  bindDrag();
+  renderStats(); renderTabs();
+}
+function switchBoardView(v){
+  boardView=v;
+  document.querySelectorAll('[data-boardview]').forEach(b=>b.classList.toggle('on', b.dataset.boardview===v));
+  renderBoard();
+}
+async function delTask(id){
+  if(!await askConfirm('确定删除这条任务？删除后无法恢复。',{danger:true})) return;
+  state.tasks=state.tasks.filter(t=>t.id!==id); save(); renderBoard(); toast('已删除');
+}
+
+/* ==========================================================
+   视频流水线
+   ========================================================== */
+function filteredVideos(){
+  const pl=document.getElementById('filterPlatform').value;
+  const q=document.getElementById('searchVideo').value.trim().toLowerCase();
+  return state.videos.filter(v=>{
+    if(pl&&v.platform!==pl) return false;
+    if(q&&!((v.title+' '+(v.note||'')+' '+(v.ref||'')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+function videoCard(v){
+  const dc=dueClass(v.pubDate, v.stage==='published'?'done':'');
+  return '<div class="card" draggable="true" data-id="'+v.id+'" data-kind="video">'+
+    '<div class="card-top"><div class="card-title">'+esc(v.title)+'</div>'+
+    '<div class="card-acts">'+
+      '<button class="icon-btn" onclick="event.stopPropagation();openVideoForm(\''+v.id+'\')">✎</button>'+
+      '<button class="icon-btn del" onclick="event.stopPropagation();delVideo(\''+v.id+'\')">×</button>'+
+    '</div></div>'+
+    '<div class="card-meta">'+
+      (v.platform?'<span class="pill pill-type">'+esc(v.platform)+'</span>':'')+
+      (v.owner?'<span class="pill pill-owner">'+esc(v.owner)+'</span>':'')+
+      (v.pubDate?'<span class="pill pill-due '+dc+'">'+(v.stage==='published'?'已发 '+v.pubDate.slice(5):dueText(v.pubDate,''))+'</span>':'')+
+    '</div>'+
+    (v.ref?'<div class="card-note">参考：'+esc(v.ref)+'</div>':'')+
+    (v.note?'<div class="card-note">'+esc(v.note)+'</div>':'')+
+  '</div>';
+}
+function renderVideos(){
+  const list=filteredVideos();
+  document.getElementById('pipeline').innerHTML = VIDEO_STAGES.map(s=>{
+    const items=list.filter(v=>v.stage===s.k);
+    return '<div class="col" data-drop="stage" data-val="'+s.k+'">'+
+      '<div class="col-head"><span class="col-dot" style="background:'+s.color+'"></span>'+
+      '<span class="col-title">'+s.name+'</span><span class="col-count">'+items.length+'</span>'+
+      '<button class="col-add" onclick="openVideoForm(null,\''+s.k+'\')">+</button></div>'+
+      (items.length?items.map(videoCard).join(''):'<div class="empty">—</div>')+
+    '</div>';
+  }).join('');
+  bindDrag(); renderStats();
+}
+async function delVideo(id){
+  if(!await askConfirm('确定删除这条视频任务？删除后无法恢复。',{danger:true})) return;
+  state.videos=state.videos.filter(v=>v.id!==id); save(); renderVideos(); toast('已删除');
+}
+
+/* ==========================================================
+   拖拽
+   ========================================================== */
+let dragItem=null;
+function bindDrag(){
+  document.querySelectorAll('.card[draggable]').forEach(c=>{
+    c.ondragstart=e=>{
+      // 在按钮 / 输入框上按下时，不要发起拖拽，否则点击会被浏览器吃掉（删除、编辑按钮点不动）
+      if(e.target.closest('button, a, input, textarea, select')){ e.preventDefault(); return; }
+      dragItem={id:c.dataset.id,kind:c.dataset.kind}; c.classList.add('dragging'); e.dataTransfer.effectAllowed='move';
+    };
+    c.ondragend=()=>{ c.classList.remove('dragging'); dragItem=null; };
+  });
+  document.querySelectorAll('[data-drop]').forEach(z=>{
+    z.ondragover=e=>{ e.preventDefault(); z.classList.add('drag-over'); };
+    z.ondragleave=()=>z.classList.remove('drag-over');
+    z.ondrop=e=>{
+      e.preventDefault(); z.classList.remove('drag-over');
+      if(!dragItem) return;
+      const field=z.dataset.drop, val=z.dataset.val;
+      if(dragItem.kind==='task'){
+        const t=state.tasks.find(x=>x.id===dragItem.id); if(!t) return;
+        if(field==='status'){ t.status=val; if(val==='done') t.doneAt=today(); else delete t.doneAt; }
+        if(field==='prio') t.prio=val;
+        save(); renderBoard();
+      }else if(dragItem.kind==='video'){
+        const v=state.videos.find(x=>x.id===dragItem.id); if(!v) return;
+        if(field==='stage'){ v.stage=val; if(val==='published'&&!v.pubDate) v.pubDate=today(); }
+        save(); renderVideos();
+      }
+    };
+  });
+}
+
+/* ==========================================================
+   选题库
+   ========================================================== */
+function filteredTopics(){
+  const col=document.getElementById('filterCol').value;
+  const st=document.getElementById('filterTopicStatus').value;
+  const q=document.getElementById('searchTopic').value.trim().toLowerCase();
+  return state.topics.filter(t=>{
+    if(col&&t.col!==col) return false;
+    if(st&&t.status!==st) return false;
+    if(q&&!((t.title+' '+(t.note||'')+' '+(t.source||'')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+function stars(n){ return '★'.repeat(n)+'☆'.repeat(5-n); }
+function renderTopics(){
+  const list=filteredTopics().slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  const box=document.getElementById('topicGrid');
+  if(!list.length){
+    box.innerHTML='<div class="empty" style="grid-column:1/-1"><div class="empty-icon">◇</div>'+
+      '<p>选题库还是空的。点右上角「灵感抽签」抽一条，或者去热点雷达把热点转成选题。</p></div>';
+    return;
+  }
+  box.innerHTML=list.map(t=>
+    '<div class="tile">'+
+      '<div class="tile-head"><div class="tile-title">'+esc(t.title)+'</div></div>'+
+      '<div class="tile-sub">'+
+        '<span class="pill pill-type">'+esc(t.col||'未分类')+'</span> '+
+        '<span class="pill '+(t.status==='adopted'?'pill-p2':t.status==='dropped'?'pill-p3':'pill-p1')+'">'+TOPIC_STATUS[t.status]+'</span> '+
+        '<span class="heat">'+stars(t.score||3)+'</span>'+
+      '</div>'+
+      (t.source?'<div class="tile-body">来源：'+esc(t.source)+'</div>':'')+
+      (t.note?'<div class="tile-body" style="margin-top:6px">'+esc(t.note)+'</div>':'')+
+      '<div class="tile-foot">'+
+        '<div class="tile-acts">'+
+          '<button class="btn btn-sm btn-primary" onclick="topicToVideo(\''+t.id+'\')">转视频任务</button>'+
+          '<button class="btn btn-sm" onclick="openTopicForm(\''+t.id+'\')">编辑</button>'+
+          '<button class="btn btn-sm btn-danger" onclick="delTopic(\''+t.id+'\')">删除</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'
+  ).join('');
+}
+async function delTopic(id){
+  if(!await askConfirm('确定删除这条选题？删除后无法恢复。',{danger:true})) return;
+  state.topics=state.topics.filter(t=>t.id!==id); save(); renderTopics(); toast('已删除');
+}
+function topicToVideo(id){
+  const t=state.topics.find(x=>x.id===id); if(!t) return;
+  state.videos.push({id:uid(), title:t.title, stage:'idea', platform:'视频号', owner:'', pubDate:addDays(today(),10), ref:t.source||'', note:t.note||'', created:today()});
+  t.status='adopted'; save(); renderTopics(); renderVideos();
+  toast('已加入视频流水线（选题确认阶段）');
+}
+function drawInspiration(){
+  if(!SRC_SEEDS.length){ toast('灵感池数据未加载'); return; }
+  const s=SRC_SEEDS[Math.floor(Math.random()*SRC_SEEDS.length)];
+  openModal('灵感抽签',
+    '<div style="text-align:center;padding:8px 0 4px">'+
+      '<div class="pill pill-type" style="display:inline-block;margin-bottom:12px">'+esc(s.col)+'</div>'+
+      '<div style="font-size:19px;font-weight:650;line-height:1.5;margin-bottom:12px">'+esc(s.title)+'</div>'+
+      '<div style="font-size:13px;color:var(--text-2);background:var(--panel-2);padding:11px 14px;border-radius:9px;text-align:left">'+esc(s.note)+'</div>'+
+    '</div>',
+    [
+      {label:'再抽一条', cls:'btn', fn:()=>{closeModal(); drawInspiration();}},
+      {label:'存入选题库', cls:'btn btn-primary', fn:()=>{
+        state.topics.push({id:uid(), title:s.title, col:s.col, source:'灵感池', score:3, status:'pending', note:s.note, created:today()});
+        save(); refreshTopicColFilter(); renderTopics(); closeModal(); toast('已存入选题库');
+      }}
+    ]
+  );
+}
+
+/* ==========================================================
+   热点雷达
+   ========================================================== */
+function allHotspots(){
+  const base=(SRC_HOT.items||[]).filter(h=>!state.hotHidden.includes(h.id));
+  return [...state.hotLocal, ...base];
+}
+function renderHotspots(){
+  const upd=SRC_HOT.updated||'—';
+  const n=(SRC_HOT.items||[]).length;
+  const auto=SRC_HOT.fetchedBy==='daily-auto';
+  const el=document.getElementById('hotUpdated');
+  el.className='date-chip '+(auto?'ok':'warn');
+  el.textContent=(auto?'✓ 自动抓取 · ':'示例数据 · ')+'更新 '+upd+' · 共 '+n+' 条';
+  const tag=document.getElementById('filterHotTag').value;
+  const q=document.getElementById('searchHot').value.trim().toLowerCase();
+  const list=allHotspots().filter(h=>{
+    if(tag&&!(h.tags||[]).includes(tag)) return false;
+    if(q&&!((h.title+' '+(h.summary||'')+' '+(h.angle||'')).toLowerCase().includes(q))) return false;
+    return true;
+  }).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+
+  const box=document.getElementById('hotGrid');
+  if(!list.length){ box.innerHTML='<div class="empty" style="grid-column:1/-1"><div class="empty-icon">◎</div><p>暂无热点。每日自动任务会把新热点写进来。</p></div>'; return; }
+
+  box.innerHTML=list.map(h=>
+    '<div class="tile">'+
+      '<div class="tile-head"><div class="tile-title">'+esc(h.title)+'</div>'+
+        '<span class="heat" title="热度">'+'●'.repeat(h.heat||3)+'</span></div>'+
+      '<div class="tile-sub">'+esc(h.source||'')+' · '+esc(h.date||'')+
+        ' '+(h.tags||[]).map(t=>'<span class="pill pill-type">'+esc(t)+'</span>').join(' ')+'</div>'+
+      (h.summary?'<div class="tile-body">'+esc(h.summary)+'</div>':'')+
+      (h.angle?'<div class="tile-angle">'+esc(h.angle)+'</div>':'')+
+      '<div class="tile-foot">'+
+        (h.url?'<a class="btn btn-sm" href="'+esc(h.url)+'" target="_blank" style="text-decoration:none">原文</a>':'')+
+        '<div class="tile-acts">'+
+          '<button class="btn btn-sm btn-primary" onclick="hotToTopic(\''+h.id+'\')">存为选题</button>'+
+          '<button class="btn btn-sm btn-danger" onclick="hideHot(\''+h.id+'\')">忽略</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'
+  ).join('');
+}
+function hotToTopic(id){
+  const h=allHotspots().find(x=>x.id===id); if(!h) return;
+  state.topics.push({id:uid(), title:h.title, col:'行业观察', source:h.source||'热点雷达', score:h.heat||3, status:'pending', note:(h.angle||h.summary||''), created:today()});
+  save(); refreshTopicColFilter(); renderTopics(); toast('已存入选题库');
+}
+function hideHot(id){
+  if(state.hotLocal.some(h=>h.id===id)) state.hotLocal=state.hotLocal.filter(h=>h.id!==id);
+  else state.hotHidden.push(id);
+  save(); renderHotspots(); renderTabs(); toast('已忽略');
+}
+
+/* ==========================================================
+   对标账号
+   ========================================================== */
+function renderBench(){
+  const q=document.getElementById('searchBench').value.trim().toLowerCase();
+  const list=state.bench.filter(b=>!q || (b.name+' '+(b.positioning||'')+' '+(b.learn||'')+' '+(b.recent||'')+' '+(b.tag||'')).toLowerCase().includes(q));
+  const box=document.getElementById('benchGrid');
+  if(!list.length){ box.innerHTML='<div class="empty" style="grid-column:1/-1"><div class="empty-icon">◈</div><p>没有匹配的账号</p></div>'; return; }
+  box.innerHTML=list.map(b=>
+    '<div class="tile">'+
+      '<div class="tile-head"><div class="tile-title">'+esc(b.name)+'</div></div>'+
+      '<div class="tile-sub">'+
+        '<span class="pill pill-owner">'+esc(b.platform||'')+'</span> '+
+        (b.tag?'<span class="pill pill-type">'+esc(b.tag)+'</span> ':'')+
+        (b.freq?'<span class="pill pill-type">'+esc(b.freq)+'</span>':'')+
+      '</div>'+
+      (b.org?'<div class="tile-body"><b>运营方</b>：'+esc(b.org)+'</div>':'')+
+      (b.positioning?'<div class="tile-body" style="margin-top:5px"><b>定位</b>：'+esc(b.positioning)+'</div>':'')+
+      (b.format?'<div class="tile-body" style="margin-top:5px"><b>形式</b>：'+esc(b.format)+'</div>':'')+
+      (b.recent?'<div class="tile-recent"><b>最近宣传动态</b>：'+esc(b.recent)+'</div>':'')+
+      (b.learn?'<div class="tile-learn"><b>我们可以复用的</b>：'+esc(b.learn)+'</div>':'')+
+      (b.risk?'<div class="tile-body" style="margin-top:8px;color:var(--text-3)"><b>注意</b>：'+esc(b.risk)+'</div>':'')+
+      '<div class="tile-foot">'+
+        (b.url?'<a class="btn btn-sm" href="'+esc(b.url)+'" target="_blank" style="text-decoration:none">主页</a>':'')+
+        '<div class="tile-acts">'+
+          '<button class="btn btn-sm" onclick="openBenchForm(\''+b.id+'\')">编辑</button>'+
+          '<button class="btn btn-sm btn-danger" onclick="delBench(\''+b.id+'\')">删除</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'
+  ).join('');
+}
+async function delBench(id){
+  if(!await askConfirm('确定删除这个对标账号？删除后无法恢复。',{danger:true})) return;
+  state.bench=state.bench.filter(b=>b.id!==id); save(); renderBench(); toast('已删除');
+}
+async function resetBench(){
+  if(!await askConfirm('将对标库恢复为初始数据？\n你自己新增和修改的内容会丢失。',{okText:'重置',danger:true})) return;
+  state.bench=JSON.parse(JSON.stringify(SRC_BENCH)); save(); renderBench(); toast('已重置');
+}
+
+/* ==========================================================
+   弹窗 & 表单
+   ========================================================== */
+function openModal(title, bodyHtml, buttons){
+  document.getElementById('modalTitle').textContent=title;
+  document.getElementById('modalBody').innerHTML=bodyHtml;
+  const foot=document.getElementById('modalFoot'); foot.innerHTML='';
+  (buttons||[]).forEach(b=>{
+    const el=document.createElement('button');
+    el.className=b.cls||'btn'; el.textContent=b.label; el.onclick=b.fn;
+    foot.appendChild(el);
+  });
+  document.getElementById('mask').classList.add('on');
+}
+function closeModal(){ document.getElementById('mask').classList.remove('on'); }
+function fVal(n){ const el=document.getElementById('f_'+n); return el?el.value.trim():''; }
+
+/* 自绘确认框：不依赖浏览器原生 confirm（部分内嵌预览环境会禁用原生弹窗）。
+   用法： if(await askConfirm('提示',{danger:true,okText:'删除'})) {...}  */
+function askConfirm(msg, opts){
+  opts = opts || {};
+  return new Promise(res=>{
+    const box=document.getElementById('confirmBox');
+    document.getElementById('confirmMsg').textContent=msg;
+    const okBtn=box.querySelector('[data-ok]');
+    okBtn.textContent=opts.okText||'确定';
+    okBtn.className='btn '+(opts.danger?'btn-danger':'btn-primary');
+    box.classList.add('on');
+    const done=v=>{
+      box.classList.remove('on');
+      okBtn.onclick=null; cancelBtn.onclick=null;
+      document.removeEventListener('keydown', onKey);
+      res(v);
+    };
+    const cancelBtn=box.querySelector('[data-cancel]');
+    okBtn.onclick=()=>done(true);
+    cancelBtn.onclick=()=>done(false);
+    const onKey=e=>{ if(e.key==='Escape') done(false); };
+    document.addEventListener('keydown', onKey);
+  });
+}
+function closeConfirm(v){ const box=document.getElementById('confirmBox'); if(box.classList.contains('on')){ box.classList.remove('on'); document.getElementById('confirmBox').querySelector('[data-ok]').onclick=null; document.getElementById('confirmBox').querySelector('[data-cancel]').onclick=null; } }
+
+function openTaskForm(id, presetStatus){
+  const t = id ? state.tasks.find(x=>x.id===id) : null;
+  const body =
+    '<div class="field"><label>任务标题 *</label><input id="f_title" value="'+esc(t?t.title:'')+'" placeholder="例：Q3 招商推介会 PPT 排版"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>任务类型</label><select id="f_type">'+
+        TASK_TYPES.map(x=>'<option '+((t&&t.type===x)?'selected':'')+'>'+x+'</option>').join('')+'</select></div>'+
+      '<div class="field"><label>优先级</label><select id="f_prio">'+
+        PRIOS.map(p=>'<option value="'+p.k+'" '+((t&&t.prio===p.k)?'selected':'')+'>'+p.k+' · '+p.name+'（'+p.tip+'）</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>负责人</label><input id="f_owner" value="'+esc(t?t.owner:'')+'" placeholder="我 / 同事名"></div>'+
+      '<div class="field"><label>截止日期</label><input type="date" id="f_due" value="'+esc(t?t.due:today())+'"></div>'+
+    '</div>'+
+    '<div class="field"><label>所在阶段</label><select id="f_status">'+
+      TASK_COLS.map(c=>'<option value="'+c.k+'" '+((t?t.status===c.k:presetStatus===c.k)?'selected':'')+'>'+c.name+'</option>').join('')+'</select></div>'+
+    '<div class="field"><label>备注</label><textarea id="f_note" placeholder="需求要点、对接人、交付形式…">'+esc(t?t.note:'')+'</textarea></div>';
+  const btns=[];
+  if(t){
+    btns.push({label:'删除', cls:'btn btn-danger', fn:async ()=>{
+      if(await askConfirm('确定删除这条任务？删除后无法恢复。',{danger:true})){
+        state.tasks=state.tasks.filter(x=>x.id!==t.id); save(); renderBoard(); closeModal(); toast('已删除');
+      }
+    }});
+  }
+  btns.push({label:'取消', cls:'btn', fn:closeModal});
+  btns.push({label:'保存', cls:'btn btn-primary', fn:()=>{
+      const title=fVal('title'); if(!title){ toast('请填写任务标题'); return; }
+      const data={title, type:fVal('type'), prio:fVal('prio'), owner:fVal('owner'), due:fVal('due'), status:fVal('status'), note:fVal('note')};
+      if(t){ Object.assign(t,data); if(t.status==='done'&&!t.doneAt) t.doneAt=today(); }
+      else { data.id=uid(); data.created=today(); if(data.status==='done') data.doneAt=today(); state.tasks.push(data); }
+      save(); renderBoard(); closeModal(); toast(t?'已更新':'已创建');
+    }});
+  openModal(t?'编辑任务':'新建任务', body, btns);
+  setTimeout(()=>{ const el=document.getElementById('f_title'); if(el) el.focus(); },50);
+}
+
+function openVideoForm(id, presetStage){
+  const v = id ? state.videos.find(x=>x.id===id) : null;
+  const body =
+    '<div class="field"><label>视频标题 *</label><input id="f_title" value="'+esc(v?v.title:'')+'" placeholder="例：3 分钟看完整栋楼"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>发布平台</label><select id="f_platform">'+
+        PLATFORMS.map(x=>'<option '+((v&&v.platform===x)?'selected':'')+'>'+x+'</option>').join('')+'</select></div>'+
+      '<div class="field"><label>制作阶段</label><select id="f_stage">'+
+        VIDEO_STAGES.map(s=>'<option value="'+s.k+'" '+((v?v.stage===s.k:presetStage===s.k)?'selected':'')+'>'+s.name+'</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>负责人</label><input id="f_owner" value="'+esc(v?v.owner:'')+'"></div>'+
+      '<div class="field"><label>计划发布日</label><input type="date" id="f_pubDate" value="'+esc(v?v.pubDate:addDays(today(),7))+'"></div>'+
+    '</div>'+
+    '<div class="field"><label>对标参考</label><input id="f_ref" value="'+esc(v?v.ref:'')+'" placeholder="参考哪个对标账号 / 哪条爆款"></div>'+
+    '<div class="field"><label>备注</label><textarea id="f_note" placeholder="脚本要点、拍摄需求、协调事项…">'+esc(v?v.note:'')+'</textarea></div>';
+  const vbtns=[];
+  if(v){
+    vbtns.push({label:'删除', cls:'btn btn-danger', fn:async ()=>{
+      if(await askConfirm('确定删除这条视频任务？删除后无法恢复。',{danger:true})){
+        state.videos=state.videos.filter(x=>x.id!==v.id); save(); renderVideos(); closeModal(); toast('已删除');
+      }
+    }});
+  }
+  vbtns.push({label:'取消', cls:'btn', fn:closeModal});
+  vbtns.push({label:'保存', cls:'btn btn-primary', fn:()=>{
+      const title=fVal('title'); if(!title){ toast('请填写视频标题'); return; }
+      const data={title, platform:fVal('platform'), stage:fVal('stage'), owner:fVal('owner'), pubDate:fVal('pubDate'), ref:fVal('ref'), note:fVal('note')};
+      if(v) Object.assign(v,data); else { data.id=uid(); data.created=today(); state.videos.push(data); }
+      save(); renderVideos(); closeModal(); toast(v?'已更新':'已创建');
+    }});
+  openModal(v?'编辑视频':'新建视频', body, vbtns);
+}
+
+function openTopicForm(id){
+  const t = id ? state.topics.find(x=>x.id===id) : null;
+  const cols=[...new Set([...SEED_TOPIC_COLS, ...state.topics.map(x=>x.col)])].filter(Boolean);
+  const body =
+    '<div class="field"><label>选题标题 *</label><input id="f_title" value="'+esc(t?t.title:'')+'"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>栏目</label><select id="f_col">'+
+        cols.map(c=>'<option '+((t&&t.col===c)?'selected':'')+'>'+esc(c)+'</option>').join('')+'</select></div>'+
+      '<div class="field"><label>潜力评分</label><select id="f_score">'+
+        [5,4,3,2,1].map(n=>'<option value="'+n+'" '+((t&&t.score===n)?'selected':(!t&&n===3?'selected':''))+'>'+stars(n)+'</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>灵感来源</label><input id="f_source" value="'+esc(t?t.source:'')+'" placeholder="热点 / 对标账号 / 客户反馈"></div>'+
+      '<div class="field"><label>状态</label><select id="f_status">'+
+        Object.entries(TOPIC_STATUS).map(([k,v])=>'<option value="'+k+'" '+((t&&t.status===k)?'selected':'')+'>'+v+'</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field"><label>内容思路</label><textarea id="f_note" placeholder="怎么拍、钩子在哪、落点是什么">'+esc(t?t.note:'')+'</textarea></div>';
+  const tbtns=[];
+  if(t){
+    tbtns.push({label:'删除', cls:'btn btn-danger', fn:async ()=>{
+      if(await askConfirm('确定删除这条选题？删除后无法恢复。',{danger:true})){
+        state.topics=state.topics.filter(x=>x.id!==t.id); save(); refreshTopicColFilter(); renderTopics(); closeModal(); toast('已删除');
+      }
+    }});
+  }
+  tbtns.push({label:'取消', cls:'btn', fn:closeModal});
+  tbtns.push({label:'保存', cls:'btn btn-primary', fn:()=>{
+      const title=fVal('title'); if(!title){ toast('请填写选题标题'); return; }
+      const data={title, col:fVal('col'), score:parseInt(fVal('score'))||3, source:fVal('source'), status:fVal('status'), note:fVal('note')};
+      if(t) Object.assign(t,data); else { data.id=uid(); data.created=today(); state.topics.push(data); }
+      save(); refreshTopicColFilter(); renderTopics(); closeModal(); toast(t?'已更新':'已创建');
+    }});
+  openModal(t?'编辑选题':'新建选题', body, tbtns);
+}
+
+function openHotspotForm(){
+  const body =
+    '<div class="field"><label>热点标题 *</label><input id="f_title" placeholder="例：某某新政发布，影响写字楼租赁"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>来源</label><input id="f_source" placeholder="媒体 / 机构名"></div>'+
+      '<div class="field"><label>日期</label><input type="date" id="f_date" value="'+today()+'"></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>标签（逗号分隔）</label><input id="f_tags" placeholder="政策解读,市场数据"></div>'+
+      '<div class="field"><label>热度</label><select id="f_heat">'+
+        [5,4,3,2,1].map(n=>'<option value="'+n+'" '+(n===3?'selected':'')+'>'+'●'.repeat(n)+'</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field"><label>摘要</label><textarea id="f_summary"></textarea></div>'+
+    '<div class="field"><label>可用角度</label><textarea id="f_angle" placeholder="这条热点我们能怎么用"></textarea></div>'+
+    '<div class="field"><label>原文链接</label><input id="f_url" placeholder="https://"></div>';
+  openModal('手动补充热点', body, [
+    {label:'取消', cls:'btn', fn:closeModal},
+    {label:'保存', cls:'btn btn-primary', fn:()=>{
+      const title=fVal('title'); if(!title){ toast('请填写热点标题'); return; }
+      state.hotLocal.unshift({
+        id:uid(), title, source:fVal('source'), date:fVal('date'),
+        tags:fVal('tags').split(/[,，]/).map(s=>s.trim()).filter(Boolean),
+        heat:parseInt(fVal('heat'))||3, summary:fVal('summary'), angle:fVal('angle'), url:fVal('url')
+      });
+      save(); refreshHotTagFilter(); renderHotspots(); closeModal(); toast('已添加');
+    }}
+  ]);
+}
+
+function openBenchForm(id){
+  const b = id ? state.bench.find(x=>x.id===id) : null;
+  const body =
+    '<div class="field"><label>账号名称 *</label><input id="f_name" value="'+esc(b?b.name:'')+'"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>平台</label><input id="f_platform" value="'+esc(b?b.platform:'视频号')+'"></div>'+
+      '<div class="field"><label>标签</label><input id="f_tag" value="'+esc(b?b.tag:'')+'" placeholder="楼宇探访 / 专家解读"></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>运营方</label><input id="f_org" value="'+esc(b?b.org:'')+'"></div>'+
+      '<div class="field"><label>更新频率</label><input id="f_freq" value="'+esc(b?b.freq:'')+'" placeholder="日更 / 周更"></div>'+
+    '</div>'+
+    '<div class="field"><label>账号定位</label><textarea id="f_positioning">'+esc(b?b.positioning:'')+'</textarea></div>'+
+    '<div class="field"><label>内容形式</label><textarea id="f_format">'+esc(b?b.format:'')+'</textarea></div>'+
+    '<div class="field"><label>最近宣传动态</label><textarea id="f_recent" placeholder="近期发布了什么、跑了什么活动">'+esc(b?b.recent:'')+'</textarea></div>'+
+    '<div class="field"><label>可借鉴点（我们可以复用的）</label><textarea id="f_learn" placeholder="我们能直接抄什么">'+esc(b?b.learn:'')+'</textarea></div>'+
+    '<div class="field"><label>注意事项</label><input id="f_risk" value="'+esc(b?b.risk:'')+'"></div>'+
+    '<div class="field"><label>主页链接</label><input id="f_url" value="'+esc(b?b.url:'')+'" placeholder="https://"></div>'
+  const bbtns=[];
+  if(b){
+    bbtns.push({label:'删除', cls:'btn btn-danger', fn:async ()=>{
+      if(await askConfirm('确定删除这个对标账号？删除后无法恢复。',{danger:true})){
+        state.bench=state.bench.filter(x=>x.id!==b.id); save(); renderBench(); closeModal(); toast('已删除');
+      }
+    }});
+  }
+  bbtns.push({label:'取消', cls:'btn', fn:closeModal});
+  bbtns.push({label:'保存', cls:'btn btn-primary', fn:()=>{
+      const name=fVal('name'); if(!name){ toast('请填写账号名称'); return; }
+      const data={name, platform:fVal('platform'), tag:fVal('tag'), org:fVal('org'), freq:fVal('freq'),
+        positioning:fVal('positioning'), format:fVal('format'), recent:fVal('recent'), learn:fVal('learn'), risk:fVal('risk'), url:fVal('url')};
+      if(b) Object.assign(b,data); else { data.id=uid(); state.bench.push(data); }
+      save(); renderBench(); closeModal(); toast(b?'已更新':'已添加');
+    }});
+  openModal(b?'编辑对标账号':'新增对标账号', body, bbtns);
+}
+
+/* ==========================================================
+   阅读计划
+   ========================================================== */
+const READING_GOAL = { logic:'逻辑思维', express:'表达能力', both:'两者兼顾' };
+const READING_STATUS = { want:'想读', reading:'在读', done:'已读' };
+const READING_LIB = (typeof window.WB_READING_LIB !== 'undefined') ? window.WB_READING_LIB : [];
+const READING_TODAY = (typeof window.WB_READING_TODAY !== 'undefined') ? window.WB_READING_TODAY : null;
+let _todayAvoid = [];
+
+/* 微信阅读跳转：有精确链接用精确链接，否则按书名自动生成搜索链接 */
+function wereadLink(obj){
+  if(obj && obj.weread) return obj.weread;
+  const kw = (obj && obj.title) ? obj.title : '';
+  return 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent(kw);
+}
+
+function filteredReading(){
+  const col=document.getElementById('filterReadGoal').value;
+  const st=document.getElementById('filterReadStatus').value;
+  const q=document.getElementById('searchRead').value.trim().toLowerCase();
+  return state.reading.filter(r=>{
+    if(col && r.goal!==col) return false;
+    if(st && r.status!==st) return false;
+    if(q && !((r.title+' '+(r.author||'')+' '+(r.note||'')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+function renderReading(){
+  const list=filteredReading();
+  const box=document.getElementById('readingGrid');
+  if(!list.length){
+    box.innerHTML='<div class="empty" style="grid-column:1/-1"><div class="empty-icon">📚</div><p>阅读计划还是空的。点右上角「加入书单」添加想读的书，或看顶部「今日推荐」直接加入。</p></div>';
+    return;
+  }
+  box.innerHTML=list.map(r=>
+    '<div class="tile">'+
+      '<div class="tile-head"><div class="tile-title">'+esc(r.title)+'</div></div>'+
+      '<div class="tile-sub">'+
+        '<span class="pill pill-owner">'+esc(r.author||'佚名')+'</span> '+
+        '<span class="pill pill-type">'+(READING_GOAL[r.goal]||'未分类')+'</span> '+
+        '<span class="pill '+(r.status==='done'?'pill-p2':r.status==='reading'?'pill-p1':'pill-p3')+'">'+READING_STATUS[r.status]+'</span>'+
+      '</div>'+
+      (r.note?'<div class="tile-body" style="margin-top:6px">'+esc(r.note)+'</div>':'')+
+      '<div class="tile-foot">'+
+        '<a class="btn btn-sm" href="'+esc(wereadLink(r))+'" target="_blank" rel="noopener" style="text-decoration:none" title="在微信读书中查看这本书">微信阅读</a>'+
+        '<div class="tile-acts">'+
+          '<button class="btn btn-sm" onclick="openReadingForm(\''+r.id+'\')">编辑</button>'+
+          '<button class="btn btn-sm btn-danger" onclick="delReading(\''+r.id+'\')">删除</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'
+  ).join('');
+}
+async function delReading(id){
+  if(!await askConfirm('确定删除这本书？删除后无法恢复。',{danger:true})) return;
+  state.reading=state.reading.filter(r=>r.id!==id); save(); renderReading(); toast('已删除');
+}
+function openReadingForm(id){
+  const r = id ? state.reading.find(x=>x.id===id) : null;
+  const body =
+    '<div class="field"><label>书名 *</label><input id="f_rtitle" value="'+esc(r?r.title:'')+'"></div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>作者</label><input id="f_rauthor" value="'+esc(r?r.author:'')+'" placeholder="作者"></div>'+
+      '<div class="field"><label>锻炼目标</label><select id="f_rgoal">'+
+        Object.entries(READING_GOAL).map(([k,v])=>'<option value="'+k+'" '+((r&&r.goal===k)?'selected':'')+'>'+v+'</option>').join('')+'</select></div>'+
+    '</div>'+
+    '<div class="field-row">'+
+      '<div class="field"><label>状态</label><select id="f_rstatus">'+
+        Object.entries(READING_STATUS).map(([k,v])=>'<option value="'+k+'" '+((r&&r.status===k)?'selected':(!r&&k==='want'?'selected':''))+'>'+v+'</option>').join('')+'</select></div>'+
+      '<div class="field"><label>开始日期</label><input type="date" id="f_rstart" value="'+esc(r?r.startDate:today())+'"></div>'+
+    '</div>'+
+    '<div class="field"><label>微信阅读链接</label><input id="f_rweread" value="'+esc(r?r.weread:'')+'" placeholder="https://weread.qq.com/...（可留空，自动按书名跳转搜索）"></div>'+
+    '<div class="field"><label>读书笔记 / 收获</label><textarea id="f_rnote" placeholder="读完后记一下对你逻辑或表达能力的提升">'+esc(r?r.note:'')+'</textarea></div>';
+  const rbtns=[];
+  if(r){
+    rbtns.push({label:'删除', cls:'btn btn-danger', fn:async ()=>{
+      if(await askConfirm('确定删除这本书？删除后无法恢复。',{danger:true})){
+        state.reading=state.reading.filter(x=>x.id!==r.id); save(); renderReading(); closeModal(); toast('已删除');
+      }
+    }});
+  }
+  rbtns.push({label:'取消', cls:'btn', fn:closeModal});
+  rbtns.push({label:'保存', cls:'btn btn-primary', fn:()=>{
+    const title=fVal('rtitle'); if(!title){ toast('请填写书名'); return; }
+    const data={title, author:fVal('rauthor'), goal:fVal('rgoal'), status:fVal('rstatus'), startDate:fVal('rstart'), weread:fVal('rweread'), note:fVal('rnote')};
+    if(r) Object.assign(r,data); else { data.id=uid(); data.created=today(); state.reading.push(data); }
+    save(); renderReading(); closeModal(); toast(r?'已更新':'已加入书单');
+  }});
+  openModal(r?'编辑书籍':'加入书单', body, rbtns);
+}
+function renderTodayRec(){
+  const box=document.getElementById('todayRec');
+  const t=READING_TODAY;
+  if(!t || !t.book){ box.innerHTML='<div class="rec-empty">今日推荐暂未生成（每天上午自动更新）。点「换一本」先从书库挑一本。</div>'; return; }
+  const b=t.book; const isAuto=t.fetchedBy==='daily-auto'; const goalTxt=READING_GOAL[b.goal]||'';
+  box.innerHTML=
+    '<div class="rec-head"><span class="rec-flag">今日推荐</span><span class="rec-date">'+(isAuto?('更新于 '+t.date):('示例 · '+t.date))+'</span></div>'+
+    '<div class="rec-body">'+
+      '<div class="rec-title">《'+esc(b.title)+'》</div>'+
+      '<div class="rec-author">'+esc(b.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span></div>'+
+      '<div class="rec-why"><b>为什么推荐</b>：'+esc(b.why||'')+'</div>'+
+      (b.tip?'<div class="rec-tip"><b>阅读建议</b>：'+esc(b.tip||'')+'</div>':'')+
+    '</div>'+
+    '<div class="rec-acts">'+
+      '<a class="btn btn-sm" href="'+esc(wereadLink(b))+'" target="_blank" rel="noopener" style="text-decoration:none" title="在微信读书中查看这本书">微信阅读</a>'+
+      '<button class="btn btn-sm btn-primary" onclick="addTodayToPlan()">加入我的书单</button>'+
+      '<button class="btn btn-sm" onclick="changeTodayBook()">换一本</button>'+
+    '</div>';
+}
+function pickLibBook(avoid){
+  if(!READING_LIB.length) return null;
+  const pool=READING_LIB.filter(x=>!avoid.includes(x.id));
+  const src=pool.length?pool:READING_LIB;
+  return src[Math.floor(Math.random()*src.length)];
+}
+function addTodayToPlan(){
+  const t=READING_TODAY; if(!t||!t.book){ toast('暂无可加入的推荐'); return; }
+  const b=t.book;
+  if(state.reading.some(x=>x.title===b.title)){ toast('这本书已在书单里'); return; }
+  state.reading.push({id:uid(), title:b.title, author:b.author, goal:b.goal, weread:b.weread, status:'want', startDate:today(), note:'', created:today()});
+  save(); renderReading(); toast('已加入书单（想读）');
+}
+function changeTodayBook(){
+  const picked=pickLibBook(_todayAvoid); if(!picked){ toast('书库为空'); return; }
+  _todayAvoid.push(picked.id);
+  const box=document.getElementById('todayRec'); const goalTxt=READING_GOAL[picked.goal]||'';
+  box.innerHTML=
+    '<div class="rec-head"><span class="rec-flag">为你推荐</span><span class="rec-date">手动挑选</span></div>'+
+    '<div class="rec-body">'+
+      '<div class="rec-title">《'+esc(picked.title)+'》</div>'+
+      '<div class="rec-author">'+esc(picked.author||'')+' · <span class="pill pill-type">'+goalTxt+'</span></div>'+
+      '<div class="rec-why"><b>为什么推荐</b>：'+esc(picked.why||'')+'</div>'+
+      (picked.tip?'<div class="rec-tip"><b>阅读建议</b>：'+esc(picked.tip||'')+'</div>':'')+
+    '</div>'+
+    '<div class="rec-acts">'+
+      '<a class="btn btn-sm" href="'+esc(wereadLink(picked))+'" target="_blank" rel="noopener" style="text-decoration:none" title="在微信读书中查看这本书">微信阅读</a>'+
+      '<button class="btn btn-sm btn-primary" onclick="addPickedToPlan(\''+picked.id+'\')">加入我的书单</button>'+
+      '<button class="btn btn-sm" onclick="changeTodayBook()">换一本</button>'+
+    '</div>';
+}
+function addPickedToPlan(libId){
+  const b=READING_LIB.find(x=>x.id===libId); if(!b){ toast('未找到'); return; }
+  if(state.reading.some(x=>x.title===b.title)){ toast('这本书已在书单里'); return; }
+  state.reading.push({id:uid(), title:b.title, author:b.author, goal:b.goal, weread:b.weread, status:'want', startDate:today(), note:'', created:today()});
+  save(); renderReading(); toast('已加入书单（想读）');
+}
+
+
+/* ==========================================================
+   导入导出
+   ========================================================== */
+function exportData(){
+  const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='新媒体工作台备份_'+today()+'.json';
+  a.click(); URL.revokeObjectURL(a.href);
+  toast('已导出备份文件');
+}
+function importData(e){
+  const f=e.target.files[0]; if(!f) return;
+  const r=new FileReader();
+  r.onload=async ()=>{
+    try{
+      const s=JSON.parse(r.result);
+      if(!s.tasks) throw new Error('格式不对');
+      if(!await askConfirm('导入会覆盖当前所有数据，确定继续？',{okText:'覆盖导入',danger:true})) return;
+      state=s; save(); renderAll(); toast('导入成功');
+    }catch(err){ alert('导入失败：'+err.message); }
+  };
+  r.readAsText(f); e.target.value='';
+}
+
+/* ==========================================================
+   移动端侧栏 + 页头
+   ========================================================== */
+const M_ICONS = {
+  board:'📋', video:'🎬', topics:'💡', hotspots:'📡', bench:'🏢', reading:'📚', aitips:'✨', jytips:'✂️'
+};
+const M_DESCS = {
+  board:'看本周要拍什么、谁在赶什么。',
+  video:'视频从选题到发布，进度卡哪儿看哪儿。',
+  topics:'选题的入口、出口、分级评估。',
+  hotspots:'每天自动抓一轮值得借势的行业热点。',
+  bench:'7 家头部物企近期宣传动作 + 诚悦可借鉴点。',
+  reading:'部门共读书单 + 每日一篇短文。',
+  aitips:'WorkBuddy / Claude Code / xAI 教程库（B站+头条+腾讯云）。',
+  jytips:'从粗剪到导出，把诚悦素材剪出「看得下去」的样子。'
+};
+function renderMobileSidebar(){
+  const sb = document.getElementById('mSidebar'); if(!sb) return;
+  sb.innerHTML = TABS.map(t=>{
+    const icon = t.icon || M_ICONS[t.k] || '·';
+    return '<div class="m-side-item'+(currentTab===t.k?' on':'')+'" onclick="switchTab(\''+t.k+'\')" title="'+esc(t.name)+'">'+
+      '<span class="ico">'+icon+'</span>'+
+      '<span class="lbl">'+esc(t.name)+'</span>'+
+    '</div>';
+  }).join('');
+}
+function renderMobilePageHeader(){
+  const ph = document.getElementById('mPageHeader'); if(!ph) return;
+  const t = TABS.find(x=>x.k===currentTab) || TABS[0];
+  ph.innerHTML = '<div><div class="m-page-title">'+esc(t.name)+'</div>'+
+    '<div class="m-page-sub">'+esc(M_DESCS[t.k]||'')+'</div></div>'+
+    '<button class="m-page-add" onclick="onMobileAdd()">＋ 添加</button>';
+}
+function onMobileAdd(){
+  // 根据当前 tab 派发到对应的"新增"动作
+  const actions = {
+    board:()=>openTaskForm(),
+    video:()=>openVideoForm(),
+    topics:()=>openTopicForm(),
+    bench:()=>openBenchForm(),
+    reading:()=>openReadingForm(),
+    aitips:()=>openAITipForm(),
+    jytips:()=>openJYTipForm()
+  };
+  (actions[currentTab]||(()=>toast('此页面暂不支持添加')))();
+}
+
+
+function platformLabel(p){
+  return ({bilibili:'B 站', toutiao:'今日头条', qcloud:'腾讯云', wechat:'微信', douyin:'抖音'})[p] || p || '其他';
+}
+function platformIcon(p){
+  return ({bilibili:'📺', toutiao:'📰', qcloud:'☁️', wechat:'💬', douyin:'🎵'})[p] || '🔗';
+}
+function renderTipsCard(item, kind){
+  // kind: 'ai' | 'jy'
+  const tags = (item.tags||[]).slice(0,3).map(t=>'<span class="tag">'+esc(t)+'</span>').join('');
+  const badge = item.badge ? '<span class="tip-badge">'+esc(item.badge)+'</span>' : '';
+  const level = item.level ? '<span class="tag tag-level">'+esc(item.level)+'</span>' : '';
+  const takeaway = item.takeaway ? '<div class="tip-takeaway">💡 '+esc(item.takeaway)+'</div>' : '';
+  return '<a class="tip-card" href="'+esc(item.url||'#')+'" target="_blank" rel="noopener">'+
+    '<div class="tip-thumb">'+
+      '<div class="tip-thumb-fallback">'+platformIcon(item.platform)+' '+platformLabel(item.platform)+'</div>'+
+      badge+
+    '</div>'+
+    '<div class="tip-body">'+
+      '<div class="tip-title">'+esc(item.title)+'</div>'+
+      '<div class="tip-meta">'+
+        '<span>'+esc(item.author||'')+'</span>'+
+        '<span class="dot">·</span>'+
+        '<span>'+esc(item.duration||'')+'</span>'+
+        '<span class="dot">·</span>'+
+        '<span>'+esc(item.views||'')+' '+(item.views?'播放':'')+'</span>'+
+      '</div>'+
+      '<div class="tip-summary">'+esc(item.summary||'')+'</div>'+
+      '<div class="tip-tags">'+tags+level+'</div>'+
+      takeaway+
+    '</div>'+
+  '</a>';
+}
+function renderAITips(){
+  const plat = (document.getElementById('filterAIPlatform')||{}).value || '';
+  const q = ((document.getElementById('searchAI')||{}).value || '').toLowerCase();
+  const items = (SRC_AI.items||[]).filter(it=>{
+    if(plat && it.platform!==plat) return false;
+    if(q && !((it.title+' '+(it.summary||'')+' '+(it.tags||[]).join(' ')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+  document.getElementById('aiTotalCount').textContent = items.length;
+  const feed = document.getElementById('aiTipsFeed');
+  if(!items.length){
+    feed.innerHTML = '<div class="empty"><div class="empty-icon">✨</div><p>没有匹配的教程。换个关键词或点右上角「+ 添加视频」补一条。</p></div>';
+    return;
+  }
+  feed.innerHTML = items.map(it=>renderTipsCard(it,'ai')).join('');
+}
+function renderJYTips(){
+  const lv = (document.getElementById('filterJYLevel')||{}).value || '';
+  const q = ((document.getElementById('searchJY')||{}).value || '').toLowerCase();
+  const items = (SRC_JY.items||[]).filter(it=>{
+    if(lv && it.level!==lv) return false;
+    if(q && !((it.title+' '+(it.summary||'')+' '+(it.tags||[]).join(' ')).toLowerCase().includes(q))) return false;
+    return true;
+  });
+  document.getElementById('jyTotalCount').textContent = items.length;
+  const feed = document.getElementById('jyTipsFeed');
+  if(!items.length){
+    feed.innerHTML = '<div class="empty"><div class="empty-icon">✂️</div><p>没有匹配的教程。换个阶段或点右上角「+ 添加教程」补一条。</p></div>';
+    return;
+  }
+  feed.innerHTML = items.map(it=>renderTipsCard(it,'jy')).join('');
+}
+function openAITipForm(){
+  const html = '<div class="field"><label>教程标题</label><input id="f_ai_title" placeholder="例如：Claude Code 入门教程"></div>'+
+    '<div class="field"><label>作者 / UP 主</label><input id="f_ai_author" placeholder="例如：xxx 老师"></div>'+
+    '<div class="field"><label>平台</label><select id="f_ai_platform"><option value="bilibili">B 站</option><option value="toutiao">今日头条</option><option value="qcloud">腾讯云</option><option value="wechat">微信</option><option value="douyin">抖音</option></select></div>'+
+    '<div class="field"><label>链接</label><input id="f_ai_url" placeholder="https://..."></div>'+
+    '<div class="field"><label>一句话总结（为什么对诚悦有用）</label><textarea id="f_ai_takeaway" rows="3"></textarea></div>';
+  openModal({
+    title:'+ 添加 AI 技巧视频',
+    body:html,
+    okText:'保存到我的清单',
+    onOk: async ()=>{
+      const title = document.getElementById('f_ai_title').value.trim();
+      if(!title){ toast('请填写标题'); return false; }
+      const item = {
+        id:'ai-user-'+Date.now(),
+        title,
+        author: document.getElementById('f_ai_author').value.trim(),
+        platform: document.getElementById('f_ai_platform').value,
+        url: document.getElementById('f_ai_url').value.trim() || '#',
+        takeaway: document.getElementById('f_ai_takeaway').value.trim(),
+        summary: document.getElementById('f_ai_takeaway').value.trim(),
+        tags:['我的收藏'],
+        date: fmt(new Date())
+      };
+      SRC_AI.items = SRC_AI.items || [];
+      SRC_AI.items.unshift(item);
+      try{ localStorage.setItem('wb_ai_user_added', JSON.stringify(SRC_AI.items)); }catch(e){}
+      renderAITips(); renderTabs();
+      toast('已加入「AI 技巧库」');
+      return true;
+    }
+  });
+}
+function openJYTipForm(){
+  const html = '<div class="field"><label>教程标题</label><input id="f_jy_title" placeholder="例如：剪映 25 个隐藏神技"></div>'+
+    '<div class="field"><label>阶段</label><select id="f_jy_level"><option>入门</option><option>进阶</option><option>高阶</option></select></div>'+
+    '<div class="field"><label>链接</label><input id="f_jy_url" placeholder="https://..."></div>'+
+    '<div class="field"><label>一句话总结</label><textarea id="f_jy_takeaway" rows="3"></textarea></div>';
+  openModal({
+    title:'+ 添加剪映教程',
+    body:html,
+    okText:'保存到我的清单',
+    onOk: async ()=>{
+      const title = document.getElementById('f_jy_title').value.trim();
+      if(!title){ toast('请填写标题'); return false; }
+      const item = {
+        id:'jy-user-'+Date.now(),
+        title,
+        level: document.getElementById('f_jy_level').value,
+        url: document.getElementById('f_jy_url').value.trim() || '#',
+        takeaway: document.getElementById('f_jy_takeaway').value.trim(),
+        summary: document.getElementById('f_jy_takeaway').value.trim(),
+        tags:['我的收藏'],
+        date: fmt(new Date())
+      };
+      SRC_JY.items = SRC_JY.items || [];
+      SRC_JY.items.unshift(item);
+      try{ localStorage.setItem('wb_jy_user_added', JSON.stringify(SRC_JY.items)); }catch(e){}
+      renderJYTips(); renderTabs();
+      toast('已加入「剪映教程」');
+      return true;
+    }
+  });
+}
+
+
+/* ==========================================================
+   启动
+   ========================================================== */
+function renderAll(){
+  renderStats(); renderTabs(); renderBoard(); renderVideos();
+  refreshTopicColFilter(); renderTopics();
+  refreshHotTagFilter(); renderHotspots(); renderBench();
+  renderReading(); renderTodayRec();
+  renderAITips(); renderJYTips();
+  renderMobileSidebar(); renderMobilePageHeader();
+}
+function init(){
+  const d=new Date();
+  const wd=['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];
+  document.getElementById('dateChip').textContent=fmt(d)+' '+wd;
+  initFilters();
+  renderAll();
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if(document.getElementById('confirmBox').classList.contains('on')) return; closeModal(); } });
+}
+init();
+</script>
+
+<!-- ===== 实时同步引擎（by 大头 2026-08-04） ===== -->
+<script>
+(function(){
+  if(typeof state==='undefined'||typeof save==='undefined'||typeof renderAll==='undefined'){return;}
+  const SYNC={enabled:true,pollMs:3000,lastModified:0,online:null,timer:null};
+  const apiBase=location.origin+'/api';
+  function setDot(st){const el=document.getElementById('syncDot');if(!el)return;el.className='sync-dot '+(st==='on'?'on':st==='off'?'off':'wait');el.title=st==='on'?'实时同步：已连接，数据多端实时共享':st==='off'?'实时同步：离线（仅本地保存）':'实时同步：连接中…';}
+  function normalizeState(s){s=s||{};s.tasks=s.tasks||[];s.videos=s.videos||[];s.topics=s.topics||[];s.hotLocal=s.hotLocal||[];s.hotHidden=s.hotHidden||[];s.bench=(Array.isArray(s.bench)&&s.bench.length)?s.bench:JSON.parse(JSON.stringify(SRC_BENCH));s.reading=s.reading||[];s.seen=s.seen||[];return s;}
+  async function pull(since){try{const r=await fetch(apiBase+'/state'+(since?('?since='+since):''),{cache:'no-store'});if(!r.ok)return null;return await r.json();}catch(e){return null;}}
+  let inflight=false;
+  async function push(){try{const r=await fetch(apiBase+'/state',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({state:state,lastModified:Date.now()})});if(r.ok){const d=await r.json();SYNC.lastModified=d.lastModified||Date.now();setDot('on');return true;}}catch(e){}setDot('off');return false;}
+  let pushTimer=null;
+  function pushDebounced(){clearTimeout(pushTimer);pushTimer=setTimeout(()=>{if(inflight){pushDebounced();return;}inflight=true;push().finally(()=>{inflight=false;});},400);}
+  async function tick(){if(SYNC.timer===null)return;if(document.querySelector('.mask.on'))return;const r=await pull(SYNC.lastModified);if(!r){setDot('off');return;}if(r.unchanged){setDot('on');return;}if(r.state&&typeof r.state==='object'&&(r.lastModified||0)>SYNC.lastModified){SYNC.lastModified=r.lastModified;state=normalizeState(r.state);setDot('on');renderAll();}}
+  async function initSync(){if(!SYNC.enabled)return;const r=await pull(0);if(r&&!r.unchanged&&r.state&&typeof r.state==='object'){SYNC.lastModified=r.lastModified||0;state=normalizeState(r.state);setDot('on');renderAll();}else if(r&&r.unchanged){SYNC.lastModified=r.lastModified||0;setDot('on');}else{setDot('off');push();}SYNC.timer=setInterval(tick,SYNC.pollMs);}
+  const _origSave=save;
+  save=function(){_origSave();if(SYNC.enabled)pushDebounced();};
+  setDot('wait');
+  initSync();
+})();
+</script>
+
+</body>
+</html>

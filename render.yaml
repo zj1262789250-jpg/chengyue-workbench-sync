@@ -1,0 +1,21 @@
+# Render Blueprint —— 诚悦新媒体运营工作台（前端 + 同步后端同端口）
+# 用法：在 Render 新建 Blueprint，连接包含本文件的 GitHub 仓库即可一键部署。
+services:
+  - type: web
+    name: chengyue-workbench-sync
+    runtime: node
+    plan: free                       # 免费版；如需常驻不休眠可改为 starter($7/月)
+    region: oregon                   # 可选：singapore / frankfurt 等
+    branch: main
+    buildCommand: "npm install"      # 零依赖，实际不装任何包
+    startCommand: "npm start"
+    # Render 会自动注入 PORT 环境变量，server.js 已支持
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data                 # 指向挂载的持久磁盘（见下方 disks）
+    disks:
+      - name: workbench-data
+        mountPath: /data
+        sizeGB: 1                    # 1GB 持久磁盘，约 $0.15/月；免费版文件系统临时，必挂此盘才能持久化同步数据

@@ -1,0 +1,13 @@
+{
+  "name": "chengyue-workbench-sync",
+  "version": "1.0.0",
+  "description": "诚悦新媒体运营工作台 · 实时同步后端（零依赖 Node，静态前端 + /api/state 同端口）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
