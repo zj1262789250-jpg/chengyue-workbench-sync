@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-08-05',
+  updated: '2026-08-10',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20260810-1',
+      title: '金字塔原理',
+      author: '[美]芭芭拉·明托',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('金字塔原理'),
+      why: '麦肯锡 40 年经典培训教材，"结论先行、以上统下、归类分组、逻辑递进"四原则＋MECE 法则，是把零散信息变成清晰表达的底层框架。',
+      tip: '汇报诚悦项目成果时先给结论再给三条理由——被领导说"抓不住重点"的概率会直线下降。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-2',
+      title: '结构思考力',
+      author: '李忠秋',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('结构思考力'),
+      why: '《金字塔原理》的本土化版本，用"先总后分"讲怎么写邮件、怎么开会发言，案例贴近中国职场，看完就能直接套用。',
+      tip: '拿它改造品牌部周会——每人发言先一句话结论再讲三点，会议时长能砍掉三分之一。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-3',
+      title: '麦肯锡结构化战略思维：如何想清楚、说明白、做到位',
+      author: '周国元',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('麦肯锡结构化战略思维'),
+      why: '四大原则（数字说话 / 洞见优于表象 / MECE / 假设为前提）＋新麦肯锡五步法，从思考、交流到实施讲透全流程。',
+      tip: '"洞见优于表象"这条提醒品牌部：汇报别拼版式，先把"为什么这条视频能火"的洞见讲出来。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-4',
+      title: '非暴力沟通',
+      author: '[美]马歇尔·卢森堡',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('非暴力沟通'),
+      why: '"观察—感受—需要—请求"四步法，把攻击性语言转化为有效对话，处理客户投诉与跨部门协作都能直接落地。',
+      tip: '客户投诉回复话术改成"先陈述观察到的事实、再表达需求"，比一上来就道歉更能稳住关系。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-5',
+      title: '学会提问：批判性思维指南',
+      author: '[美]尼尔·布朗 / 斯图尔特·基利',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('学会提问'),
+      why: '批判性思维实操指南，用十个关键问题（证据来源？样本量多大？有没有反例？）肢解任何观点，专治信息焦虑与盲从。',
+      tip: '引用行业数据前先过一遍这十问，避免品牌稿里写进站不住脚的"行业第一"。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-6',
+      title: '沟通的艺术：看入人里，看出人外',
+      author: '[美]罗纳德·B·阿德勒',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('沟通的艺术'),
+      why: '人际沟通经典教材，从自我认知、知觉与情绪，讲到语言 / 非语言表达、倾听与冲突应对，系统而不空泛。',
+      tip: '"少用你、巧用我和我们"这条直接用在对客沟通与视频口播文案里，距离感立刻降下来。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260810-7',
+      title: '思考，快与慢',
+      author: '[美]丹尼尔·卡尼曼',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('思考，快与慢'),
+      why: '诺贝尔经济学奖得主讲大脑的"快系统"与"慢系统"，解释人为什么会被直觉误导——理解受众决策机制的必读书。',
+      tip: '视频号前 3 秒钩子打的就是"快系统"，读完你会更清楚为什么数据大字比长句更有效。'
+    },
     {
       source: 'weread',
       id: 'weread-20260805-1',
