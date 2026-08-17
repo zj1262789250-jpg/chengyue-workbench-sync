@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-08-10',
+  updated: '2026-08-17',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20260817-1',
+      title: 'AI 提效：人人都要用的 WorkBuddy（微信读书特别版）',
+      author: '秋叶',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('AI提效 人人都要用的WorkBuddy'),
+      why: '微信读书新书榜前列、推荐值 89.7%。面向零基础职场人，讲怎么把周报、会议纪要、多表合并、竞品调研、内容创作交给 AI，还教你把有效指令沉淀成可复用的技能和专家团。',
+      tip: '重点看"把个人经验固化为团队标准流程"那部分——正好对应品牌部要建的 Skill 与工作台，一次配置长期受益。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-2',
+      title: '认知觉醒：开启自我改变的原动力',
+      author: '周岭',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('认知觉醒'),
+      why: '把脑科学、心理学与实操方法结合，讲元认知、专注力与习惯养成，语言通俗，是很多人的"开窍"之作，长期占据成长类口碑榜前列。',
+      tip: '"元认知＝审视自己的思考"这条用在选题会上：先问"我为什么觉得这个选题好"，能筛掉一半拍脑袋的方案。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-3',
+      title: '关键对话：如何高效能沟通',
+      author: '[美]科里·帕特森 / 约瑟夫·格雷尼',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('关键对话'),
+      why: '专治"高风险、情绪激烈、观点对立"的场景：怎么在对方上火时还保持逻辑清晰、把对话拉回共同目标，职场沟通书单里几乎必上榜的一本。',
+      tip: '客户对物料不满意、跨部门抢资源这类硬仗前翻两页——"先营造安全感再谈事实"比直接讲道理有效得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-4',
+      title: '好好说话：新鲜有趣的话术精进技巧',
+      author: '马薇薇 / 黄执中 等',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('好好说话'),
+      why: '《奇葩说》辩手团出的场景化话术书，覆盖沟通、说服、谈判、演讲、辩论五大场景，每篇都短、都能直接抄，实战派指南。',
+      tip: '"说服"那一章的钩子写法可以直接迁移到视频号前 3 秒文案，比自己硬憋标题快。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-5',
+      title: '演讲的力量：TED 官方指南',
+      author: '[美]克里斯·安德森',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('演讲的力量'),
+      why: 'TED 掌门人亲授"联系—叙述—说明—说服—揭露"五大技巧，核心观点是演讲要先建立联系再传递观点，不是背稿子。',
+      tip: '给项目经理讲工作台、做内部分享会前读第 2、3 章——把"我要讲什么"换成"听众要带走什么"，效果立变。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-6',
+      title: '卡片笔记写作法',
+      author: '[德]申克·阿伦斯',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('卡片笔记写作法'),
+      why: '讲卢曼卡片盒法：不苦等灵感，而是把零散想法拆成一张张可链接的卡片，靠积累自然长出文章和观点，是知识工作者的底层方法论。',
+      tip: '正好用来重构选题库——每条洞察写成一张卡片而不是一行标题，三个月后写推文就不用从零想。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260817-7',
+      title: '深度工作：如何有效使用每一点脑力',
+      author: '[美]卡尔·纽波特',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('深度工作'),
+      why: '论证"专注是这个时代最稀缺的能力"，给出四条准则把碎片化工作切换成深度工作状态，职场进阶类书单常驻推荐。',
+      tip: '对照品牌部"2 天集中设计＋3 天拍视频"的节奏读——把设计日彻底关掉群消息，一天顶三天。'
+    },
     {
       source: 'weread',
       id: 'weread-20260810-1',
