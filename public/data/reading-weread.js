@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-08-17',
+  updated: '2026-08-24',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20260824-1',
+      title: '穷查理宝典：查理·芒格智慧箴言录（全新增订本）',
+      author: '彼得·考夫曼',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('穷查理宝典'),
+      why: '巴菲特搭档芒格跨界思维集大成，讲多元思维模型、逆向思考与能力圈，长期霸占商业/投资书单榜首，是训练决策质量的经典。',
+      tip: '把"多元思维模型"用在选题会——别只从传播角度想，拉上服务/餐饮/成本视角一起看，方案更经得起推敲。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-2',
+      title: '人性的弱点（果麦经典）',
+      author: '戴尔·卡耐基',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('人性的弱点'),
+      why: '从人性本质拆解如何赢得他人、表达自己、化解对立，是职场沟通与人际关系的入门经典，出版近百年长销不衰。',
+      tip: '"真诚地赞赏具体行为"用在客户回访与同事反馈里，比空洞夸"做得好"有效得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-3',
+      title: '高效能人士的七个习惯（30 周年纪念版）',
+      author: '史蒂芬·柯维',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('高效能人士的七个习惯'),
+      why: '积极主动、以终为始、要事第一等七个习惯，构建从个人到人际的完整自我管理系统，是企业培训与管理者必备。',
+      tip: '"要事第一"直接治品牌部"忙半天没产出"——每周先把获客型内容排进要事，再填零散事务。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-4',
+      title: '影响力',
+      author: '[美]罗伯特·西奥迪尼',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('影响力'),
+      why: '拆解互惠、承诺一致、社会认同等六大说服原理，是营销、谈判与内容创作理解"人为什么会被打动"的底层读物。',
+      tip: '"社会认同"原理——视频号评论区引导真实客户证言，比自夸"服务好"更能撬动新线索。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-5',
+      title: '原则',
+      author: '[美]雷·达里奥',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('原则'),
+      why: '桥水基金创始人的工作与生活准则，讲可信度加权决策与把原则写下来形成系统，适合管理者与想建立方法论的人。',
+      tip: '把品牌部踩过的坑写成"原则清单"（如"标题必带 CYT STORY 前缀"），新人照做少走弯路。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-6',
+      title: '卓有成效的管理者',
+      author: '[美]彼得·德鲁克',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('卓有成效的管理者'),
+      why: '现代管理学之父德鲁克经典，讲时间管理、要事优先、有效决策，无论带不带团队都能让工作更具成效。',
+      tip: '"记录并分析时间花在哪"——品牌部用一周记录内容产出耗时，立刻能砍掉一半伪忙碌。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260824-7',
+      title: '掌控习惯：如何养成好习惯并戒除坏习惯（原子习惯）',
+      author: '[美]詹姆斯·克利尔',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('掌控习惯 原子习惯'),
+      why: '用"系统优于目标、1% 每天变好"的复利逻辑讲习惯养成，是提升执行力与持续产出的方法论书。',
+      tip: '"让好习惯显而易见"——把每周内容排期表固定成周一必做事，比靠意志力坚持稳得多。'
+    },
     {
       source: 'weread',
       id: 'weread-20260817-1',
