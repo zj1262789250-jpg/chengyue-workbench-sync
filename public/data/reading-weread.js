@@ -5,8 +5,88 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-08-24',
+  updated: '2026-09-07',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20260907-1',
+      title: '定位',
+      author: '艾·里斯 / 杰克·特劳特',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('定位'),
+      why: '营销史上的经典，讲透"心智之战"：在潜在顾客心中占据一个独特位置。品牌部做任何内容、定任何 slogan 前都该读，避免自说自话。',
+      tip: '诚悦六大产品体系各自写一句"定位语"，比堆功能列表更能让客户记住——物业不是"管房子"，是"高端商办资产管家"。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-2',
+      title: '李诞工作手册（万字全新增订）',
+      author: '李诞',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('李诞工作手册'),
+      why: '李诞完整公开自媒体创作秘诀：持续输出、高频输出、诚实输出，内含写稿、带货、直播、心态的系统方法，是全民创作时代最接地气的实战手册。',
+      tip: '"持续、高频、诚实"三原则直接用在视频号——别追求条条爆款，先保证每周稳定更新，真诚比精致更重要。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-3',
+      title: '内容引爆增长：建立竞争优势的内容营销方法论',
+      author: '王子乔',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('内容引爆增长'),
+      why: '从消费者体验心理动线入手，用感知、触点、触动、行动、消费、分享六个关键时刻设计内容，附多个"刷屏级"操盘案例，市场/公关/运营都该读。',
+      tip: '把"六个关键时刻"套进诚悦视频号——每条视频都在设计用户从刷到分享的路径，而不是拍完就发。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-4',
+      title: '疯传：让你的产品、思想、行为像病毒一样入侵',
+      author: '[美]乔纳·伯杰',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('疯传'),
+      why: '宾大教授拆解社交传播的 STEPPS 六原则（社交货币、触发、情绪、公共性、实用价值、故事），揭秘什么内容会被自发转发，是内容传播的底层读物。',
+      tip: '视频号前 3 秒想一个"社交货币"钩子——让客户觉得"这条我得转给同行看"，比硬推服务号转化高。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-5',
+      title: '哈佛经典谈判术：你一开口就赢麻了',
+      author: '[美]迪帕克·马尔霍特拉 / [美]马克斯·巴泽曼',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('哈佛经典谈判术'),
+      why: '哈佛商学院教授的谈判体系，涵盖准备 5 步法、常见 7 个错误、认知心理学陷阱，教你创造价值同时维护关系，推荐值 90.8%。',
+      tip: '客户对报价有异议、跨部门抢资源时，先套"准备 5 步法"——把对方真实利益列出来，比正面硬刚有用。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-6',
+      title: '如何把话说清楚',
+      author: '[日]斋藤孝',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('如何把话说清楚'),
+      why: '针对职场人的"自我表达训练教室"，共 47 个学习项目，讲清说话背后的本质逻辑，平均 3-5 分钟读完一条，拿来就能用的表达技巧。',
+      tip: '周会发言前用"结论先行+三点支撑"练一遍——品牌部最容易犯"铺垫太长抓不住重点"的毛病。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-7',
+      title: '直击本质：洞察事物底层逻辑的思考方法',
+      author: '艾菲',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('直击本质'),
+      why: '专注"思考的方法"，上半部分讲本质思考（半秒看透事物本质），下半部分讲迁移、升维、逆向思考，附开放式思维导图，推荐值 78.8%。',
+      tip: '"升维思考"用在选题会——别只问"这条播放量会高吗"，先问"它解决了客户哪个真实困惑"，方案立刻不一样。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20260907-8',
+      title: '用脑赢世界：受益一生的逻辑思维课',
+      author: '[日]西村克己',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('用脑赢世界 逻辑思维课'),
+      why: '从整理想法、精炼口语表达、避免结论逻辑漏洞、有逻辑地做报告/演讲入手，帮人转换思维方式，提升逻辑思考力与说服力。',
+      tip: '汇报项目成果前用书中"结论→理由→证据"结构梳一遍，领导想挑刺都难——逻辑链一旦闭合就稳了。'
+    },
     {
       source: 'weread',
       id: 'weread-20260824-1',

@@ -5,10 +5,80 @@
    - badge: 可选角标（"新推送" / "推荐" 等）
 */
 window.WB_AI_TIPS = {
-  updated: '2026-08-24',
+  updated: '2026-09-07',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
   meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
+    {
+      source: 'auto',
+      id: 'ai-auto-20260907-1',
+      title: 'OpenClaw 保姆级全网最详细教程 2026：从本地部署到多端接入',
+      platform: 'bilibili',
+      author: 'OpenClaw 教程 UP',
+      duration: '约 35 分钟',
+      views: '35 万播放',
+      date: '2026',
+      tags: ['OpenClaw', 'AI助手', '本地部署', '多端接入', '定时任务'],
+      summary: '手把手从本地部署讲起，覆盖记忆管理、定时任务、接入飞书/钉钉/微信等通讯工具，并附完整操作文档。是目前全站播放最高的 OpenClaw 实战教程之一，适合想搭个人 AI 助理的职场人。',
+      takeaway: '品牌部可照着搭一个"内容巡检助理"：定时扫描视频号/公众号新稿，自动比对禁用词和 CYT STORY 标题格式，比人工过稿快得多。',
+      url: 'https://www.bilibili.com/video/BV1oVNMz5En7/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260907-2',
+      title: 'AI Agent 智能体：从 0 基础到企业级（LLM 调用 + RAG + 多 Agent 协作）',
+      platform: 'bilibili',
+      author: 'B站 AI 开发 UP',
+      duration: '约 60 分钟',
+      views: '61.8 万播放',
+      date: '2026',
+      tags: ['AI Agent', 'RAG', '多智能体', '企业级', '工具链'],
+      summary: '目前 B站讲 Agent 开发最系统的教程之一，涵盖 LLM 调用、工具链集成、RAG 检索增强、多智能体协作，从入门一路讲到生产落地，适合想自己搭业务智能体的团队。',
+      takeaway: '诚悦"选题打分机器人"正该走这条路——把 7 维度加权评分规则写进 Agent，扔一个选题进去自动出分并给修改建议，省掉手工算分。',
+      url: 'https://www.bilibili.com/video/BV1zuHizBE8B/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260907-3',
+      title: '一口气拆穿 Skill / MCP / RAG / Agent / OpenClaw 底层逻辑',
+      platform: 'bilibili',
+      author: '飞天闪客',
+      duration: '约 14 分钟',
+      views: '52 万播放 · 收藏 5.1 万',
+      date: '2026',
+      tags: ['Skill', 'MCP', 'RAG', 'Agent', '概念澄清'],
+      summary: '14 分钟说清这些时髦词背后的本质：都是 Prompt + Function Calling 的变体，"新瓶装旧酒"。技术含量最高的科普视频，帮新手建立清晰认知框架，不再被名词吓住。',
+      takeaway: '品牌部新人学 AI 别被术语劝退——记住"都是提示词加函数调用"，就能看懂 WorkBuddy 的 Skill 和 MCP，上手快一倍。',
+      url: 'https://www.bilibili.com/video/BV1ojfDBSEPv/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260907-4',
+      title: '一口气学会小程序 / APP / 网页开发：UniApp + Cursor 一套代码多端跑',
+      platform: 'bilibili',
+      author: 'B站开发 UP',
+      duration: '约 67 分钟',
+      views: '67.1 万播放',
+      date: '2026',
+      tags: ['Cursor', 'UniApp', '小程序', 'AI编程', '一人开发'],
+      summary: '用 AI 编程工具 Cursor 配合 UniApp 框架，一套代码同时开发微信小程序、iOS/Android App 和网页，契合"一人独立开发"趋势，附完整实操路径。',
+      takeaway: '品牌部的"工作日午餐推荐小程序"这类小工具，正适合用 Cursor+UniApp 自己搓，不用等开发排期，一周就能出可跑版本。',
+      url: 'https://www.bilibili.com/video/BV1W7QZYMEus/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20260907-5',
+      title: '如何利用 AI 技术制作短视频：豆包写脚本 + 即梦出画面 + 剪映合成',
+      platform: 'toutiao',
+      author: '今日头条科技号',
+      duration: '图文约 10 分钟',
+      views: 'AI 短视频制作热帖',
+      date: '2026',
+      tags: ['AI短视频', '豆包', '即梦', '剪映', '图文成片'],
+      summary: '完整流程：AI 写分镜脚本→AI 生成画面/素材→AI 配音+字幕→AI 剪辑→导出发布，零基础也能快速出片。含工具速选表和最快路径（豆包写脚本→剪映图文成片→加配音字幕→导出）。',
+      takeaway: '诚悦视频号可直接套这条流水线：先用豆包批量产出项目探访脚本，再走剪映图文成片，一条 2 分钟视频从 2 小时压到 30 分钟。',
+      url: 'https://m.toutiao.com/article/7614279426188050995/'
+    },
     {
       source: 'auto',
       id: 'ai-auto-20260824-1',
