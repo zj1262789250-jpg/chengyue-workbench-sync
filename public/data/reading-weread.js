@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-09-07',
+  updated: '2026-10-19',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261019-1',
+      title: '麦肯锡结构化高效沟通：如何有逻辑地表达、演讲与写作',
+      author: '周国元',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('麦肯锡结构化高效沟通'),
+      why: '麦肯锡结构化三部曲收官之作，聚焦"做到位"之后的"说明白"：用结构化能力把复杂问题拆清、把关键路径找准、把执行做稳。对要写方案、做汇报、带项目的品牌人尤其对症。',
+      tip: '周会发言和给领导汇报前，用"结论-三点支撑-下一步"的结构过一遍，比想到哪说到哪稳得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-2',
+      title: '1 分钟精准表达',
+      author: '厚朴',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('1分钟精准表达'),
+      why: '作者 15 年营销咨询与培训经验，给出 36 个即学即用的表达模型（高势能标签、PREP 结构、FABE 法则、价值三角等），覆盖自我介绍、即兴发言、工作汇报、跨部门沟通等场景。',
+      tip: '把 PREP 结构（观点-理由-案例-结论）用在视频号口播脚本里，前 3 秒抛观点，完播率会明显更稳。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-3',
+      title: '说到卖得动：把专业说成生意的商业表达力',
+      author: '竺宥璋',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('说到卖得动'),
+      why: '不讲花哨话术，而是一套商业表达系统：让客户记住你、听懂你的价值、自己说服自己、信任你、最终选择你。对一人公司、创业者、任何要推广专业的人都有用。',
+      tip: '诚悦对接甲方时，把"我们有六大产品体系"换成"我们能帮你解决哪个具体问题"，成交感立刻不同。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-4',
+      title: '结构化思维',
+      author: '黎甜',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('结构化思维'),
+      why: '把"结构化思维"从概念落到日常：怎么界定问题、怎么拆解、怎么归纳结论、怎么用 MECE 和逻辑树做分析。是《金字塔原理》的本土化轻量版，更适合中国职场人随手翻。',
+      tip: '做选题评分或写推文前，先画一棵"目标-分论点-论据"的逻辑树，能提前发现站不住脚的论点。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-5',
+      title: '靠谱：顶尖咨询师教你的工作基本功',
+      author: '[日]大石哲之',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('靠谱 顶尖咨询师教你的工作基本功'),
+      why: '咨询顾问总结的"靠谱"说明书：沟通、逻辑思考、资料制作、专业主义等基本功，用具体场景教你如何让别人放心把事交给你。推荐值高、篇幅短、能立刻用。',
+      tip: '品牌部对接设计需求工单，照书里"先确认对方真实期待再动手"一条，能少返工一半。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-6',
+      title: '反脆弱',
+      author: '[美]纳西姆·尼古拉斯·塔勒布',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('反脆弱'),
+      why: '提出"反脆弱"概念：如何在不确定中不仅存活、反而变强。对处在行业周期波动、常被突发舆情考验的品牌工作，是底层思维训练。',
+      tip: '把"黑天鹅"思维带进品牌预案——团餐食品安全、物业突发舆情都该有"B 方案"，而不是祈祷不出事。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261019-7',
+      title: '终身成长（全新修订版）',
+      author: '[美]卡罗尔·德韦克',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('终身成长'),
+      why: '斯坦福心理学家的经典：固定型思维 vs 成长型思维。对个人学习和团队管理都极有用——尤其适合带 3 人小团队、要持续学 AI 工具的品牌部。',
+      tip: '把"我又不懂 AI"改成"我还在学 AI"，一句话的思维方式转变，能决定团队敢不敢碰新工具。'
+    },
     {
       source: 'weread',
       id: 'weread-20260907-1',

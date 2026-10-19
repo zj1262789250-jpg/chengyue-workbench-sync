@@ -5,10 +5,80 @@
    - badge: 可选角标（"新推送" / "推荐" 等）
 */
 window.WB_AI_TIPS = {
-  updated: '2026-09-07',
+  updated: '2026-10-19',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
   meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
+    {
+      source: 'auto',
+      id: 'ai-auto-20261019-1',
+      title: '腾讯配的 WorkBuddy，90% 的人当聊天工具在用——我花一周整理的实操教程',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 15 分钟',
+      views: '2026-10 新发实操长文',
+      date: '2026-10',
+      tags: ['WorkBuddy', '三模式', '工作空间', '任务描述', '落地'],
+      summary: '作者实测得来的操作流程：安装后先"选工作空间"、设置工作目录授权范围，再用 Craft/Plan/Ask 三种模式对应不同场景（明确任务用 Craft、复杂任务先 Plan 出方案、纯咨询用 Ask）。最核心的是"怎么描述任务"——好示范要带文件路径、操作内容、目标产出、输出位置四要素，而不是"帮我处理一下数据"。',
+      takeaway: '品牌部给 WorkBuddy 派活就照这四要素写：读哪个文件、做什么、出什么格式、存到哪。比如"读取本周排期表，按获客型/非获客型分类汇总成表格存到 reports/"，比一句"整理下排期"稳得多。',
+      url: 'https://cloud.tencent.cn/developer/article/2704853'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261019-2',
+      title: '零代码基础，用 AI 做小游戏：Claude Code 写逻辑 + WorkBuddy 美画面',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 12 分钟',
+      views: 'AI 协作实战帖',
+      date: '2026',
+      tags: ['Claude Code', 'WorkBuddy', '协作分工', '小游戏', '零代码'],
+      summary: '作者零代码做出一款小游戏：Claude Code 负责写游戏逻辑（碰撞、物理、状态机），WorkBuddy 负责对画面和视觉做美化——因为它更懂设计、能直接读本地项目文件精准改。核心经验：跟 AI 说需求要具体到有画面感（"切下去要有果汁飞溅和粒子效果"），不满意就迭代 2-3 轮，且先跑通逻辑再管画面。',
+      takeaway: '这套"一个写骨架、一个做皮"的分工正好对应品牌部：用 AI 先把视频号脚本逻辑（钩子-案例-数据-CTA）搭出来，再让 WorkBuddy 按品牌视觉规范精修排版和配图，效率翻倍。',
+      url: 'https://cloud.tencent.cn/developer/article/2676889?policyId=1004'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261019-3',
+      title: '用 AI 做软件架构设计：Claude Code + Codex + WorkBuddy 的 4A 实战指南',
+      platform: 'toutiao',
+      author: '今日头条科技号',
+      duration: '图文约 15 分钟',
+      views: '多工具协作热帖',
+      date: '2026',
+      tags: ['Claude Code', 'Codex', 'WorkBuddy', '协作', '架构设计'],
+      summary: '把三个工具按"思考-执行-记忆协调"分工：Claude Code 做业务/技术架构推理（纯文字），Codex 生成代码骨架，WorkBuddy 负责加载上下文、记录每次迭代的决策和分歧点、整理最终输出。强调一个关键认知：别让 AI 直接"画架构图"，而是让它生成 Mermaid/PlantUML 代码再渲染。',
+      takeaway: '品牌部做内容中台或工作台时，可照这个"记录决策"思路——让 WorkBuddy 把每次选题会、每次改稿的理由记下来，比最终文档更有价值，下次直接复用。',
+      url: 'https://m.toutiao.com/article/7640504989911122458'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261019-4',
+      title: '大学生实测：豆包 + 即梦 + 剪映，30 分钟做出一集 AI 漫剧（全套提示词公开）',
+      platform: 'wechat',
+      author: '校链星球 / 微信公号',
+      duration: '图文约 20 分钟',
+      views: 'AI 视频制作爆款帖',
+      date: '2026',
+      tags: ['即梦', '豆包', '剪映', 'AI漫剧', '提示词'],
+      summary: '把"豆包写剧本分镜→即梦出图出视频→剪映配音字幕 BGM"的 30 分钟全流程拆开，每一步都贴了可直接复制的提示词：先锁角色三视图防"串脸"，剧本第一句 3 秒内抛冲突、结尾留钩子，封面单独用 AI 生成带大字标题。核心一句话：先做出来再做好。',
+      takeaway: '诚悦视频号可照搬这条流水线做"标杆案例漫剧化"——用豆包把真实服务故事写成脚本，即梦生成画面，剪映合成，一条 2 分钟视频从 2 小时压到 30 分钟。',
+      url: 'http://mp.weixin.qq.com/s?__biz=Mzk2NDM1NDM2OA==&mid=2247485464&idx=1&sn=a41c38912ec64131bb90e2806024cb51&chksm=c578a3c5b74963413d899d1cf39c0231021d33d9fbbd58e53367614560271033d5672275db50#rd'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261019-5',
+      title: '26 条视频涨粉 28.8 万！即梦 Seedance 2.0 + 豆包 + 剪映，小白做猫咪 VLOG',
+      platform: 'wechat',
+      author: '大米 AI 科技 / 微信公号',
+      duration: '图文约 12 分钟',
+      views: 'AI 短视频爆款拆解',
+      date: '2026',
+      tags: ['即梦', 'Seedance2.0', '豆包', '剪映', 'AI视频'],
+      summary: '拆解一个靠"拟人猫咪打工人 VLOG"涨粉近 29 万的账号：豆包生成第一视角分镜脚本、即梦 Seedance 2.0 用"全能参考"把图片变视频、剪映只做拼接+字幕+萌系 BGM。强调反差萌+深度代入感是流量密码，且全程三个免费工具零成本。',
+      takeaway: '诚悦"团餐/物业日常"内容也能用这套反差思路——把厨师、保洁拍成"打工人视角"拟人化短片，比正经宣传片更容易破圈完播。',
+      url: 'http://mp.weixin.qq.com/s?__biz=MzcwMDIxODI4MQ==&mid=2247483852&idx=1&sn=b9049af795816deecf6a86f1e2399870&chksm=f5bb4cbc06e145049e44c6712171cc51a5fe006bc0ea14bf768845a5f9b3ae2a21b0bba5e04f#rd'
+    },
     {
       source: 'auto',
       id: 'ai-auto-20260907-1',
