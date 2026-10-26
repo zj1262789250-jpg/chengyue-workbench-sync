@@ -5,10 +5,80 @@
    - badge: 可选角标（"新推送" / "推荐" 等）
 */
 window.WB_AI_TIPS = {
-  updated: '2026-10-19',
+  updated: '2026-10-26',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
   meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
+    {
+      source: 'auto',
+      id: 'ai-auto-20261026-1',
+      title: 'B站 AI 大赛爆款工作流拆解：首尾帧 + 关键帧，长视频也能稳控',
+      platform: 'qcloud',
+      author: '什么值得买 · AI 创作社区',
+      duration: '图文约 15 分钟',
+      views: 'B站千万播放作品工作流解析',
+      date: '2026',
+      tags: ['AI视频', '首尾帧', '关键帧', 'Nano Banana', '垫图', '转场'],
+      summary: '拆解 B站 AI 大赛里播放破千万的长视频是怎么做的：垫两张图控制质感、用"首尾帧"锁定开头结尾画面让镜头可控、多角度素材拼接叙事，剪辑阶段导入关键帧做丝滑过渡，抖动片段直接倒放加速。核心是"AI 不是一键生成，而是反复抽卡 + 精细控制"。',
+      takeaway: '诚悦把标杆案例做成 2 分钟 AI 长片时，别指望一次出片——用首尾帧锁住"改造前/改造后"两个关键画面，中间让 AI 补，比纯文生视频稳得多。',
+      url: 'https://post.m.smzdm.com/p/avg8erwn'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261026-2',
+      title: '2026 AIGC 爆款玩法盘点：3D 手办化、AI 翻唱、电影感三宫格（附提示词）',
+      platform: 'qcloud',
+      author: 'Py学习 · AIGC 社区',
+      duration: '图文约 18 分钟',
+      views: 'AIGC 爆款玩法全集',
+      date: '2026',
+      tags: ['AIGC', 'Nano Banana', '3D手办', 'AI翻唱', '电影感三宫格', '提示词'],
+      summary: '盘点 2026 最出圈的 AIGC 玩法：用 Nano Banana 把真人/宠物/角色一键变 3D 手办（含包装盒和建模画面）、用 Suno V5 做 AI 翻唱怀旧金曲、用豆包生成电影感三宫格拼图刷屏。每个玩法都给了可直接抄的参考提示词。',
+      takeaway: '团餐和物业吉祥物可先用 Nano Banana 做成"3D 手办公仔"做周边/封面，比平面 logo 更有记忆点；一条电影感三宫格就是一张现成的海报。',
+      url: 'https://m.python88.com/topic/191736'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261026-3',
+      title: 'B站 UP 主都在用的 AI 脚本生成器：前 3 秒钩子 + 互动埋点，播放量翻倍',
+      platform: 'qcloud',
+      author: '提示语库 · 内容创作',
+      duration: '图文约 10 分钟',
+      views: '爆款脚本 Prompt 模板',
+      date: '2026',
+      tags: ['AI脚本', '前3秒钩子', '互动埋点', 'B站运营', '爆款逻辑'],
+      summary: '一套可直接套用的 AI 脚本 Prompt：要求输出"痛点引入 + 实验演示 + 悬念结尾"结构，并强制包含前 3 秒抓人钩子（附对比方案）、精确到秒的节奏节点、弹幕/点赞触发点、平台算法适配建议。强调生成后必须人工改口语化。',
+      takeaway: '诚悦视频号每条脚本先让 AI 跑这个模板——钩子、节奏、互动点一次给齐，新人照着拍，周更 3-5 条不再卡壳。',
+      url: 'https://www.tishiyu.net/prompt/2489.html'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261026-4',
+      title: '用 WorkBuddy + Skill 驯服 Claude Code 与 Codex：AI 潮玩 IP 建模实战',
+      platform: 'qcloud',
+      author: '尧图网络 · AI 实操',
+      duration: '图文约 12 分钟',
+      views: 'Skill 落地案例',
+      date: '2026',
+      tags: ['WorkBuddy', 'Skill', 'Claude Code', 'Codex', '3D建模', 'IP设计'],
+      summary: '完整演示用一套 Skill 规范（风格/壁厚/工作流/禁忌）驱动 Claude Code 做 3D 潮玩 IP：概念澄清→建模代码→检查封闭→导出 STL/GLTF。核心经验是"概念阶段先对齐设定表再审，能省建模阶段几小时返工"，并强调 Skill 让 AI 稳定不跑偏。',
+      takeaway: '诚悦想做品牌吉祥物/物业 IP，可照这套搭一个"IP 设计规范 Skill"——把圆润可爱、中国红+金、单手可握写死，AI 每次出图都不跑偏。',
+      url: 'https://kwkr.cn/news/345277'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261026-5',
+      title: '零基础学 AI 路线图：B站 UP 主清单 + Coze 零代码搭智能体',
+      platform: 'toutiao',
+      author: '今日头条教育号',
+      duration: '图文约 12 分钟',
+      views: 'AI 入门路线热帖',
+      date: '2026',
+      tags: ['AI入门', 'B站UP主', 'Coze', '智能体', '零代码'],
+      summary: '给纯小白的路线图：B站选 2-3 个 UP 主（同济子豪兄系统学、老麦的工具库学效率、秋葉学 AI 绘画）踏踏实实看完一个系列；再上手 Coze 零代码搭"学科答疑/作业批改/课件生成"等能用工具。强调"一个系列看完比收藏 10 个主页有用"。',
+      takeaway: '品牌部新人照这份清单起步：先跟老麦学 AI 提效，再用 Coze 搭一个"诚悦选题灵感助手"每天推 3 个视频号选题，比零散搜高效。',
+      url: 'https://m.toutiao.com/article/7668896628942471726'
+    },
     {
       source: 'auto',
       id: 'ai-auto-20261019-1',

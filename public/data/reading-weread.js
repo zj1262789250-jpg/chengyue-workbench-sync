@@ -5,8 +5,88 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-10-19',
+  updated: '2026-10-26',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261026-1',
+      title: '流量池',
+      author: '杨飞',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('流量池'),
+      why: '瑞幸、神州操盘手写的"急功近利"流量实战：快速建品牌 + 快速转化。对品牌部最对症——视频号/公众号引流到企微、裂变获客、私域留存，全是书里的玩法。',
+      tip: '把"流量池"思路套进诚悦获客：每条视频号结尾埋企微钩子，把公域流量沉淀成可反复触达的私域，正对 KPI 里的"企微新增≥15 人"。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-2',
+      title: '营销管理（第 16 版·精简版）',
+      author: '[美]菲利普·科特勒',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('营销管理'),
+      why: '全球营销"圣经"，系统讲市场分析、用户需求、STP 战略与 4P 组合。品牌部写方案、定定位、做年度规划时，这是最稳的底层框架，胜过一百篇网红营销帖。',
+      tip: '做 2026 新媒体规划前翻"STP"那一章——先把诚悦商办物业的目标客群切清楚，内容才不会自说自话。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-3',
+      title: '超级符号就是超级创意',
+      author: '华杉 / 华与华',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('超级符号就是超级创意'),
+      why: '华与华方法的代表作：用"超级符号"降低传播成本、把品牌寄生进文化母体中。对诚悦做视觉锤、口号、IP 形象极有启发——好品牌是被"一眼记住"出来的。',
+      tip: '给诚悦六大产品体系各找一个"超级符号"（比如国宾礼宾=金钥匙），比堆功能列表更能让甲方记住。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-4',
+      title: '故事品牌 2.0',
+      author: '[美]唐纳德·米勒',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('故事品牌'),
+      why: '用"主角-问题-向导-方案"叙事框架重构品牌与消费者关系。视频号讲故事、写推文都有现成结构可套，比硬广容易破圈。',
+      tip: '把诚悦"高原营地""国宾礼宾"案例套进 SB7 框架——客户是主角、诚悦是向导，完播率和代入感会明显提升。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-5',
+      title: '底层逻辑 2：理解商业世界的本质',
+      author: '刘润',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('底层逻辑2 理解商业世界的本质'),
+      why: '刘润把商业、沟通、心力管理拆成可复用的底层逻辑。品牌部写稿、做选题、跟甲方沟通，缺的不是技巧而是"看清本质"的功力。',
+      tip: '选题会上多问一句"这条内容的商业本质是什么"，能筛掉一半自嗨方案。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-6',
+      title: '从 0 到 1',
+      author: '[美]彼得·蒂尔',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('从0到1'),
+      why: '硅谷创投教父讲"创新而非复制、打造护城河"。诚悦做品牌差异化、避开物业红海价格战，这本书的"垄断性优势"思维最对症。',
+      tip: '给诚悦写定位时套"从 0 到 1"思路——别抄同行的"高端物业服务"，找一个只有诚悦能讲的独特价值。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-7',
+      title: '精益创业',
+      author: '[美]埃里克·莱斯',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('精益创业'),
+      why: 'MVP（最小可行产品）、快速迭代、小步试错的核心逻辑。品牌部做新栏目、新活动也能用——先小范围测再放大，别一上来就大投入。',
+      tip: '新开的"厨师视频"栏目先拍 3 条测数据再定投入，比直接砸资源做系列更稳。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261026-8',
+      title: '关键跃升：新任管理者成事的底层逻辑',
+      author: '刘润',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('关键跃升 新任管理者成事的底层逻辑'),
+      why: '从个人贡献者到管理者"关键一跃"的方法论：责任/沟通/关系/自我四种跃升，鼓手、教练、政委、指挥四种角色。阿娇带 3 人小团队直接对症。',
+      tip: '把"鼓手（定节奏）+ 教练（带人）"两种角色拆开——自己别凡事亲力亲为，把韩悦、牛星驰的特长用起来。'
+    },
     {
       source: 'weread',
       id: 'weread-20261019-1',
