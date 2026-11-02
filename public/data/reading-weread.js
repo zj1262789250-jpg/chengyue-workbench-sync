@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-10-26',
+  updated: '2026-11-02',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261102-1',
+      title: '纳瓦尔宝典',
+      author: '埃里克·乔根森',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('纳瓦尔宝典'),
+      why: '硅谷投资人纳瓦尔的思想合集，讲财富（用杠杆而非卖时间）与幸福（看清欲望、做自己）两套底层逻辑。对要做个人 IP、又常被琐事淹没的品牌人，是"少干活多产出"的方法论来源。',
+      tip: '把"用杠杆放大产出"用到视频号——一条好内容经剪辑/分发反复产生线索，比天天手动发广告杠杆率高得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-2',
+      title: '竞争战略',
+      author: '[美]迈克尔·波特',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('竞争战略'),
+      why: '波特五力、三大竞争战略、价值链分析，至今是判断行业格局的基础工具。2026 年很多企业产品相似、流量更贵，没有清晰定位，AI 只会加速同质化。',
+      tip: '做诚悦品牌定位时套"差异化"思路——别抄同行的"高端物业服务"，找一个只有诚悦能讲的独特价值（如国宾级礼宾体系）。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-3',
+      title: '1000 个铁粉',
+      author: '伍越歌',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('1000个铁粉'),
+      why: '讲个人品牌底层逻辑：不必讨好所有人，靠 1000 个真正认可你的铁粉就能活得很好。对做视频号、想沉淀私域线索的诚悦品牌部极对症。',
+      tip: '视频号运营别只盯播放量，照书里"信任→转化"逻辑，把每条内容当成积累铁粉的触点，结尾埋企微钩子沉淀私域。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-4',
+      title: '沟通的方法',
+      author: '脱不花',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('沟通的方法'),
+      why: '得到 CEO 脱不花写的职场沟通实战指南，覆盖倾听、说服、谈判、汇报等场景，不灌鸡汤只给可操作的方法，是提升表达力的本土化好书。',
+      tip: '把"结构化倾听+给方案而非只提问题"用在对接甲方和跨部门协作上——客户说需求时先复述确认，再给 2–3 个方案让他选。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-5',
+      title: '向上管理的艺术（升级版）：如何正确汇报工作',
+      author: '蒋巍巍',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('向上管理的艺术 如何正确汇报工作'),
+      why: '专讲怎么跟上级汇报、对齐预期、争取资源，是职场表达里最容易被忽视却最关键的一环。品牌部三人小团队、又要向领导周会汇报，直接对症。',
+      tip: '每周给领导汇报前，用"结论+三点支撑+需要的支持"的结构过一遍，比想到哪说到哪稳得多，也更容易拿到资源。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-6',
+      title: '从优秀到卓越',
+      author: '[美]吉姆·柯林斯',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('从优秀到卓越'),
+      why: '柯林斯用大样本研究"优秀公司如何变卓越"，提出第五级领导、刺猬理念、飞轮效应等概念。对想从"做完"到"做好"的品牌团队，是纪律与聚焦的方法论。',
+      tip: '把"飞轮效应"用到内容运营——每天稳定输出+复盘，让增长像飞轮越转越快，而不是指望一条爆款翻身。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261102-7',
+      title: '清单革命',
+      author: '[美]阿图·葛文德',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('清单革命'),
+      why: '外科医生写的"用清单对抗复杂"，讲如何通过简单清单把失误率降到极低。对多环节、易出错的视频生产流程（拍摄-剪辑-审核-发布）是最实用的流程管理书。',
+      tip: '给诚悦做一份"视频发布前 Checklist"（禁用词、CYT STORY 前缀、封面、字幕、导出参数），每次发布前勾一遍，少返工一半。'
+    },
     {
       source: 'weread',
       id: 'weread-20261026-1',

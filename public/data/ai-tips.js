@@ -5,10 +5,80 @@
    - badge: 可选角标（"新推送" / "推荐" 等）
 */
 window.WB_AI_TIPS = {
-  updated: '2026-10-26',
+  updated: '2026-11-02',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
   meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
+    {
+      source: 'auto',
+      id: 'ai-auto-20261102-1',
+      title: 'WorkBuddy 上手指南：把 AI 从"聊天工具"变成"干活同事"（30 分钟出报告 PPT 实战）',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 15 分钟',
+      views: '2026-10 新发实操长文',
+      date: '2026-10',
+      tags: ['WorkBuddy', '上手指南', 'Craft模式', '季度报告', 'PPT', '工作目录'],
+      summary: '作者用"30 分钟产出一份季度数据分析报告 PPT"完整串起 WorkBuddy 全流程：拖入 Excel→Craft 模式下令其读取数据、清洗分析、生成图表、撰写结论、排版 PPT，中途还能直接说"图表配色换成蓝色系"即时改。核心心法：大任务先 Plan 看方案、说清交付格式（Word/Excel/PPT/网页）、建专属工作目录集中管理产物、重复劳动交给自动化。',
+      takeaway: '诚悦做月度数据复盘/项目汇报，就照这个：把表格拖进 WorkBuddy 说"生成 10 页 PPT，蓝色系，含增长区域和下滑原因"，比手工做快十倍，人只管核对数据。',
+      url: 'https://cloud.tencent.com/developer/article/2735242'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261102-2',
+      title: 'WorkBuddy 自动化任务实战：让 AI 定时替你干活（周报 / 数据监控 / 资讯抓取）',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 12 分钟',
+      views: '自动化配置实操帖',
+      date: '2026',
+      tags: ['WorkBuddy', '自动化任务', '定时触发', '周报', '内容沉淀', 'Credits'],
+      summary: '讲透自动化任务三类场景：定时报告（每周一汇总上周产出生成周报）、数据监控（每天拉数据查异常）、内容沉淀（每天抓取行业资讯整理摘要供晨会）。给出五步实操（进自动化页→选模板→设触发时间→配执行内容→启用查看），三个技巧（先手动跑一遍、要求列出数据来源可追溯、渐进式上线），并提醒自动化消耗 Credits、重要决策仍需人工复核。',
+      takeaway: '品牌部现靠手动整理周内容排期，照这篇加一个"每周一自动抓取三栏目+生成简报"，配置一次长期受益；这正是本工作台自动任务的同款逻辑。',
+      url: 'https://cloud.tencent.com/developer/article/2727091'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261102-3',
+      title: '深度使用 WorkBuddy 30 天：我把签到、周报、文件整理全部自动化了',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 18 分钟',
+      views: '30 天实测踩坑长文',
+      date: '2026',
+      tags: ['WorkBuddy', '自动化', '周报', '文件整理', '路径避坑', '积分'],
+      summary: '作者把日常三类重复活全部交给 WorkBuddy 自动化：每日签到、每周五 16:00 读工作日志生成 Word 周报、下载文件夹按类型自动分类。最有价值的是"踩坑记录"：路径含中文/空格要引号包裹、周报空泛源于平时记录太粗（每件事写"做了什么+结果+数据"）、开着网络代理会导致连接异常、长对话耗积分要切 Ask 模式。一个月省下约 2 小时/周重复劳动。',
+      takeaway: '"工作日志模板化"这条直接治品牌部周报——平时每条记录写成"动作+数据+结果"，周五让 AI 一汇总就是现成周报，不再周日下午抓瞎。',
+      url: 'https://cloud.tencent.com/developer/article/2721800?policyId=1004'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261102-4',
+      title: '从想法到上线：用 WorkBuddy 自然语言开发并部署一个「技术周刊生成器」Web 应用',
+      platform: 'qcloud',
+      author: '腾讯云开发者社区',
+      duration: '图文约 20 分钟',
+      views: 'AI 原生开发实战长文',
+      date: '2026',
+      tags: ['WorkBuddy', '自然语言开发', 'Web应用', '自动化', '部署', '技术周刊'],
+      summary: '完整演示"自然语言需求→可运行应用→定时自动化"的闭环：让 WorkBuddy 写出一个技术周刊生成器（读收藏链接→生成 Markdown 周刊），再用 Automations 设"每周一 09:00 自动生成"，最后导出 HTML/复制 Markdown 分享。核心心法："把做什么讲清楚，把怎么做交给它"，你从写代码的人变成定义需求、验收结果的人。',
+      takeaway: '诚悦品牌工作台就是这类思路——让 WorkBuddy 用自然语言搓出小工具并设周更自动化，比找开发排期快得多；这篇可直接当内部搭建范本。',
+      url: 'https://cloud.tencent.com/developer/article/2708831?policyId=1004'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261102-5',
+      title: 'AI 制作短视频方法：脚本→素材→生成→剪辑四步，国产免费工具全链路落地',
+      platform: 'toutiao',
+      author: '今日头条科技号',
+      duration: '图文约 12 分钟',
+      views: 'AI 短视频制作热帖',
+      date: '2026',
+      tags: ['AI短视频', '豆包', '可灵', '即梦', '智谱清影', '剪映', '提示词公式'],
+      summary: '把 AI 做短视频拆成四步：写脚本分镜（豆包/DeepSeek）→准备素材（即梦/可灵/智谱清影文生视频、首尾帧控制）→AI 生成视频（主体+动作+场景+风格+镜头提示词公式）→剪辑包装（剪映自动踩点、AI 字幕、统一调色导出 1080P/60 帧）。附国产工具适用场景表和避坑要点（统一风格词防跳变、固定 Seed 保角色一致、片段 4–10 秒）。',
+      takeaway: '诚悦视频号可直接套这条国产免费链路：豆包写脚本→即梦出画面→剪映精剪，一条标杆案例片从 2 小时压到 30 分钟，全程不花一分钱。',
+      url: 'https://www.toutiao.com/a7633260094444143144'
+    },
     {
       source: 'auto',
       id: 'ai-auto-20261026-1',
