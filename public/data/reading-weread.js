@@ -5,8 +5,88 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-11-02',
+  updated: '2026-11-09',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261109-1',
+      title: '极简思考',
+      author: '[美]迈克·费廖洛',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('极简思考'),
+      why: '作者用"结构化表达的最小路径"教人把复杂问题讲清：先给结论、再给支撑、每页只讲一件事。对要写推文、做汇报、对接甲方的品牌人，是"少即是多"的表达训练。',
+      tip: '把"每页只讲一件事"用在视频号脚本——一条视频只打一个核心点，比贪多塞满信息完播率高。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-2',
+      title: '逻辑表达力',
+      author: '林墨',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('逻辑表达力'),
+      why: '专门写给想提升说话逻辑的人，短句多、易朗读，覆盖日常沟通、布置工作、说服同事等场景，不灌鸡汤只给可操作的方法。品牌部三人小团队天天要沟通，最对症。',
+      tip: '周会发言和给甲方汇报前，用"先结论后理由"的短句结构练一遍——能直接治"铺垫太长抓不住重点"的毛病。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-3',
+      title: '增长黑客',
+      author: '[美]肖恩·埃利斯 / [美]摩根·布朗',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('增长黑客'),
+      why: '提出"AARRR"增长漏斗与"啊哈时刻"方法论，用数据驱动获客、激活、留存、变现、推荐。对品牌部正对的 KPI（月度有效线索、企微新增、转化率）是直接可抄的增长框架。',
+      tip: '把"啊哈时刻"套进视频号——每条内容都要让观众在 3 秒内尝到"这对我有用的甜头"，才肯继续看和加企微。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-4',
+      title: '谈判力',
+      author: '[美]罗杰·费希尔 / [美]威廉·尤里',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('谈判力'),
+      why: '哈佛谈判项目精华，提出"原则谈判"：把人和事分开、着眼利益而非立场、找客观标准。对接甲方报价、跨部门抢资源时，是既能成事又不伤关系的沟通圣经。',
+      tip: '客户对报价有异议时，先套"把人和事分开 + 着眼利益"——问清对方真实顾虑，比正面硬刚有用得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-5',
+      title: '麦肯锡方法',
+      author: '[美]艾森·拉塞尔',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('麦肯锡方法'),
+      why: '披露麦肯锡传承的管理技巧：80/20 原则、30 秒电梯演讲、结构化沟通、连续打一垒打而非本垒打。是让普通人像顾问一样思考的实战手册。',
+      tip: '把"30 秒电梯演讲"练成肌肉记忆——电梯里偶遇领导或甲方，一句话把项目价值讲清，比长篇大论管用。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-6',
+      title: '格鲁夫给经理人的第一课',
+      author: '[美]安迪·格鲁夫',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('格鲁夫给经理人的第一课'),
+      why: '英特尔前 CEO 的实战管理智慧，强调"产出导向管理"——以结果而非工时衡量。阿娇带 3 人小团队，这本书是建立管理思维的基石。',
+      tip: '把"产出导向"用到品牌部考核——盯"每条内容的线索转化"而非"加了多少班"，团队状态会健康得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-7',
+      title: '第五项修炼：学习型组织的艺术与实践',
+      author: '[美]彼得·圣吉',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('第五项修炼'),
+      why: '提出系统思考、自我超越、心智模式等五项修炼，教人跳出单点看全局、理解事物间的反馈回路。对做年度规划、搭内容中台的品牌团队，是思维升维的必读。',
+      tip: '用"系统思考"看视频号运营——别只盯单条播放，把选题、制作、分发、转化当成一条反馈链，才能找到增长卡点。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261109-8',
+      title: '事实',
+      author: '[瑞典]汉斯·罗斯林 等',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('事实'),
+      why: '比尔·盖茨推荐，教人用数据思考、避免情绪化决策，识别十种本能偏差。品牌部写稿引用行业数据时，这本书能帮你不编不夸、理性判断。',
+      tip: '引用"行业第一/领先"这类表述前先过一遍书里的"数据本能"——没可靠来源就写明"未获取数据"，比写错强。'
+    },
     {
       source: 'weread',
       id: 'weread-20261102-1',

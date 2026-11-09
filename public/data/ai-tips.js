@@ -5,10 +5,80 @@
    - badge: 可选角标（"新推送" / "推荐" 等）
 */
 window.WB_AI_TIPS = {
-  updated: '2026-11-02',
+  updated: '2026-11-09',
   source: 'B站 / 今日头条 / 腾讯云开发者社区',
   meta: { autoPerWeek: 5, autoSource: 'auto' },
   items: [
+    {
+      source: 'auto',
+      id: 'ai-auto-20261109-1',
+      title: 'OpenClaw 中文版喂饭级教程：10 分钟搞定「大龙虾」，国内网络优化 + 飞书通道',
+      platform: 'bilibili',
+      author: 'B站 UP 主（老张）',
+      duration: '约 10 分钟',
+      views: '2026 开年爆火 · 中文优化版',
+      date: '2026',
+      tags: ['OpenClaw', '中文版', '个人AI助手', '飞书通道', '本地部署', 'Node.js'],
+      summary: '手把手部署国内优化版 OpenClaw（俗称"大龙虾"）：只需 Node.js + npm 全局安装，内置国内网络优化和飞书机器人 24h 在线通道，支持操作电脑、处理文件、发邮件、日程管理、写代码等。附飞书应用创建、权限配置、事件订阅全流程，并给出 1008 TOKEN 错误的解决办法。',
+      takeaway: '品牌部可照这篇搭一个"内容巡检助理"：飞书机器人 24h 在线，定时扫描视频号/公众号新稿，自动比对禁用词和 CYT STORY 标题格式，比人工过稿快得多。',
+      url: 'https://www.bilibili.com/video/BV1sMZ5B4EEY/'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261109-2',
+      title: '2026 普通人必须掌握的 5 个 AI 神器：Claude Code / Cursor / MJ / Agent / 提示词',
+      platform: 'toutiao',
+      author: '今日头条科技号',
+      duration: '图文约 10 分钟',
+      views: 'AI 工具科普热帖',
+      date: '2026',
+      tags: ['AI神器', 'Claude Code', 'Cursor', 'MidJourney', 'AI Agent', '提示词工程'],
+      summary: '面向完全新人的扫盲帖：Claude Code 自动写代码改 bug、搭网站小程序；Cursor 是整套 AI 编程工作台；MidJourney/Flux 做自媒体封面和产品图；AI Agent 自己规划步骤完成任务；提示词工程（精准需求 + 角色 + 输出格式）决定效果上限。每个工具都给了适合谁、能干什么。',
+      takeaway: '品牌部新人别一上来啃原理——照这篇先把"5 个神器"各试一遍，找清哪个最能帮自己提效（多半是提示词 + 一个生成工具），两周就能看到产出变化。',
+      url: 'https://www.toutiao.com/a7619026373377540634'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261109-3',
+      title: '写好提示词效果翻倍：企业场景下 WorkBuddy 提示词实战方法论（5 组可直接复制模板）',
+      platform: 'toutiao',
+      author: '今日头条职场号',
+      duration: '图文约 12 分钟',
+      views: '企业提示词方法论热帖',
+      date: '2026',
+      tags: ['WorkBuddy', '企业提示词', '万能公式', '会议纪要', '复盘', '话术优化'],
+      summary: '直击企业用 AI 的三大误区（提问太笼统、只提需求不给信息、不会迭代），给出万能公式：身份定位 + 使用场景 + 具体需求 + 细节要求 + 输出格式。附 5 组可直接复制的模板：行政会议纪要、销售话术优化、运营月度复盘、管理部门方案、IT 故障复盘。',
+      takeaway: '品牌部把"运营月度复盘"和"会议纪要"两套模板存进 WorkBuddy 常用指令，每次只换素材和周期，周报月报从"想结构"变成"填内容"，省时一大半。',
+      url: 'https://m.toutiao.com/article/7670812037160714795'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261109-4',
+      title: '一套连招彻底释放 AI 的写作能力：用"小模型推动大模型"写出逻辑清晰的稿子',
+      platform: 'bilibili',
+      author: 'B站专栏',
+      duration: '图文约 13 分钟',
+      views: 'AI 写作进阶教程',
+      date: '2026',
+      tags: ['AI写作', '思维模型', 'STAR', 'PREP', '演讲稿', '结构化'],
+      summary: '核心心法：绝大多数问题已有前人总结的思维模型（金字塔原理、PREP、SCQA 等），先让 AI 推荐适用模型，再要求它基于该模型结构输出。覆盖演讲稿、面试、会议发言、PPT 大纲、活动软文等场景，并教用 AI 搜索补充真实案例和数据。',
+      takeaway: '诚悦写推文/脚本前，先让 WorkBuddy 选一个写作模型（如 PREP 或沙漏模型）再生成，比直接"写篇推文"逻辑性强得多，改稿也更有方向。',
+      url: 'https://www.bilibili.com/read/mobile/44910531'
+    },
+    {
+      source: 'auto',
+      id: 'ai-auto-20261109-5',
+      title: '【全 748 集】B站最全最细《AI 大模型应用开发》教程 2026 最新版（RAG / Agent / 微调 / 部署）',
+      platform: 'bilibili',
+      author: 'B站 AI 开发 UP',
+      duration: '系列课 · 全 748 集',
+      views: '14.1 万 · 系统长课',
+      date: '2026-04',
+      tags: ['大模型开发', 'RAG', 'Agent', 'Langchain', '微调', '私有化部署'],
+      summary: '从零讲解的超大体系课：Python 入门、提示词工程、Transformer/RAG/微调原理、本地部署 DeepSeek、用 Dify 搭应用、Agent 设计、CrewAI 多 Agent 协作、微调和私有化部署。适合想把 AI 从"用工具"升级到"搭系统"的进阶同学。',
+      takeaway: '想给诚悦做"选题打分机器人"或内部知识库的同学，第 8–25 集的 RAG + Agent 部分是必看——照着把 7 维度评分规则写进知识库，就能自动出分。',
+      url: 'https://www.bilibili.com/video/BV16aDpB4Er6'
+    },
     {
       source: 'auto',
       id: 'ai-auto-20261102-1',
