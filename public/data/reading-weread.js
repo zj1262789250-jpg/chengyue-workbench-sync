@@ -5,8 +5,88 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-11-09',
+  updated: '2026-11-16',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261116-1',
+      title: '清醒思考的艺术',
+      author: '[瑞士]罗尔夫·多贝里',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('清醒思考的艺术'),
+      why: '薄薄一本讲透 52 个常见思维偏误（沉没成本、证实偏差、光环效应等），快速自查、防踩坑。品牌部做选题判断、写数据稿时最怕"想当然"，这本书就是给决策装个刹车。',
+      tip: '选题会上过一遍"证实偏差"——别只找支持这个选题的证据，主动问一句"有没有反例"，能筛掉一半自嗨方案。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-2',
+      title: '决断力',
+      author: '[美]奇普·希思 / [美]丹·希思',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('决断力'),
+      why: '给出可直接套用的四步决策框架：拓宽选项→检验假设→抽离距离→准备失败，专治"想太多、选不出、反复后悔"。品牌部在多个选题、多个方案间纠结时正需要。',
+      tip: '选视频号选题别只列一个就拍——用"拓宽选项"逼自己再想 3 个，用"准备失败"预设它可能为什么没人看，方案立刻更抗打。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-3',
+      title: '简单的逻辑学',
+      author: '[美]D.Q.麦克伦尼',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('简单的逻辑学'),
+      why: '逻辑学入门小书，篇幅短、不绕弯，讲清概念、判断、推理的基本规则，帮人避开低级逻辑漏洞，是"逻辑表达"书单里最轻的入门砖。',
+      tip: '给新人当逻辑扫盲读物——写推文前先分清"观点"和"事实"，避免把"我们服务很好"这类主观判断当成论据。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-4',
+      title: '故事思维',
+      author: '[美]安妮特·西蒙斯',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('故事思维'),
+      why: '核心观点是"用故事影响他人"比讲道理更有力，教人从自身经历里找故事、按听众重组。做品牌内容、说服甲方、团队分享都用得上。',
+      tip: '把诚悦的"标杆现场"从罗列数据改成讲一个真实人物的故事——一个礼宾、一位厨师的一天，比"服务 170+ 项目"更能让人记住。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-5',
+      title: '特别会说话的人都这样说话',
+      author: '[日]大野萌子',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('特别会说话的人都这样说话'),
+      why: '日本沟通顾问写的场景化表达书，覆盖赞美、请求、拒绝、汇报等高频场景，句子短、可直接套用，适合想在具体对话里提升表达质感的人。',
+      tip: '对接甲方和跨部门催素材时套书里的"请求句式"——把"这个你尽快给我"换成具体时间+用途，配合起来顺畅得多。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-6',
+      title: '把自己当回事儿',
+      author: '杨天真',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('把自己当回事儿 杨天真'),
+      why: '杨天真讲职场表达与自我主张：如何提出需求、争取资源、面对冲突仍保持清醒。语言犀利、案例真实，对要向领导汇报、对外代表品牌的品牌人很提气。',
+      tip: '周会汇报时别只讲"做了什么"，照书里的思路把"需要什么支持、为什么值得投"讲清楚——争取拍摄预算和资源时尤其有用。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-7',
+      title: '系统之美：决策者的系统思考',
+      author: '[美]德内拉·梅多斯',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('系统之美 决策者的系统思考'),
+      why: '系统思考经典，讲因果回路、延迟效应、存量与流量，教人跳出单点看全局。品牌部做年度规划、搭内容中台，最需要这种"看见连锁反应"的思维。',
+      tip: '用"延迟效应"看视频号——今天发的内容带来的线索可能几周后才显现，别发两条没数据就否定整个栏目。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261116-8',
+      title: '噪声：人类判断的缺陷',
+      author: '[美]丹尼尔·卡尼曼 等',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('噪声 人类判断的缺陷'),
+      why: '《思考，快与慢》作者新作，讲"同一个人在不同时间对同一问题判断不一致"的噪声陷阱——评审打分、选题评分最容易中招，是提升判断稳定性的底层读物。',
+      tip: '给诚悦 7 维度选题评分做校准：三人对同一批选题独立打分再对齐，能把主观波动压下来，评分才可比。'
+    },
     {
       source: 'weread',
       id: 'weread-20261109-1',
