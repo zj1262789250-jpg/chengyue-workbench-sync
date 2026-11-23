@@ -5,8 +5,78 @@
    - 前端会在 WB_READING_LIB（精选种子）之后合并本池，并打「📚 微信读书」标签
 */
 window.WB_READING_WEREAD = {
-  updated: '2026-11-16',
+  updated: '2026-11-23',
   items: [
+    {
+      source: 'weread',
+      id: 'weread-20261123-1',
+      title: '元写作：学校里没教的写作方法',
+      author: '樊荣强',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('元写作'),
+      why: '核心只有一句话：思考 = 提问—回答。用「是什么 / 为什么 / 怎么办」三大元问题把任何文稿拆出骨架，动笔前先「立题」锁定要回答的那一个问题。品牌部写方案、推文、请示最缺的正是这个锚点——不是文采差，是没想清在回答什么。',
+      tip: '写推文前先自问一句：这篇到底回答「是什么 / 为什么 / 怎么办」哪一个？答不出来就别动笔；立题定了，三个分论点自然长出来，不会再写成流水账。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-2',
+      title: '麦肯锡教我的写作武器',
+      author: '[日]高杉尚孝',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('麦肯锡教我的写作武器'),
+      why: '把「逻辑思考」落到句子层面：信息分记述、评价、规范三类，主张必须有理由支撑，用结论先行加分层展开搭商务文书骨架，还给了 MECE 在邮件、提案、报告里的具体写法。是为数不多教到「句子怎么写才叫有逻辑」的书。',
+      tip: '给领导写请示别从背景铺起——第一句就写「建议 X，理由是 Y」，后面再列三条依据。领导 10 秒抓到重点，比写满三页更显专业。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-3',
+      title: '马斯克原理：通往目标与成功的指南',
+      author: '[美]埃里克·乔根森',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('马斯克原理'),
+      why: '以马斯克二十年推文与访谈原话为唯一来源，提炼 69 条法则，把第一性原理和五步工作法讲成可执行步骤：先删需求、再简化、再优化、再加速、最后才自动化。品牌部做活动方案最容易堆动作，这本书是减法工具。',
+      tip: '定活动方案前先「删需求」——逐条问这个环节不做会怎样，砍掉纯粹为显得热闹的动作，预算和人力立刻省出来，执行细节反而更抓得实。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-4',
+      title: '优秀到不能被忽视',
+      author: '[美]卡尔·纽波特',
+      goal: 'both',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('优秀到不能被忽视'),
+      why: '反驳「追随激情」，提出工匠思维与技能资本：先把稀缺且难复制的能力练到市场愿意付钱，再谈表达与影响力。对一个同时扛设计、拍摄、内容的品牌部专员来说，这是最清醒的一本职业方法论。',
+      tip: '每季度给自己记一笔「技能资本」账：这季度练出的可复用能力是什么（比如能独立出一条标杆项目片）？写不出来的季度，就是在原地打转。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-5',
+      title: '最重要的事，只有一件',
+      author: '[美]加里·凯勒',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('最重要的事只有一件'),
+      why: '用倒推法把目标收敛到一个支点：找到那件「做了之后其他事都变简单」的事，其余全部说不。品牌部天天被临时需求打断，最缺的不是时间管理技巧，而是这套减法逻辑。',
+      tip: '每周一先写下本周唯一最重要的一件事，写在便签贴显示器上。临时需求来了先问一句「它会不会挤掉这件事」——会，就往后排，别当场答应。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-6',
+      title: '掌控谈话',
+      author: '[美]克里斯·沃斯',
+      goal: 'express',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('掌控谈话'),
+      why: '前 FBI 谈判专家的实战沟通法：用「校准问题」把对方从对抗拉回协作，用重复对方最后三个词换更多信息，用「标注情绪」给对话降温。谈价格、谈资源、谈排期都能直接套，比话术书扎实。',
+      tip: '跟项目要资源别再说「我们人手不够」——改成「这个时间点要出片，你们希望我先保哪三支？」把选择题丢回去，对方反而会主动帮你排期。'
+    },
+    {
+      source: 'weread',
+      id: 'weread-20261123-7',
+      title: '为什么学生不喜欢上学？',
+      author: '[美]丹尼尔·威林厄姆',
+      goal: 'logic',
+      weread: 'https://weread.qq.com/web/search/books?keyword=' + encodeURIComponent('为什么学生不喜欢上学'),
+      why: '用认知科学讲清几件反直觉的事：事实性知识是理解的前提、练习才能到自动化、难度要恰到好处才有学习感。做知识类内容、带新人时，这套原理比「多讲干货」有用得多。',
+      tip: '硬核专业栏目别一上来讲概念——先给一个具体场景和一组真实数字打底，观众才有钩子挂住后面的原理，否则前三秒就划走了。'
+    },
     {
       source: 'weread',
       id: 'weread-20261116-1',
